@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>编程语言</title>
+    <url>/2019/10/23/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/</url>
+    <content><![CDATA[<p>2019年10月23日 13时15分07秒<br>编程语言：</p>
+<pre><code>面向过程的语言：C
+
+面向对象的语言：Java、C#、C++、Python、VB、F#.....
+
+面向对象的语言，能够更好的应对软件需求的变化。
+
+软件变化：
+
+    1、软件的频繁变化，在软件设计之前，就意识到软件会有变化。
+
+    2、在使用过程中，软件需要变化。
+
+    3、软件本身代码有问题，需要变化。
+
+    4、由于新功能的开展，需要软件变化。</code></pre>]]></content>
+      <tags>
+        <tag>C#</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2019/10/22/Hello%20World/</url>
+    <content><![CDATA[<p><strong>一首小诗：</strong><br>《诗经·周南·关雎》：“悠哉悠哉，辗转反侧。”</p>
+<p>历经很多很多分钟，终于诞生了这个blog。</p>
+]]></content>
+      <tags>
+        <tag>新的</tag>
+      </tags>
+  </entry>
+</search>
