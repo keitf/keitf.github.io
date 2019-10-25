@@ -55,17 +55,19 @@
   };
 </script>
 
-  <meta name="description" content="2019年10月24日 10时00分07秒 设计上的权衡：根据项目的基本情况来决定使用那种语言。|  items   |  C#   |  Java   || — | — | — ||   跨平台  |  不好   |  非常好   ||  跨语言   |  非常好(.Net平台)   |  不好   ||  垃圾回收机制   |  非常好   |  非常好   ||   手机程序  |   Wi">
+  <meta name="description" content="2019年10月24日 10时00分07秒 设计上的权衡：根据项目的基本情况来决定使用那种语言。   命名方法：    1、帕斯卡命名法：每个单词的首字母大写                YuFeng、SchoolName、Hobby、    2、驼峰命名法：第一个单词全部小写，从第二个单词开始每个单词首字母大写                yuFeng、schoolName、hobby">
 <meta name="keywords" content="C#">
 <meta property="og:type" content="article">
 <meta property="og:title" content="C#中命名方法及应用分析">
-<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;10&#x2F;24&#x2F;C#%E4%B8%AD%E5%91%BD%E5%90%8D%E6%96%B9%E6%B3%95%E5%92%8C%E5%BA%94%E7%94%A8%E5%88%86%E6%9E%90&#x2F;index.html">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;10&#x2F;26&#x2F;C#%E4%B8%AD%E5%91%BD%E5%90%8D%E6%96%B9%E6%B3%95%E5%8F%8A%E5%BA%94%E7%94%A8%E5%88%86%E6%9E%90&#x2F;index.html">
 <meta property="og:site_name" content="Keith的博客">
-<meta property="og:description" content="2019年10月24日 10时00分07秒 设计上的权衡：根据项目的基本情况来决定使用那种语言。|  items   |  C#   |  Java   || — | — | — ||   跨平台  |  不好   |  非常好   ||  跨语言   |  非常好(.Net平台)   |  不好   ||  垃圾回收机制   |  非常好   |  非常好   ||   手机程序  |   Wi">
+<meta property="og:description" content="2019年10月24日 10时00分07秒 设计上的权衡：根据项目的基本情况来决定使用那种语言。   命名方法：    1、帕斯卡命名法：每个单词的首字母大写                YuFeng、SchoolName、Hobby、    2、驼峰命名法：第一个单词全部小写，从第二个单词开始每个单词首字母大写                yuFeng、schoolName、hobby">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-10-24T02:16:05.356Z">
+<meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;10&#x2F;26&#x2F;images&#x2F;%7DHZNFC%7BL0$9HZJ0F_8PZPLB.png">
+<meta property="og:updated_time" content="2019-10-25T17:23:23.054Z">
 <meta name="twitter:card" content="summary">
-  <link rel="canonical" href="http://yoursite.com/2019/10/24/C#%E4%B8%AD%E5%91%BD%E5%90%8D%E6%96%B9%E6%B3%95%E5%92%8C%E5%BA%94%E7%94%A8%E5%88%86%E6%9E%90/">
+<meta name="twitter:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;10&#x2F;26&#x2F;images&#x2F;%7DHZNFC%7BL0$9HZJ0F_8PZPLB.png">
+  <link rel="canonical" href="http://yoursite.com/2019/10/26/C#%E4%B8%AD%E5%91%BD%E5%90%8D%E6%96%B9%E6%B3%95%E5%8F%8A%E5%BA%94%E7%94%A8%E5%88%86%E6%9E%90/">
 
 
 <script id="page-configurations">
@@ -236,7 +238,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/24/C#%E4%B8%AD%E5%91%BD%E5%90%8D%E6%96%B9%E6%B3%95%E5%92%8C%E5%BA%94%E7%94%A8%E5%88%86%E6%9E%90/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/26/C#%E4%B8%AD%E5%91%BD%E5%90%8D%E6%96%B9%E6%B3%95%E5%8F%8A%E5%BA%94%E7%94%A8%E5%88%86%E6%9E%90/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="KEith">
@@ -267,7 +269,7 @@
                 
               
 
-              <time title="创建时间：2019-10-24 10:15:58 / 修改时间：10:16:05" itemprop="dateCreated datePublished" datetime="2019-10-24T10:15:58+08:00">2019-10-24</time>
+              <time title="创建时间：2019-10-26 01:23:19 / 修改时间：01:23:23" itemprop="dateCreated datePublished" datetime="2019-10-26T01:23:19+08:00">2019-10-26</time>
             </span>
           
             
@@ -287,7 +289,8 @@
 
       
         <p>2019年10月24日 10时00分07秒</p>
-<p><strong>设计上的权衡：根据项目的基本情况来决定使用那种语言。</strong><br>|  items   |  C#   |  Java   |<br>| — | — | — |<br>|   跨平台  |  不好   |  非常好   |<br>|  跨语言   |  非常好(.Net平台)   |  不好   |<br>|  垃圾回收机制   |  非常好   |  非常好   |<br>|   手机程序  |   WindowsPhone  |  Android   |<br>|   数据库  | SqlServer | Oracle |<br>|  开发周期   | 特别短(快速开发,快速实践)| 比较长|<br>|   Windows程序  |  非常好   |   不擅长  |<br>|   Web应用程序  |   非常好  |   非常好  |<br>|  运行速度   |   不好  |  不好   |<br>|  游戏开发   |   不好  |   非常不好  |</p>
+<p><strong>设计上的权衡：根据项目的基本情况来决定使用那种语言。</strong></p>
+<p><img src="./images/%7DHZNFC%7BL0$9HZJ0F_8PZPLB.png" alt="enter description here"></p>
 <hr>
 <p><strong>命名方法：</strong><br>    1、帕斯卡命名法：每个单词的首字母大写<br>                YuFeng、SchoolName、Hobby、<br>    2、驼峰命名法：第一个单词全部小写，从第二个单词开始每个单词首字母大写<br>                yuFeng、schoolName、hobby<br>    3、全部大写：通常用语缩写<br>                KFC、YF、SCIII</p>
 <hr>
@@ -317,8 +320,8 @@
           <div class="post-nav">
             <div class="post-nav-next post-nav-item">
               
-                <a href="/2019/10/23/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/" rel="next" title="编程语言">
-                  <i class="fa fa-chevron-left"></i> 编程语言
+                <a href="/2019/10/26/C#%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/" rel="next" title="C#数据类型">
+                  <i class="fa fa-chevron-left"></i> C#数据类型
                 </a>
               
             </div>
@@ -326,10 +329,6 @@
             <span class="post-nav-divider"></span>
 
             <div class="post-nav-prev post-nav-item">
-              
-                <a href="/2019/10/25/%E7%AC%AC%E4%B8%80%E4%B8%AA%E7%A8%8B%E5%BA%8F/" rel="prev" title="第一个程序">
-                  第一个程序 <i class="fa fa-chevron-right"></i>
-                </a>
               
             </div>
           </div>
@@ -389,7 +388,7 @@
         
           <a href="/archives/">
         
-          <span class="site-state-item-count">4</span>
+          <span class="site-state-item-count">5</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
