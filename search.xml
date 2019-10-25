@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>第一个程序</title>
+    <url>/2019/10/25/%E7%AC%AC%E4%B8%80%E4%B8%AA%E7%A8%8B%E5%BA%8F/</url>
+    <content><![CDATA[<p>2019年10月25日 16时49分54秒</p>
+<p>第一个应用程序：Hello World<br>&emsp; 1、只要有了Main方法，程序才能运行。<br>&emsp; 2、Main方法叫做应用程序的入口。<br>&emsp; 3、如果有了Main函数，程序编译、生成之后会产生一个<em>.exe<br>&emsp; 4、如果没有Main函数，程序编译、生成之后会产生一个</em>.dll（Assembly程序）<br>&emsp;&emsp;&emsp;向控制台输出（写）：<br>&emsp;&emsp;&emsp;Console.Write(“Hello World…”);<br>&emsp;&emsp;&emsp;Console.WriteLine(“Hello World…”);<br>&emsp;&emsp;&emsp;接受控制台的输入（读）<br>&emsp;&emsp;&emsp;Console.Read();<br>&emsp;&emsp;&emsp;Console.ReadLine();<br>&emsp;&emsp;static void Main(string[] args)<br>&emsp;&emsp;{<br>&emsp;&emsp;&emsp;&emsp;Console.WriteLine(“Hello World……”);// 向控制台输出一个HelloWorld<br>&emsp;&emsp;&emsp;&emsp;Console.ReadLine();//在控制台接受一个数据<br>&emsp;&emsp;}</p>
+<hr>
+<p>程序：<br>&emsp;&emsp;程序一词来源于生活的，通常指完成某些事情的一种既定的方式和过程。<br>&emsp;&emsp;可以看成一系列指令的描述。多个指令就形成了一个程序。</p>
+<hr>
+]]></content>
+      <tags>
+        <tag>C#</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>C#中命名方法及应用分析</title>
     <url>/2019/10/24/C#%E4%B8%AD%E5%91%BD%E5%90%8D%E6%96%B9%E6%B3%95%E5%92%8C%E5%BA%94%E7%94%A8%E5%88%86%E6%9E%90/</url>
     <content><![CDATA[<p>2019年10月24日 10时00分07秒</p>
