@@ -55,17 +55,17 @@
   };
 </script>
 
-  <meta name="description" content="2019年10月25日 16时49分54秒第一个应用程序：Hello World&amp;emsp; 1、只要有了Main方法，程序才能运行。&amp;emsp; 2、Main方法叫做应用程序的入口。&amp;emsp; 3、如果有了Main函数，程序编译、生成之后会产生一个.exe&amp;emsp; 4、如果没有Main函数，程序编译、生成之后会产生一个.dll（Assembly程序）&amp;emsp;&amp;emsp;&amp;emsp;向控">
+  <meta name="description" content="2019年10月27日 12时32分35秒堆和栈的特点：    栈：用来存储值类型的数据        1、是一个上不封顶的结构        2、栈的数据交换方式是后进先出        3、程序员不管怎么编程都无法回收数据（析构）           堆：用来存储引用类型的数据        1、可以任意开辟空间的区域        2、必须有程序员去管理的一块内存空间。">
 <meta name="keywords" content="C#">
 <meta property="og:type" content="article">
-<meta property="og:title" content="第一个程序">
-<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;10&#x2F;25&#x2F;ck26zuof60008a8ve5fbchkgv&#x2F;index.html">
+<meta property="og:title" content="变量和常亮">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;10&#x2F;27&#x2F;ck28i5uoh000180vehhfkh1i4&#x2F;index.html">
 <meta property="og:site_name" content="Keith的博客">
-<meta property="og:description" content="2019年10月25日 16时49分54秒第一个应用程序：Hello World&amp;emsp; 1、只要有了Main方法，程序才能运行。&amp;emsp; 2、Main方法叫做应用程序的入口。&amp;emsp; 3、如果有了Main函数，程序编译、生成之后会产生一个.exe&amp;emsp; 4、如果没有Main函数，程序编译、生成之后会产生一个.dll（Assembly程序）&amp;emsp;&amp;emsp;&amp;emsp;向控">
+<meta property="og:description" content="2019年10月27日 12时32分35秒堆和栈的特点：    栈：用来存储值类型的数据        1、是一个上不封顶的结构        2、栈的数据交换方式是后进先出        3、程序员不管怎么编程都无法回收数据（析构）           堆：用来存储引用类型的数据        1、可以任意开辟空间的区域        2、必须有程序员去管理的一块内存空间。">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-10-25T08:55:03.743Z">
+<meta property="og:updated_time" content="2019-10-27T04:35:17.537Z">
 <meta name="twitter:card" content="summary">
-  <link rel="canonical" href="http://yoursite.com/2019/10/25/ck26zuof60008a8ve5fbchkgv/">
+  <link rel="canonical" href="http://yoursite.com/2019/10/27/ck28i5uoh000180vehhfkh1i4/">
 
 
 <script id="page-configurations">
@@ -79,7 +79,7 @@
   };
 </script>
 
-  <title>第一个程序 | Keith的博客</title>
+  <title>变量和常亮 | Keith的博客</title>
   
 
 
@@ -236,7 +236,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/25/ck26zuof60008a8ve5fbchkgv/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/27/ck28i5uoh000180vehhfkh1i4/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="KEith">
@@ -250,7 +250,7 @@
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
           
-            第一个程序
+            变量和常亮
             
 
           
@@ -267,7 +267,7 @@
                 
               
 
-              <time title="创建时间：2019-10-25 16:54:56 / 修改时间：16:55:03" itemprop="dateCreated datePublished" datetime="2019-10-25T16:54:56+08:00">2019-10-25</time>
+              <time title="创建时间：2019-10-27 12:35:10 / 修改时间：12:35:17" itemprop="dateCreated datePublished" datetime="2019-10-27T12:35:10+08:00">2019-10-27</time>
             </span>
           
             
@@ -286,11 +286,13 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>2019年10月25日 16时49分54秒</p><p>第一个应用程序：Hello World<br>&emsp; 1、只要有了Main方法，程序才能运行。<br>&emsp; 2、Main方法叫做应用程序的入口。<br>&emsp; 3、如果有了Main函数，程序编译、生成之后会产生一个<em>.exe<br>&emsp; 4、如果没有Main函数，程序编译、生成之后会产生一个</em>.dll（Assembly程序）<br>&emsp;&emsp;&emsp;向控制台输出（写）：<br>&emsp;&emsp;&emsp;Console.Write(“Hello World…”);<br>&emsp;&emsp;&emsp;Console.WriteLine(“Hello World…”);<br>&emsp;&emsp;&emsp;接受控制台的输入（读）<br>&emsp;&emsp;&emsp;Console.Read();<br>&emsp;&emsp;&emsp;Console.ReadLine();<br>&emsp;&emsp;static void Main(string[] args)<br>&emsp;&emsp;{<br>&emsp;&emsp;&emsp;&emsp;Console.WriteLine(“Hello World……”);// 向控制台输出一个HelloWorld<br>&emsp;&emsp;&emsp;&emsp;Console.ReadLine();//在控制台接受一个数据<br>&emsp;&emsp;}</p><a id="more"></a>
+        <p>2019年10月27日 12时32分35秒</p><p>堆和栈的特点：<br>    栈：用来存储值类型的数据<br>        1、是一个上不封顶的结构<br>        2、栈的数据交换方式是后进先出<br>        3、程序员不管怎么编程都无法回收数据（析构）        </p><p>   堆：用来存储引用类型的数据<br>        1、可以任意开辟空间的区域<br>        2、必须有程序员去管理的一块内存空间。<br>             .Net Framework —-托管</p><a id="more"></a>
+
 
 <hr>
-<p>程序：<br>&emsp;&emsp;程序一词来源于生活的，通常指完成某些事情的一种既定的方式和过程。<br>&emsp;&emsp;可以看成一系列指令的描述。多个指令就形成了一个程序。</p>
+<p>变量：<br>    概念：变量是程序员可以根据自己的需求任意改变值的一块内存空间<br>    语法：<br>        1、先声明，在赋值。先声明，在赋值。<br>            数据类型 变量名 = 值<br>        2、先声明，在赋值。<br>             变量名;<br>            变量名 = 值;<br>    变量名：<br>        1、首字母必须是_或者是大小写字母。<br>        2、其余字母是：_、大小写字母、数字。<br>        3、不能和关键字冲突<br>        4、变量名必须有意义<br>             name/age/person/fatherName/motherName/height/….<br>             xingMing/renMing/baBaMing/<br>        5、一般采用驼峰命名法。</p>
 <hr>
+<p>常量】<br>  概念：常量是程序员无论如何不能改变其值的一块内存空间<br>  语法：const<br>       const int x = 100；</p>
 
     </div>
 
@@ -316,8 +318,8 @@
           <div class="post-nav">
             <div class="post-nav-next post-nav-item">
               
-                <a href="/2019/10/23/ck26zuof7000aa8ve1bw03bym/" rel="next" title="编程语言">
-                  <i class="fa fa-chevron-left"></i> 编程语言
+                <a href="/2019/10/26/ck28i5uod000080vedpyce50g/" rel="next" title="C#中命名方法及应用分析">
+                  <i class="fa fa-chevron-left"></i> C#中命名方法及应用分析
                 </a>
               
             </div>
@@ -325,10 +327,6 @@
             <span class="post-nav-divider"></span>
 
             <div class="post-nav-prev post-nav-item">
-              
-                <a href="/2019/10/26/ck26zuodj0001a8vebefl9q3k/" rel="prev" title="C#数据类型">
-                  C#数据类型 <i class="fa fa-chevron-right"></i>
-                </a>
               
             </div>
           </div>
@@ -388,7 +386,7 @@
         
           <a href="/archives/">
         
-          <span class="site-state-item-count">5</span>
+          <span class="site-state-item-count">6</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
