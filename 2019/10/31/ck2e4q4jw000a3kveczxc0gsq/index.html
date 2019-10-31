@@ -55,17 +55,17 @@
   };
 </script>
 
-  <meta name="description" content="2019年10月27日 12时32分35秒堆和栈的特点：    栈：用来存储值类型的数据        1、是一个上不封顶的结构        2、栈的数据交换方式是后进先出        3、程序员不管怎么编程都无法回收数据（析构）           堆：用来存储引用类型的数据        1、可以任意开辟空间的区域        2、必须有程序员去管理的一块内存空间。">
+  <meta name="description" content="2019年10月31日 11时05分24秒  【静态变量】  概       念：如果变量使用static关键字修饰，就叫做静态变量调用方法：和方法完全一致。注       意：静态变量必须写在类和方法之间；（潜台词，不能写在方法内部）">
 <meta name="keywords" content="C#">
 <meta property="og:type" content="article">
-<meta property="og:title" content="变量和常亮">
-<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;10&#x2F;27&#x2F;ck2dgeiaa0006jovedkv0ax63&#x2F;index.html">
+<meta property="og:title" content="静态变量">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;10&#x2F;31&#x2F;ck2e4q4jw000a3kveczxc0gsq&#x2F;index.html">
 <meta property="og:site_name" content="Keith的博客">
-<meta property="og:description" content="2019年10月27日 12时32分35秒堆和栈的特点：    栈：用来存储值类型的数据        1、是一个上不封顶的结构        2、栈的数据交换方式是后进先出        3、程序员不管怎么编程都无法回收数据（析构）           堆：用来存储引用类型的数据        1、可以任意开辟空间的区域        2、必须有程序员去管理的一块内存空间。">
+<meta property="og:description" content="2019年10月31日 11时05分24秒  【静态变量】  概       念：如果变量使用static关键字修饰，就叫做静态变量调用方法：和方法完全一致。注       意：静态变量必须写在类和方法之间；（潜台词，不能写在方法内部）">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-10-27T04:35:17.537Z">
+<meta property="og:updated_time" content="2019-10-31T03:08:15.842Z">
 <meta name="twitter:card" content="summary">
-  <link rel="canonical" href="http://yoursite.com/2019/10/27/ck2dgeiaa0006jovedkv0ax63/">
+  <link rel="canonical" href="http://yoursite.com/2019/10/31/ck2e4q4jw000a3kveczxc0gsq/">
 
 
 <script id="page-configurations">
@@ -79,7 +79,7 @@
   };
 </script>
 
-  <title>变量和常亮 | Keith的博客</title>
+  <title>静态变量 | Keith的博客</title>
   
 
 
@@ -236,7 +236,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/27/ck2dgeiaa0006jovedkv0ax63/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/31/ck2e4q4jw000a3kveczxc0gsq/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="KEith">
@@ -250,7 +250,7 @@
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
           
-            变量和常亮
+            静态变量
             
 
           
@@ -267,7 +267,7 @@
                 
               
 
-              <time title="创建时间：2019-10-27 12:35:10 / 修改时间：12:35:17" itemprop="dateCreated datePublished" datetime="2019-10-27T12:35:10+08:00">2019-10-27</time>
+              <time title="创建时间：2019-10-31 11:08:08 / 修改时间：11:08:15" itemprop="dateCreated datePublished" datetime="2019-10-31T11:08:08+08:00">2019-10-31</time>
             </span>
           
             
@@ -286,13 +286,12 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>2019年10月27日 12时32分35秒</p><p>堆和栈的特点：<br>    栈：用来存储值类型的数据<br>        1、是一个上不封顶的结构<br>        2、栈的数据交换方式是后进先出<br>        3、程序员不管怎么编程都无法回收数据（析构）        </p><p>   堆：用来存储引用类型的数据<br>        1、可以任意开辟空间的区域<br>        2、必须有程序员去管理的一块内存空间。<br>             .Net Framework —-托管</p><a id="more"></a>
-
-
+        <p>2019年10月31日 11时05分24秒</p>
 <hr>
-<p>变量：<br>    概念：变量是程序员可以根据自己的需求任意改变值的一块内存空间<br>    语法：<br>        1、先声明，在赋值。先声明，在赋值。<br>            数据类型 变量名 = 值<br>        2、先声明，在赋值。<br>             变量名;<br>            变量名 = 值;<br>    变量名：<br>        1、首字母必须是_或者是大小写字母。<br>        2、其余字母是：_、大小写字母、数字。<br>        3、不能和关键字冲突<br>        4、变量名必须有意义<br>             name/age/person/fatherName/motherName/height/….<br>             xingMing/renMing/baBaMing/<br>        5、一般采用驼峰命名法。</p>
-<hr>
-<p>常量】<br>  概念：常量是程序员无论如何不能改变其值的一块内存空间<br>  语法：const<br>       const int x = 100；</p>
+<p><strong>【静态变量】</strong></p>
+<blockquote>
+<p>概       念：如果变量使用static关键字修饰，就叫做静态变量<br>调用方法：和方法完全一致。<br>注       意：静态变量必须写在类和方法之间；（潜台词，不能写在方法内部）</p>
+</blockquote>
 
     </div>
 
@@ -318,8 +317,8 @@
           <div class="post-nav">
             <div class="post-nav-next post-nav-item">
               
-                <a href="/2019/10/26/ck2dgeia90005jove71z675md/" rel="next" title="C#中命名方法及应用分析">
-                  <i class="fa fa-chevron-left"></i> C#中命名方法及应用分析
+                <a href="/2019/10/30/ck2e4q4jv00083kve6mzzc418/" rel="next" title="纪昀">
+                  <i class="fa fa-chevron-left"></i> 纪昀
                 </a>
               
             </div>
@@ -327,10 +326,6 @@
             <span class="post-nav-divider"></span>
 
             <div class="post-nav-prev post-nav-item">
-              
-                <a href="/2019/10/28/ck2dgeia00000jove5rmi09z9/" rel="prev" title="C#练习题">
-                  C#练习题 <i class="fa fa-chevron-right"></i>
-                </a>
               
             </div>
           </div>
@@ -390,7 +385,7 @@
         
           <a href="/archives/">
         
-          <span class="site-state-item-count">8</span>
+          <span class="site-state-item-count">9</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
