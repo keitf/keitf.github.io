@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>C#之封装</title>
-    <url>/2019/11/05/ck2lyakh9000208ve8jtdax3g/</url>
+    <url>/2019/11/05/ck2lyhxw600027cvecc7k7jr8/</url>
     <content><![CDATA[<p>2019年11月05日 22时15分52秒</p><p><strong>封装</strong></p><p>   是将类和类中的属性/方法隐藏起来，不让外界轻易的看到或调用到。<br>   如果想在C#实现封装，有三种途径。</p><p> <strong><em>【访问修饰符】</em></strong><br>   概念：访问修饰符是解决类/方法/变量是否可以被看到的问题<br> （解决看到或看不到的问题）</p><hr><p>   在C#中，访问修饰符5个：</p><blockquote>
 <p> public：公共的，公开的：在任何地方都可以访问，无限制的。   （图标：蓝色的小方块）  protected<br>internal:internal的访问权限 + Protected的访问权限  internal:项目的：只有在当前项目中可以访问<br>（图标：蓝色的小方块 + 黑色的心）  protected:受保护的：在具有继承关系的父类和子类中可以访问。（图标：蓝色的小方块 +<br>黑色的五角星）  private:私有的：只能在当前类中可以访问。<br>（图标：蓝色的小方块 + 黑色的小锁）           </p>
 </blockquote><a id="more"></a>
@@ -58,7 +58,7 @@
   </entry>
   <entry>
     <title>方法</title>
-    <url>/2019/11/04/ck2lyakhf000908ve2wgn0zsu/</url>
+    <url>/2019/11/04/ck2lyhxwe000e7cve85oqhxha/</url>
     <content><![CDATA[<p>2019年11月04日 18时43分40秒</p><p>【方法】<br>   作用：可以模块化的设计我们的代码。<br>         老于：方法是程序员偷懒的最佳工具。<br>   分类：<br>       1、没有参数没有返回值的方法<br>          注意：按照语法书写就好<br>                如果没有返回值的就写一个站位单词Void<br>                如果没有参数方法后面也要有一对括号，但括号中什么都不写。<br>       2、有参数的方法<br>          注意：方法的参数N个，每一个参数后面都有一个逗号分开，最后一个没有逗号。<br>                方法的参数类似于变量，什么数据类型都可以（类也可以）<br>       3、有返回值的方法<br>          注意：如果有返回值，将返回值的数据类型写上<br>                返回值可以是任何的数据类型<br>                如果有返回值就一定要出现return，注意if语句所有的代码段都要有返回。<br>   语法：</p><a id="more"></a>
 
 <figure class="highlight lsl"><table><tr><td class="code"><pre><span class="line">[访问修饰符] 返回值类型 自定义方法名([参数<span class="number">1</span>,参数<span class="number">2</span>,.....参数n])</span><br><span class="line">  &#123;</span><br><span class="line">     方法内容;</span><br><span class="line">     return ;</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
@@ -71,7 +71,7 @@
   </entry>
   <entry>
     <title>吃啥补啥！哈哈哈！</title>
-    <url>/2019/11/03/ck2lyakhh000e08ve2s8c2tkb/</url>
+    <url>/2019/11/03/ck2lyhxwc00097cved7hmh63v/</url>
     <content><![CDATA[<p>2019年11月03日 20时43分18秒</p>
 <hr>
 <p><img src="https://s2.ax1x.com/2019/11/03/KjuYl9.jpg" alt="青椒炒肉"></p>
@@ -98,7 +98,7 @@
   </entry>
   <entry>
     <title>静态变量</title>
-    <url>/2019/10/31/ck2lyakhi000g08vedj0vel0l/</url>
+    <url>/2019/10/31/ck2lyhxwl000o7cvedbl3fteo/</url>
     <content><![CDATA[<p>2019年10月31日 11时05分24秒</p>
 <hr>
 <p><strong>【静态变量】</strong></p>
@@ -112,7 +112,7 @@
   </entry>
   <entry>
     <title>纪昀</title>
-    <url>/2019/10/30/ck2lyakhd000608ve3x76fkm3/</url>
+    <url>/2019/10/30/ck2lyhxwf000g7cve92pe50t0/</url>
     <content><![CDATA[<p>2019年10月30日 23时43分36秒</p>
 <hr>
 <p>“余尝谓古人为诗似难尚易，今之人为诗似易实难。余自早岁受书，即学歌咏，中间奋其意气，与天下胜流相倡和，颇不欲后人；今年将八十，转瑟缩不敢著一语，平生吟稿亦不敢自存，盖阅历渐深，检点得意之作，大抵古人所已道；其驰骋自喜，又往往皆古人所㧑呵，撚须拥被，徒自苦耳。”</p>
@@ -123,7 +123,7 @@
   </entry>
   <entry>
     <title>C#练习题</title>
-    <url>/2019/10/28/ck2lyakhl000l08vefcaqdlzx/</url>
+    <url>/2019/10/28/ck2lyhxw800047cve3zlv3qnl/</url>
     <content><![CDATA[<p>2019年10月28日 19时22分56秒</p><p>C#基础<br>【输入、输出、变量】</p><pre><code>1、接受界面输入10个数字，并计算他们的相加、相乘的结果。
 2、请接收界面上的输入的长度和宽度，计算长方形的面积
 3、请接收界面上输入的底和高，计算三角形的面积。
@@ -184,7 +184,7 @@
   </entry>
   <entry>
     <title>变量和常量</title>
-    <url>/2019/10/27/ck2lyakhc000508veacrk5g9w/</url>
+    <url>/2019/10/27/ck2lyhxw900057cvego9a1aim/</url>
     <content><![CDATA[<p>2019年10月27日 12时32分35秒</p><p>堆和栈的特点：<br>    栈：用来存储值类型的数据<br>        1、是一个上不封顶的结构<br>        2、栈的数据交换方式是后进先出<br>        3、程序员不管怎么编程都无法回收数据（析构）        </p><p>   堆：用来存储引用类型的数据<br>        1、可以任意开辟空间的区域<br>        2、必须有程序员去管理的一块内存空间。<br>             .Net Framework —-托管</p><a id="more"></a>
 
 
@@ -199,7 +199,7 @@
   </entry>
   <entry>
     <title>C#中命名方法及应用分析</title>
-    <url>/2019/10/26/ck2lyakh4000008ve7lip74v2/</url>
+    <url>/2019/10/26/ck2lyhxw200007cvearkw4rlj/</url>
     <content><![CDATA[<p>2019年10月24日 10时00分07秒</p><p><strong>设计上的权衡：根据项目的基本情况来决定使用那种语言。</strong></p><p><img src="https://s2.ax1x.com/2019/10/26/K0cBPf.png" alt="跨平台比较.png"></p><hr><p><strong>命名方法：</strong><br>    1、帕斯卡命名法：每个单词的首字母大写<br>                YuFeng、SchoolName、Hobby、<br>    2、驼峰命名法：第一个单词全部小写，从第二个单词开始每个单词首字母大写<br>                yuFeng、schoolName、hobby<br>    3、全部大写：通常用语缩写<br>                KFC、YF、SCIII</p><a id="more"></a>
 
 
@@ -214,7 +214,7 @@
   </entry>
   <entry>
     <title>C#数据类型</title>
-    <url>/2019/10/26/ck2lyakhg000b08ve3q6f91n6/</url>
+    <url>/2019/10/26/ck2lyhxwd000b7cvec76b31bl/</url>
     <content><![CDATA[<p>2019年10月26日 01时12分41秒</p>
 <p>数据类型：是你要存储的数据在内存中的空间的大小，数据样式。<br>                    在C#中包括14个值类型和2个引用类型<br>    <strong>值类型：</strong><br>        <em>【整型：整数 int】</em><br>            &emsp;&emsp;sbyte: -128<del>127<br>            &emsp;&emsp;short: -32768</del>32767<br>        &emsp;<strong>√</strong>    int：  -21亿~ +21亿<br>            &emsp;&emsp;long:  -2的63次方 ~ +2的63次方-1<br>        &emsp;√    byte :  0<del>255<br>            &emsp;&emsp;ushort:0</del>2的16次方<br>            &emsp;&emsp;uint:  0<del>2的32次方<br>            &emsp;&emsp;ulong: 0</del>264次方<br>        <em>【浮点数：小数 double】</em><br>            &emsp;&emsp;float: 单精度浮点数：较小的带小数点的数据<br>        &emsp;√    double: 双精度浮点数：较大的带小数点的数据<br>        <em>【布尔类型 bool】</em><br>        &emsp;√  bool：布尔数据类型<br>            &emsp;&emsp; 注意点：bool类型只有两个值：<br>             &emsp;&emsp;    true:真的<br>             &emsp;&emsp;    false：假的<br>            &emsp;&emsp;3&gt;2 : 对 ：true<br>            &emsp;&emsp;3&gt;4 ：错 ：false<br>            &emsp;&emsp;地球的体积 &lt; 篮球的体积 ：错 ：false<br>            &emsp;&emsp;于锋的年龄 &gt; 乌龟的年龄 ：错 ：false<br>        <em>【字符型 char】：</em><br>        &emsp;    √    char ：一个字符 ：例如：char c = ‘中’ ; char gender = ‘男’;<br>            &emsp;&emsp;  注意点：一个字符使用单引号来表示<br>        &emsp;&emsp;      单个的字符<br>        <em>【枚举类型：enum】</em><br>            &emsp;√ 概念：多选一，是用户自定义的一种数据类型<br>            &emsp;&emsp;    作用：1、偷懒  2、保证代码的正确性<br>            &emsp;&emsp;    语法：<br>            &emsp;&emsp;        public enum 自定义的名字<br>            &emsp;&emsp;        {<br>            &emsp;&emsp;            &emsp;&emsp;枚举值1,<br>            &emsp;&emsp;            &emsp;&emsp;枚举值2,<br>            &emsp;&emsp;            &emsp;&emsp;….<br>            &emsp;&emsp;            &emsp;&emsp;枚举值<br>            &emsp;&emsp;        }<br>                &emsp;&emsp;注意点：<br>                    &emsp;&emsp;0、枚举必须写在方法的外部。<br>                    &emsp;&emsp;1、枚举的命名必须是帕斯卡命名法。<br>                    &emsp;&emsp;2、枚举中的任何一个值都叫做枚举值，不是字符串，不能家引号。<br>                    &emsp;&emsp;3、每一个枚举值后面有一个逗号，最后一个枚举值没有逗号。<br>                    &emsp;&emsp;4、枚举的图标是两个黄色的小方块，<br>                        &emsp;&emsp;&emsp; 枚举中任何一个值的图标是两个蓝色的小方块。<br>                    &emsp;&emsp;5、默认情况下，枚举值的索引从0开始，到Length-1。<br>                    &emsp;&emsp;6、枚举可以修改他的下标值。<br>                    &emsp;&emsp;7、有一种枚举的值是这样设置的：1，2，4，8，16，32，64，128…..<br>                         &emsp;&emsp;提示：这种设置枚举的数列，任何两个相加的结果都不会在数列中。<br>            <em>【结构体：struct】</em><br>                &emsp;&emsp;概念：是一种自定义的数据类型，用于补充系统的数据类型。<br>                            &emsp;&emsp;是一种复杂的数据类型。<br>                            &emsp;&emsp;结构体好像一个盒子，其中可以包括任意多个任意类型的变量。<br>                &emsp;&emsp;语法：<br>                    &emsp;&emsp;&emsp;&emsp;&emsp;public struct 自定义的名字<br>                &emsp;&emsp;&emsp;&emsp;&emsp;{<br>                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;变量1；<br>                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;变量2；<br>                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;……<br>                &emsp;&emsp;&emsp;&emsp;&emsp;}<br>                &emsp;&emsp;注意点：<br>                    &emsp;&emsp;&emsp;&emsp;&emsp;1、结构体定义的代码要写在类外边<br>                    &emsp;&emsp;&emsp;&emsp;&emsp;2、结构体的名字必须帕斯卡命名法<br>        <strong>引用类型：</strong><br>            <em>【字符串 string】：</em><br>              &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;注意点：多个字符使用双引号来表示<br>                           &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 字符串是有索引的，索引从0开始，到Length-1。<br>                         &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;是多个字符的集合<br>            <em>【数组：Array】</em><br>                 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;概念：数组是固定数据类型，固定长度的一组数据。<br>                 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;注意点：<br>                     &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;1、数组是一种复杂的数据类型，可以是多个统一数据类型的数据。<br>                     &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;2、数组一定是固定长度的。<br>             &emsp;&emsp;&emsp;&emsp;&emsp;    &emsp;&emsp;语法：<br>         &emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;string[] n1 = new string[5];<br>          &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;string[] n2 = new string[] { “aaa”, “bbb”, “ccc”, “ddd”, “eee”, “fff” };<br>         &emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;string[] n3 = new string[6] { “aaa”, “bbb”, “ccc”, “ddd”, “eee”, “fff” };<br>         &emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;string[] n4 = { “aaa”, “bbb”, “ccc”, “ddd”, “eee”, “fff” };</p>
 ]]></content>
@@ -224,7 +224,7 @@
   </entry>
   <entry>
     <title>第一个程序</title>
-    <url>/2019/10/25/ck2lyakhk000j08ve0x0q43fa/</url>
+    <url>/2019/10/25/ck2lyhxwg000j7cve35gvg6ev/</url>
     <content><![CDATA[<p>2019年10月25日 16时49分54秒</p><p>第一个应用程序：Hello World<br>&emsp; 1、只要有了Main方法，程序才能运行。<br>&emsp; 2、Main方法叫做应用程序的入口。<br>&emsp; 3、如果有了Main函数，程序编译、生成之后会产生一个<em>.exe<br>&emsp; 4、如果没有Main函数，程序编译、生成之后会产生一个</em>.dll（Assembly程序）<br>&emsp;&emsp;&emsp;向控制台输出（写）：<br>&emsp;&emsp;&emsp;Console.Write(“Hello World…”);<br>&emsp;&emsp;&emsp;Console.WriteLine(“Hello World…”);<br>&emsp;&emsp;&emsp;接受控制台的输入（读）<br>&emsp;&emsp;&emsp;Console.Read();<br>&emsp;&emsp;&emsp;Console.ReadLine();<br>&emsp;&emsp;static void Main(string[] args)<br>&emsp;&emsp;{<br>&emsp;&emsp;&emsp;&emsp;Console.WriteLine(“Hello World……”);// 向控制台输出一个HelloWorld<br>&emsp;&emsp;&emsp;&emsp;Console.ReadLine();//在控制台接受一个数据<br>&emsp;&emsp;}</p><a id="more"></a>
 
 <hr>
@@ -237,7 +237,7 @@
   </entry>
   <entry>
     <title>编程语言</title>
-    <url>/2019/10/23/ck2lyakhl000o08veep943u67/</url>
+    <url>/2019/10/23/ck2lyhxwh000l7cvehy5e4qpr/</url>
     <content><![CDATA[<p>2019年10月23日 13时15分07秒<br>编程语言：</p>
 <pre><code>面向过程的语言：C
 
@@ -260,7 +260,7 @@
   </entry>
   <entry>
     <title>Hello World</title>
-    <url>/2019/10/22/ck2lyakhb000408vecst3czck/</url>
+    <url>/2019/10/22/ck2lyhxwa00067cvecs9r5f1q/</url>
     <content><![CDATA[<p><strong>一首小诗：</strong><br>《诗经·周南·关雎》：“悠哉悠哉，辗转反侧。”</p>
 <p>历经很多很多分钟，终于诞生了这个blog。</p>
 ]]></content>
