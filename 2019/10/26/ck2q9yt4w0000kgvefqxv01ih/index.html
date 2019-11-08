@@ -55,17 +55,19 @@
   };
 </script>
 
-  <meta name="description" content="2019年10月26日 01时12分41秒 数据类型：是你要存储的数据在内存中的空间的大小，数据样式。                    在C#中包括14个值类型和2个引用类型    值类型：        【整型：整数 int】            &amp;emsp;&amp;emsp;sbyte: -128127            &amp;emsp;&amp;emsp;short: -3276832767">
+  <meta name="description" content="2019年10月24日 10时00分07秒设计上的权衡：根据项目的基本情况来决定使用那种语言。命名方法：    1、帕斯卡命名法：每个单词的首字母大写                YuFeng、SchoolName、Hobby、    2、驼峰命名法：第一个单词全部小写，从第二个单词开始每个单词首字母大写                yuFeng、schoolName、hobby    3、全">
 <meta name="keywords" content="C#">
 <meta property="og:type" content="article">
-<meta property="og:title" content="C#数据类型">
-<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;10&#x2F;26&#x2F;ck2q9urwo000bk4ve1shvhmcw&#x2F;index.html">
+<meta property="og:title" content="C#中命名方法及应用分析">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;10&#x2F;26&#x2F;ck2q9yt4w0000kgvefqxv01ih&#x2F;index.html">
 <meta property="og:site_name" content="Keith的博客">
-<meta property="og:description" content="2019年10月26日 01时12分41秒 数据类型：是你要存储的数据在内存中的空间的大小，数据样式。                    在C#中包括14个值类型和2个引用类型    值类型：        【整型：整数 int】            &amp;emsp;&amp;emsp;sbyte: -128127            &amp;emsp;&amp;emsp;short: -3276832767">
+<meta property="og:description" content="2019年10月24日 10时00分07秒设计上的权衡：根据项目的基本情况来决定使用那种语言。命名方法：    1、帕斯卡命名法：每个单词的首字母大写                YuFeng、SchoolName、Hobby、    2、驼峰命名法：第一个单词全部小写，从第二个单词开始每个单词首字母大写                yuFeng、schoolName、hobby    3、全">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-10-25T17:23:09.051Z">
+<meta property="og:image" content="https:&#x2F;&#x2F;s2.ax1x.com&#x2F;2019&#x2F;10&#x2F;26&#x2F;K0cBPf.png">
+<meta property="og:updated_time" content="2019-10-26T02:27:08.582Z">
 <meta name="twitter:card" content="summary">
-  <link rel="canonical" href="http://yoursite.com/2019/10/26/ck2q9urwo000bk4ve1shvhmcw/">
+<meta name="twitter:image" content="https:&#x2F;&#x2F;s2.ax1x.com&#x2F;2019&#x2F;10&#x2F;26&#x2F;K0cBPf.png">
+  <link rel="canonical" href="http://yoursite.com/2019/10/26/ck2q9yt4w0000kgvefqxv01ih/">
 
 
 <script id="page-configurations">
@@ -79,7 +81,7 @@
   };
 </script>
 
-  <title>C#数据类型 | Keith的博客</title>
+  <title>C#中命名方法及应用分析 | Keith的博客</title>
   
 
 
@@ -236,7 +238,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/26/ck2q9urwo000bk4ve1shvhmcw/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/26/ck2q9yt4w0000kgvefqxv01ih/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="KEith">
@@ -250,7 +252,7 @@
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
           
-            C#数据类型
+            C#中命名方法及应用分析
             
 
           
@@ -267,7 +269,7 @@
                 
               
 
-              <time title="创建时间：2019-10-26 01:23:01 / 修改时间：01:23:09" itemprop="dateCreated datePublished" datetime="2019-10-26T01:23:01+08:00">2019-10-26</time>
+              <time title="创建时间：2019-10-26 10:26:46 / 修改时间：10:27:08" itemprop="dateCreated datePublished" datetime="2019-10-26T10:26:46+08:00">2019-10-26</time>
             </span>
           
             
@@ -286,8 +288,13 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>2019年10月26日 01时12分41秒</p>
-<p>数据类型：是你要存储的数据在内存中的空间的大小，数据样式。<br>                    在C#中包括14个值类型和2个引用类型<br>    <strong>值类型：</strong><br>        <em>【整型：整数 int】</em><br>            &emsp;&emsp;sbyte: -128<del>127<br>            &emsp;&emsp;short: -32768</del>32767<br>        &emsp;<strong>√</strong>    int：  -21亿~ +21亿<br>            &emsp;&emsp;long:  -2的63次方 ~ +2的63次方-1<br>        &emsp;√    byte :  0<del>255<br>            &emsp;&emsp;ushort:0</del>2的16次方<br>            &emsp;&emsp;uint:  0<del>2的32次方<br>            &emsp;&emsp;ulong: 0</del>264次方<br>        <em>【浮点数：小数 double】</em><br>            &emsp;&emsp;float: 单精度浮点数：较小的带小数点的数据<br>        &emsp;√    double: 双精度浮点数：较大的带小数点的数据<br>        <em>【布尔类型 bool】</em><br>        &emsp;√  bool：布尔数据类型<br>            &emsp;&emsp; 注意点：bool类型只有两个值：<br>             &emsp;&emsp;    true:真的<br>             &emsp;&emsp;    false：假的<br>            &emsp;&emsp;3&gt;2 : 对 ：true<br>            &emsp;&emsp;3&gt;4 ：错 ：false<br>            &emsp;&emsp;地球的体积 &lt; 篮球的体积 ：错 ：false<br>            &emsp;&emsp;于锋的年龄 &gt; 乌龟的年龄 ：错 ：false<br>        <em>【字符型 char】：</em><br>        &emsp;    √    char ：一个字符 ：例如：char c = ‘中’ ; char gender = ‘男’;<br>            &emsp;&emsp;  注意点：一个字符使用单引号来表示<br>        &emsp;&emsp;      单个的字符<br>        <em>【枚举类型：enum】</em><br>            &emsp;√ 概念：多选一，是用户自定义的一种数据类型<br>            &emsp;&emsp;    作用：1、偷懒  2、保证代码的正确性<br>            &emsp;&emsp;    语法：<br>            &emsp;&emsp;        public enum 自定义的名字<br>            &emsp;&emsp;        {<br>            &emsp;&emsp;            &emsp;&emsp;枚举值1,<br>            &emsp;&emsp;            &emsp;&emsp;枚举值2,<br>            &emsp;&emsp;            &emsp;&emsp;….<br>            &emsp;&emsp;            &emsp;&emsp;枚举值<br>            &emsp;&emsp;        }<br>                &emsp;&emsp;注意点：<br>                    &emsp;&emsp;0、枚举必须写在方法的外部。<br>                    &emsp;&emsp;1、枚举的命名必须是帕斯卡命名法。<br>                    &emsp;&emsp;2、枚举中的任何一个值都叫做枚举值，不是字符串，不能家引号。<br>                    &emsp;&emsp;3、每一个枚举值后面有一个逗号，最后一个枚举值没有逗号。<br>                    &emsp;&emsp;4、枚举的图标是两个黄色的小方块，<br>                        &emsp;&emsp;&emsp; 枚举中任何一个值的图标是两个蓝色的小方块。<br>                    &emsp;&emsp;5、默认情况下，枚举值的索引从0开始，到Length-1。<br>                    &emsp;&emsp;6、枚举可以修改他的下标值。<br>                    &emsp;&emsp;7、有一种枚举的值是这样设置的：1，2，4，8，16，32，64，128…..<br>                         &emsp;&emsp;提示：这种设置枚举的数列，任何两个相加的结果都不会在数列中。<br>            <em>【结构体：struct】</em><br>                &emsp;&emsp;概念：是一种自定义的数据类型，用于补充系统的数据类型。<br>                            &emsp;&emsp;是一种复杂的数据类型。<br>                            &emsp;&emsp;结构体好像一个盒子，其中可以包括任意多个任意类型的变量。<br>                &emsp;&emsp;语法：<br>                    &emsp;&emsp;&emsp;&emsp;&emsp;public struct 自定义的名字<br>                &emsp;&emsp;&emsp;&emsp;&emsp;{<br>                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;变量1；<br>                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;变量2；<br>                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;……<br>                &emsp;&emsp;&emsp;&emsp;&emsp;}<br>                &emsp;&emsp;注意点：<br>                    &emsp;&emsp;&emsp;&emsp;&emsp;1、结构体定义的代码要写在类外边<br>                    &emsp;&emsp;&emsp;&emsp;&emsp;2、结构体的名字必须帕斯卡命名法<br>        <strong>引用类型：</strong><br>            <em>【字符串 string】：</em><br>              &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;注意点：多个字符使用双引号来表示<br>                           &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 字符串是有索引的，索引从0开始，到Length-1。<br>                         &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;是多个字符的集合<br>            <em>【数组：Array】</em><br>                 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;概念：数组是固定数据类型，固定长度的一组数据。<br>                 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;注意点：<br>                     &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;1、数组是一种复杂的数据类型，可以是多个统一数据类型的数据。<br>                     &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;2、数组一定是固定长度的。<br>             &emsp;&emsp;&emsp;&emsp;&emsp;    &emsp;&emsp;语法：<br>         &emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;string[] n1 = new string[5];<br>          &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;string[] n2 = new string[] { “aaa”, “bbb”, “ccc”, “ddd”, “eee”, “fff” };<br>         &emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;string[] n3 = new string[6] { “aaa”, “bbb”, “ccc”, “ddd”, “eee”, “fff” };<br>         &emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;string[] n4 = { “aaa”, “bbb”, “ccc”, “ddd”, “eee”, “fff” };</p>
+        <p>2019年10月24日 10时00分07秒</p><p><strong>设计上的权衡：根据项目的基本情况来决定使用那种语言。</strong></p><p><img src="https://s2.ax1x.com/2019/10/26/K0cBPf.png" alt="跨平台比较.png"></p><hr><p><strong>命名方法：</strong><br>    1、帕斯卡命名法：每个单词的首字母大写<br>                YuFeng、SchoolName、Hobby、<br>    2、驼峰命名法：第一个单词全部小写，从第二个单词开始每个单词首字母大写<br>                yuFeng、schoolName、hobby<br>    3、全部大写：通常用语缩写<br>                KFC、YF、SCIII</p><a id="more"></a>
+
+
+
+
+<hr>
+<p><strong>应用程序分类：</strong><br>    1、Windows应用程序：<strong><em>需要安装</em></strong>、需要配置在你的操作系统上。<br>    2、Web网络应用程序：<strong><em>不需要安装</em></strong>，只要有一个浏览器就可以使用。<br>         例: <a href="http://www.taobao.com" target="_blank" rel="noopener">www.taobao.com</a>  <a href="http://www.163.com" target="_blank" rel="noopener">www.163.com</a>  news.sina.com<br>    3、控制台应用程序：就是一个类似于Dos界面的应用程序<br>            一般写服务器的跟踪会写到,理解上来说比较容易，对于学习一个语言来说比较好。<br>    4、类库程序（Library）<br>            一个应用程序有且只有一个程序的入口(Main函数)，没有Main函数的程序叫做类库程序</p>
 
     </div>
 
@@ -313,8 +320,8 @@
           <div class="post-nav">
             <div class="post-nav-next post-nav-item">
               
-                <a href="/2019/10/25/ck2q9urww000ok4veghdy60jk/" rel="next" title="第一个程序">
-                  <i class="fa fa-chevron-left"></i> 第一个程序
+                <a href="/2019/10/26/ck2q9yt540005kgve9qtuemef/" rel="next" title="C#数据类型">
+                  <i class="fa fa-chevron-left"></i> C#数据类型
                 </a>
               
             </div>
@@ -323,8 +330,8 @@
 
             <div class="post-nav-prev post-nav-item">
               
-                <a href="/2019/10/26/ck2q9urvo0001k4ve88w0dias/" rel="prev" title="C#中命名方法及应用分析">
-                  C#中命名方法及应用分析 <i class="fa fa-chevron-right"></i>
+                <a href="/2019/10/27/ck2q9yt6k000nkgve4mh8cz8r/" rel="prev" title="变量和常量">
+                  变量和常量 <i class="fa fa-chevron-right"></i>
                 </a>
               
             </div>
