@@ -55,17 +55,17 @@
   };
 </script>
 
-  <meta name="description" content="2019年11月07日 12时20分49秒什么是继承：继承概念：在软件系统中，也存在着像人类血缘关系一样的爷爷&#x2F;父亲&#x2F;我&#x2F;儿子&#x2F;孙子..... 子类将继承父类所有的属性和方法。 子类还可以有自己独有的属性和方法。继承原理：子类的对象中包括了一个父类的DNA； 子类的对象中包括了一个父类的对象。继承作用：">
+  <meta name="description" content="2019年10月31日 11时05分24秒  【静态变量】  概       念：如果变量使用static关键字修饰，就叫做静态变量调用方法：和方法完全一致。注       意：静态变量必须写在类和方法之间；（潜台词，不能写在方法内部）">
 <meta name="keywords" content="C#">
 <meta property="og:type" content="article">
-<meta property="og:title" content="C#之继承">
-<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;11&#x2F;07&#x2F;ck2q9yt520003kgve11bbdy0t&#x2F;index.html">
+<meta property="og:title" content="静态变量">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;10&#x2F;31&#x2F;ck2qa0oi9000tvove374a4296&#x2F;index.html">
 <meta property="og:site_name" content="Keith的博客">
-<meta property="og:description" content="2019年11月07日 12时20分49秒什么是继承：继承概念：在软件系统中，也存在着像人类血缘关系一样的爷爷&#x2F;父亲&#x2F;我&#x2F;儿子&#x2F;孙子..... 子类将继承父类所有的属性和方法。 子类还可以有自己独有的属性和方法。继承原理：子类的对象中包括了一个父类的DNA； 子类的对象中包括了一个父类的对象。继承作用：">
+<meta property="og:description" content="2019年10月31日 11时05分24秒  【静态变量】  概       念：如果变量使用static关键字修饰，就叫做静态变量调用方法：和方法完全一致。注       意：静态变量必须写在类和方法之间；（潜台词，不能写在方法内部）">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-11-07T04:31:47.695Z">
+<meta property="og:updated_time" content="2019-10-31T03:08:15.842Z">
 <meta name="twitter:card" content="summary">
-  <link rel="canonical" href="http://yoursite.com/2019/11/07/ck2q9yt520003kgve11bbdy0t/">
+  <link rel="canonical" href="http://yoursite.com/2019/10/31/ck2qa0oi9000tvove374a4296/">
 
 
 <script id="page-configurations">
@@ -79,7 +79,7 @@
   };
 </script>
 
-  <title>C#之继承 | Keith的博客</title>
+  <title>静态变量 | Keith的博客</title>
   
 
 
@@ -236,7 +236,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/11/07/ck2q9yt520003kgve11bbdy0t/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/31/ck2qa0oi9000tvove374a4296/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="KEith">
@@ -250,7 +250,7 @@
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
           
-            C#之继承
+            静态变量
             
 
           
@@ -267,7 +267,7 @@
                 
               
 
-              <time title="创建时间：2019-11-07 12:31:40 / 修改时间：12:31:47" itemprop="dateCreated datePublished" datetime="2019-11-07T12:31:40+08:00">2019-11-07</time>
+              <time title="创建时间：2019-10-31 11:08:08 / 修改时间：11:08:15" itemprop="dateCreated datePublished" datetime="2019-10-31T11:08:08+08:00">2019-10-31</time>
             </span>
           
             
@@ -286,48 +286,12 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>2019年11月07日 12时20分49秒</p><hr><h3 id="什么是继承："><a href="#什么是继承：" class="headerlink" title="什么是继承："></a>什么是继承：</h3><h6 id="继承概念："><a href="#继承概念：" class="headerlink" title="继承概念："></a>继承概念：</h6><pre><code>在软件系统中，也存在着像人类血缘关系一样的爷爷/父亲/我/儿子/孙子.....
-子类将继承父类所有的属性和方法。
-子类还可以有自己独有的属性和方法。</code></pre><hr><h6 id="继承原理："><a href="#继承原理：" class="headerlink" title="继承原理："></a>继承原理：</h6><pre><code>子类的对象中包括了一个父类的DNA；
-子类的对象中包括了一个父类的对象。</code></pre><hr><h6 id="继承作用："><a href="#继承作用：" class="headerlink" title="继承作用："></a>继承作用：</h6><a id="more"></a>
-
-
-
-<pre><code>写过一边的代码不要再写第二遍了。偷懒。</code></pre><hr>
-<h6 id="继承特点："><a href="#继承特点：" class="headerlink" title="继承特点："></a>继承特点：</h6><pre><code>1）单根性：写的每一个类既可以做父亲，也可当儿子，也可以当孙子.....
-      但每一个类可以有多个子类，每一个类只能有一个父类。    
-2）Object类型是所有类型的父类（祖宗），所有的类及继承了Object类型。
-      如果你写一个类，没有继承任何类型，将自动继承Object类型。
-       Object类型有四个主要的方法：
-       Equals()、 GetHashCode()、 GetType() 、ToString()     
-3）只要你写一个类，就是子类。           
-4）传递性：爷爷把属性和方法传给父亲，父亲又把属性和方法传给儿子。
-   代代相传。     
-5）唯一无法继承的东西：构造方法</code></pre><hr>
-<h6 id="继承语法：该怎么写类就这么写子类，只不过在后面加入一个：父类"><a href="#继承语法：该怎么写类就这么写子类，只不过在后面加入一个：父类" class="headerlink" title="继承语法：该怎么写类就这么写子类，只不过在后面加入一个：父类"></a>继承语法：该怎么写类就这么写子类，只不过在后面加入一个：父类</h6><figure class="highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> 子类 : <span class="type">父类</span></span></span><br><span class="line">               &#123;</span><br><span class="line">   </span><br><span class="line">               &#125;</span><br></pre></td></tr></table></figure>
-
-
+        <p>2019年10月31日 11时05分24秒</p>
 <hr>
-<h3 id="引用-amp-对象：-【父类的引用可以指向子类的对象是面向对象的最核心思想】"><a href="#引用-amp-对象：-【父类的引用可以指向子类的对象是面向对象的最核心思想】" class="headerlink" title="引用&amp;对象：  【父类的引用可以指向子类的对象是面向对象的最核心思想】"></a>引用&amp;对象：  【父类的引用可以指向子类的对象是面向对象的最核心思想】</h3><pre><code>Person p = new Person(); p叫对象的引用   new Person() 对象</code></pre><figure class="highlight haxe"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">子类的引用 指向 子类的对象 -----&gt;  可以</span><br><span class="line">    Animal an = <span class="keyword">new</span> <span class="type">Animal</span>();</span><br><span class="line">    Dog dog = <span class="keyword">new</span> <span class="type">Dog</span>();</span><br><span class="line">    Cat cat = <span class="keyword">new</span> <span class="type">Cat</span>();</span><br></pre></td></tr></table></figure>
-
-
-
-<figure class="highlight haxe"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">父类的引用 指向 子类的对象 -----&gt;  可以</span><br><span class="line">    Animal ani = <span class="keyword">new</span> <span class="type">Dog</span>();</span><br><span class="line">    Animal ani2 = <span class="keyword">new</span> <span class="type">Cat</span>();</span><br></pre></td></tr></table></figure>
-
-
-
-<figure class="highlight ada"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">子类的引用 指向 父类的对象 <span class="comment">-----&gt;  基本上没这样使用</span></span><br><span class="line">    Dog d = <span class="keyword">new</span> Animal();</span><br></pre></td></tr></table></figure>
-
-
-<hr>
-<h3 id="三个重要的关键字："><a href="#三个重要的关键字：" class="headerlink" title="三个重要的关键字："></a>三个重要的关键字：</h3><pre><code>this：指的是当前类
-  （可以使用this关键字来调用当前类的属性和方法
-    包括父类继承下来的所有属性和方法）</code></pre><p>   sealed：密闭的（禁止继承：太监类，使用这个关键字修饰类型，那么这个类不能再有子类）</p>
-<figure class="highlight cs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">sealed</span> <span class="keyword">class</span> <span class="title">Animal</span></span><br><span class="line"> &#123;</span><br><span class="line"> 		<span class="comment">//这个类就不能再有子类了</span></span><br><span class="line"> &#125;</span><br></pre></td></tr></table></figure>
-
-<p>   base. :指的是父类，可以使用base.的方式调用父类的所有属性和方法</p>
-<p>   base():使用base()的方式可以调用父类的构造函数</p>
-<p>   【面向对象的核心思想：父类的引用可以指向子类的对象】<br>     Animal a = new Dog();</p>
+<p><strong>【静态变量】</strong></p>
+<blockquote>
+<p>概       念：如果变量使用static关键字修饰，就叫做静态变量<br>调用方法：和方法完全一致。<br>注       意：静态变量必须写在类和方法之间；（潜台词，不能写在方法内部）</p>
+</blockquote>
 
     </div>
 
@@ -353,8 +317,8 @@
           <div class="post-nav">
             <div class="post-nav-next post-nav-item">
               
-                <a href="/2019/11/05/ck2q9yt530004kgve4bx6gc16/" rel="next" title="C#之封装">
-                  <i class="fa fa-chevron-left"></i> C#之封装
+                <a href="/2019/10/30/ck2qa0oi7000ovove61lkdvxh/" rel="next" title="纪昀">
+                  <i class="fa fa-chevron-left"></i> 纪昀
                 </a>
               
             </div>
@@ -363,8 +327,8 @@
 
             <div class="post-nav-prev post-nav-item">
               
-                <a href="/2019/11/08/ck2q9yt500001kgve7mlifpgr/" rel="prev" title="C#之多态">
-                  C#之多态 <i class="fa fa-chevron-right"></i>
+                <a href="/2019/11/03/ck2qa0oi3000gvove3oceg4nq/" rel="prev" title="吃啥补啥！哈哈哈！">
+                  吃啥补啥！哈哈哈！ <i class="fa fa-chevron-right"></i>
                 </a>
               
             </div>
@@ -411,8 +375,6 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#什么是继承："><span class="nav-number">1.</span> <span class="nav-text">什么是继承：</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#继承概念："><span class="nav-number">1.0.0.1.</span> <span class="nav-text">继承概念：</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#继承原理："><span class="nav-number">1.0.0.2.</span> <span class="nav-text">继承原理：</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#继承作用："><span class="nav-number">1.0.0.3.</span> <span class="nav-text">继承作用：</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#继承特点："><span class="nav-number">1.0.0.4.</span> <span class="nav-text">继承特点：</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#继承语法：该怎么写类就这么写子类，只不过在后面加入一个：父类"><span class="nav-number">1.0.0.5.</span> <span class="nav-text">继承语法：该怎么写类就这么写子类，只不过在后面加入一个：父类</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#引用-amp-对象：-【父类的引用可以指向子类的对象是面向对象的最核心思想】"><span class="nav-number">2.</span> <span class="nav-text">引用&amp;对象：  【父类的引用可以指向子类的对象是面向对象的最核心思想】</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#三个重要的关键字："><span class="nav-number">3.</span> <span class="nav-text">三个重要的关键字：</span></a></li></ol></div>
-        
       </div>
       <!--/noindex-->
 
