@@ -232,7 +232,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/11/11/ck2ufiywc0002m0vegaar1cp0/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/11/12/ck2vt803p0002d8ve5kjnc5uy/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="KEith">
@@ -247,7 +247,86 @@
         <h1 class="post-title" itemprop="name headline">
           
             
-            <a href="/2019/11/11/ck2ufiywc0002m0vegaar1cp0/" class="post-title-link" itemprop="url">C#之委托 Delegate</a>
+            <a href="/2019/11/12/ck2vt803p0002d8ve5kjnc5uy/" class="post-title-link" itemprop="url">C#之委托 Delegate练习题（数据回传）</a>
+          
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              
+                
+              
+
+              <time title="创建时间：2019-11-12 20:03:51 / 修改时间：20:03:52" itemprop="dateCreated datePublished" datetime="2019-11-12T20:03:51+08:00">2019-11-12</time>
+            </span>
+          
+            
+
+            
+          
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>2019年11月12日 19时46分53秒</p><p><strong>我太难了，直到我写下这篇博客上我还是不能完全理解委托的意思<br>只知道委托中需要一个==方法==</strong></p><h3 id="图片解释："><a href="#图片解释：" class="headerlink" title="图片解释："></a>图片解释：</h3><p><img src="https://s2.ax1x.com/2019/11/12/M3bAtH.png" alt="M3bAtH.png"></p><hr><p><img src="https://s2.ax1x.com/2019/11/12/M3bkAe.png" alt="M3bkAe.png"></p><hr><p><img src="https://s2.ax1x.com/2019/11/12/M3bEhd.png" alt="M3bEhd.png"></p><h3 id="窗体1代码："><a href="#窗体1代码：" class="headerlink" title="窗体1代码："></a>窗体1代码：</h3><figure class="highlight plain"><figcaption><span>System;</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br></pre></td><td class="code"><pre><span class="line">using System.Collections.Generic;</span><br><span class="line">using System.ComponentModel;</span><br><span class="line">using System.Data;</span><br><span class="line">using System.Drawing;</span><br><span class="line">using System.Linq;</span><br><span class="line">using System.Text;</span><br><span class="line">using System.Threading.Tasks;</span><br><span class="line">using System.Windows.Forms;</span><br><span class="line"></span><br><span class="line">namespace Delegate</span><br><span class="line">&#123;</span><br><span class="line">    public partial class Form1 : Form</span><br><span class="line">    &#123;</span><br><span class="line">        public Form1()</span><br><span class="line">        &#123;</span><br><span class="line">            InitializeComponent();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        private void Form1_Load(object sender, EventArgs e)</span><br><span class="line">        &#123;</span><br><span class="line"></span><br><span class="line">        &#125;</span><br><span class="line">        private void button1_Click(object sender, EventArgs e)</span><br><span class="line">        &#123;</span><br><span class="line">            //实例化委托</span><br><span class="line">            Getstudent getstudent = new Getstudent(Get);</span><br><span class="line">            //将实例化的委托传至form2</span><br><span class="line">            Form2 f = new Form2(getstudent);</span><br><span class="line">            //打开form2窗口</span><br><span class="line">            f.ShowDialog();</span><br><span class="line">        &#125;</span><br><span class="line">        //将form2传值回来的数据赋值到form1的textbox上</span><br><span class="line">        private void Get(Student s)</span><br><span class="line">        &#123;</span><br><span class="line">            this.tb1.Text = s.Name;</span><br><span class="line">            this.tb2.Text = s.Gender.ToString();</span><br><span class="line">            this.tb3.Text = s.Age.ToString();</span><br><span class="line">            this.tb4.Text = s.Phone;</span><br><span class="line">            this.tb5.Text = s.Address;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+          <!--noindex-->
+          
+            <div class="post-button">
+              <a class="btn" href="/2019/11/12/ck2vt803p0002d8ve5kjnc5uy/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+    
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/11/11/ck2vt803x000ed8vefiancb6f/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="KEith">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Keith的博客">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
+            
+            <a href="/2019/11/11/ck2vt803x000ed8vefiancb6f/" class="post-title-link" itemprop="url">C#之委托 Delegate</a>
           
         </h1>
 
@@ -289,7 +368,7 @@
           <!--noindex-->
           
             <div class="post-button">
-              <a class="btn" href="/2019/11/11/ck2ufiywc0002m0vegaar1cp0/#more" rel="contents">
+              <a class="btn" href="/2019/11/11/ck2vt803x000ed8vefiancb6f/#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -315,7 +394,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/11/08/ck2ufiywi0004m0vecf3992fw/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/11/08/ck2vt803k0000d8ve97166y3w/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="KEith">
@@ -330,7 +409,7 @@
         <h1 class="post-title" itemprop="name headline">
           
             
-            <a href="/2019/11/08/ck2ufiywi0004m0vecf3992fw/" class="post-title-link" itemprop="url">C#之多态</a>
+            <a href="/2019/11/08/ck2vt803k0000d8ve97166y3w/" class="post-title-link" itemprop="url">C#之多态</a>
           
         </h1>
 
@@ -370,7 +449,7 @@
           <!--noindex-->
           
             <div class="post-button">
-              <a class="btn" href="/2019/11/08/ck2ufiywi0004m0vecf3992fw/#more" rel="contents">
+              <a class="btn" href="/2019/11/08/ck2vt803k0000d8ve97166y3w/#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -396,7 +475,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/11/07/ck2ufiywk0005m0ve9hlyhawy/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/11/07/ck2vt803w000bd8ve3ka8fzly/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="KEith">
@@ -411,7 +490,7 @@
         <h1 class="post-title" itemprop="name headline">
           
             
-            <a href="/2019/11/07/ck2ufiywk0005m0ve9hlyhawy/" class="post-title-link" itemprop="url">C#之继承</a>
+            <a href="/2019/11/07/ck2vt803w000bd8ve3ka8fzly/" class="post-title-link" itemprop="url">C#之继承</a>
           
         </h1>
 
@@ -452,7 +531,7 @@
           <!--noindex-->
           
             <div class="post-button">
-              <a class="btn" href="/2019/11/07/ck2ufiywk0005m0ve9hlyhawy/#more" rel="contents">
+              <a class="btn" href="/2019/11/07/ck2vt803w000bd8ve3ka8fzly/#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -478,7 +557,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/11/05/ck2ufiywp0009m0vehqt31rvg/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/11/05/ck2vt803s0005d8vefi951kxw/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="KEith">
@@ -493,7 +572,7 @@
         <h1 class="post-title" itemprop="name headline">
           
             
-            <a href="/2019/11/05/ck2ufiywp0009m0vehqt31rvg/" class="post-title-link" itemprop="url">C#之封装</a>
+            <a href="/2019/11/05/ck2vt803s0005d8vefi951kxw/" class="post-title-link" itemprop="url">C#之封装</a>
           
         </h1>
 
@@ -533,7 +612,7 @@
           <!--noindex-->
           
             <div class="post-button">
-              <a class="btn" href="/2019/11/05/ck2ufiywp0009m0vehqt31rvg/#more" rel="contents">
+              <a class="btn" href="/2019/11/05/ck2vt803s0005d8vefi951kxw/#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -559,7 +638,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/11/04/ck2ufiyww000lm0ve8jkefl0p/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/11/04/ck2vt8044000ld8ve4jxba5l6/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="KEith">
@@ -574,7 +653,7 @@
         <h1 class="post-title" itemprop="name headline">
           
             
-            <a href="/2019/11/04/ck2ufiyww000lm0ve8jkefl0p/" class="post-title-link" itemprop="url">方法</a>
+            <a href="/2019/11/04/ck2vt8044000ld8ve4jxba5l6/" class="post-title-link" itemprop="url">方法</a>
           
         </h1>
 
@@ -612,7 +691,7 @@
           <!--noindex-->
           
             <div class="post-button">
-              <a class="btn" href="/2019/11/04/ck2ufiyww000lm0ve8jkefl0p/#more" rel="contents">
+              <a class="btn" href="/2019/11/04/ck2vt8044000ld8ve4jxba5l6/#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -638,7 +717,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/11/03/ck2ufiywr000em0ve5ml078cv/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/11/03/ck2vt8040000jd8ve2vts6kw7/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="KEith">
@@ -653,7 +732,7 @@
         <h1 class="post-title" itemprop="name headline">
           
             
-            <a href="/2019/11/03/ck2ufiywr000em0ve5ml078cv/" class="post-title-link" itemprop="url">吃啥补啥！哈哈哈！</a>
+            <a href="/2019/11/03/ck2vt8040000jd8ve2vts6kw7/" class="post-title-link" itemprop="url">吃啥补啥！哈哈哈！</a>
           
         </h1>
 
@@ -727,7 +806,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/31/ck2ufiyxj000zm0ve493o1wmr/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/31/ck2vt8047000xd8veh9ecgd76/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="KEith">
@@ -742,7 +821,7 @@
         <h1 class="post-title" itemprop="name headline">
           
             
-            <a href="/2019/10/31/ck2ufiyxj000zm0ve493o1wmr/" class="post-title-link" itemprop="url">静态变量</a>
+            <a href="/2019/10/31/ck2vt8047000xd8veh9ecgd76/" class="post-title-link" itemprop="url">静态变量</a>
           
         </h1>
 
@@ -803,7 +882,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/30/ck2ufiywu000jm0veal3h0nu2/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/30/ck2vt8045000od8veh6uvhfaq/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="KEith">
@@ -818,7 +897,7 @@
         <h1 class="post-title" itemprop="name headline">
           
             
-            <a href="/2019/10/30/ck2ufiywu000jm0veal3h0nu2/" class="post-title-link" itemprop="url">纪昀</a>
+            <a href="/2019/10/30/ck2vt8045000od8veh6uvhfaq/" class="post-title-link" itemprop="url">纪昀</a>
           
         </h1>
 
@@ -876,7 +955,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/28/ck2ufiyws000gm0ve8mdw6353/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/28/ck2vt803y000gd8veegfl6i35/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="KEith">
@@ -891,7 +970,7 @@
         <h1 class="post-title" itemprop="name headline">
           
             
-            <a href="/2019/10/28/ck2ufiyws000gm0ve8mdw6353/" class="post-title-link" itemprop="url">C#练习题</a>
+            <a href="/2019/10/28/ck2vt803y000gd8veegfl6i35/" class="post-title-link" itemprop="url">C#练习题</a>
           
         </h1>
 
@@ -936,94 +1015,7 @@
           <!--noindex-->
           
             <div class="post-button">
-              <a class="btn" href="/2019/10/28/ck2ufiyws000gm0ve8mdw6353/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-    
-        
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/27/ck2ufiywx000om0vedqtqfkg4/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="KEith">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Keith的博客">
-    </span>
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-          
-            
-            <a href="/2019/10/27/ck2ufiywx000om0vedqtqfkg4/" class="post-title-link" itemprop="url">变量和常量</a>
-          
-        </h1>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              
-                
-              
-
-              <time title="创建时间：2019-10-27 12:35:10" itemprop="dateCreated datePublished" datetime="2019-10-27T12:35:10+08:00">2019-10-27</time>
-            </span>
-          
-            
-
-            
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2019-10-31 11:04:37" itemprop="dateModified" datetime="2019-10-31T11:04:37+08:00">2019-10-31</time>
-              </span>
-            
-          
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>2019年10月27日 12时32分35秒</p><p>堆和栈的特点：<br>    栈：用来存储值类型的数据<br>        1、是一个上不封顶的结构<br>        2、栈的数据交换方式是后进先出<br>        3、程序员不管怎么编程都无法回收数据（析构）        </p><p>   堆：用来存储引用类型的数据<br>        1、可以任意开辟空间的区域<br>        2、必须有程序员去管理的一块内存空间。<br>             .Net Framework —-托管</p>
-          <!--noindex-->
-          
-            <div class="post-button">
-              <a class="btn" href="/2019/10/27/ck2ufiywx000om0vedqtqfkg4/#more" rel="contents">
+              <a class="btn" href="/2019/10/28/ck2vt803y000gd8veegfl6i35/#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -1097,7 +1089,7 @@
         
           <a href="/archives/">
         
-          <span class="site-state-item-count">15</span>
+          <span class="site-state-item-count">16</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>

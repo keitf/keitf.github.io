@@ -55,17 +55,17 @@
   };
 </script>
 
-  <meta name="description" content="2019年10月23日 13时15分07秒编程语言： 面向过程的语言：C  面向对象的语言：Java、C#、C++、Python、VB、F#.....  面向对象的语言，能够更好的应对软件需求的变化。  软件变化：      1、软件的频繁变化，在软件设计之前，就意识到软件会有变化。      2、在使用过程中，软件需要变化。      3、软件本身代码有问题，需要变化。      4、由于新功能">
+  <meta name="description" content="2019年11月08日 23时07分13秒什么是多态：【多态】 生物学：同种族的生物会有不同类型的变异。       软件学：同名的方法会有不同的业务逻辑（{}中的代码叫做业务逻辑）        1）多态是多态的方法。        2）多态是多态的两个或两个以上的方法。        3）多态的方法名称必须一致。">
 <meta name="keywords" content="C#">
 <meta property="og:type" content="article">
-<meta property="og:title" content="编程语言">
-<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;10&#x2F;23&#x2F;ck2ufiyx1000tm0vedswie1jl&#x2F;index.html">
+<meta property="og:title" content="C#之多态">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;11&#x2F;08&#x2F;ck2vt803k0000d8ve97166y3w&#x2F;index.html">
 <meta property="og:site_name" content="Keith的博客">
-<meta property="og:description" content="2019年10月23日 13时15分07秒编程语言： 面向过程的语言：C  面向对象的语言：Java、C#、C++、Python、VB、F#.....  面向对象的语言，能够更好的应对软件需求的变化。  软件变化：      1、软件的频繁变化，在软件设计之前，就意识到软件会有变化。      2、在使用过程中，软件需要变化。      3、软件本身代码有问题，需要变化。      4、由于新功能">
+<meta property="og:description" content="2019年11月08日 23时07分13秒什么是多态：【多态】 生物学：同种族的生物会有不同类型的变异。       软件学：同名的方法会有不同的业务逻辑（{}中的代码叫做业务逻辑）        1）多态是多态的方法。        2）多态是多态的两个或两个以上的方法。        3）多态的方法名称必须一致。">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-10-23T10:10:01.350Z">
+<meta property="og:updated_time" content="2019-11-08T15:07:35.557Z">
 <meta name="twitter:card" content="summary">
-  <link rel="canonical" href="http://yoursite.com/2019/10/23/ck2ufiyx1000tm0vedswie1jl/">
+  <link rel="canonical" href="http://yoursite.com/2019/11/08/ck2vt803k0000d8ve97166y3w/">
 
 
 <script id="page-configurations">
@@ -79,7 +79,7 @@
   };
 </script>
 
-  <title>编程语言 | Keith的博客</title>
+  <title>C#之多态 | Keith的博客</title>
   
 
 
@@ -236,7 +236,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/23/ck2ufiyx1000tm0vedswie1jl/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/11/08/ck2vt803k0000d8ve97166y3w/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="KEith">
@@ -250,7 +250,7 @@
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
           
-            编程语言
+            C#之多态
             
 
           
@@ -267,8 +267,12 @@
                 
               
 
-              <time title="创建时间：2019-10-23 18:10:01" itemprop="dateCreated datePublished" datetime="2019-10-23T18:10:01+08:00">2019-10-23</time>
+              <time title="创建时间：2019-11-08 23:03:54 / 修改时间：23:07:35" itemprop="dateCreated datePublished" datetime="2019-11-08T23:03:54+08:00">2019-11-08</time>
             </span>
+          
+            
+
+            
           
 
           
@@ -282,22 +286,35 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>2019年10月23日 13时15分07秒<br>编程语言：</p>
-<pre><code>面向过程的语言：C
+        <p>2019年11月08日 23时07分13秒</p><h1 id="什么是多态："><a href="#什么是多态：" class="headerlink" title="什么是多态："></a>什么是多态：</h1><h2 id="【多态】"><a href="#【多态】" class="headerlink" title="【多态】"></a>【多态】</h2><blockquote>
+<p>生物学：同种族的生物会有不同类型的变异。       软件学：同名的方法会有不同的业务逻辑（{}中的代码叫做业务逻辑）<br>        1）多态是多态的方法。<br>        2）多态是多态的两个或两个以上的方法。<br>        3）多态的方法名称必须一致。</p>
+</blockquote><a id="more"></a>
 
-面向对象的语言：Java、C#、C++、Python、VB、F#.....
+<h3 id="如果向实现多态有2中方法实现"><a href="#如果向实现多态有2中方法实现" class="headerlink" title="如果向实现多态有2中方法实现"></a>如果向实现多态有2中方法实现</h3><h4 id="1）编译时的多态：静态的多态。"><a href="#1）编译时的多态：静态的多态。" class="headerlink" title="1）编译时的多态：静态的多态。"></a>1）编译时的多态：静态的多态。</h4><blockquote>
+<p>概念：程序不需要运行，在编译之后已经能够确定产生那个类的对象，<br>             也可以确定调用什么方法了。</p>
+</blockquote>
+<figure class="highlight pony"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">Student</span> stu = <span class="keyword">new</span> <span class="type">Student</span>()</span><br><span class="line">   stu.<span class="type">GoToSchool</span>();</span><br></pre></td></tr></table></figure>
 
-面向对象的语言，能够更好的应对软件需求的变化。
 
-软件变化：
 
-    1、软件的频繁变化，在软件设计之前，就意识到软件会有变化。
+<blockquote>
+<p>如何实现：靠重载非虚类方法来实现。（Overload）<br>       实现方式：重载：（两个必须，一个可以）<br>           方法名必须相同；<br>           参数列表必须不相同；（参数的个数/参数的数据类型/参数的顺序不同）<br>           返回值类型可以不相同。（返回值类型不相同要建立在参数列表不同的基础上）</p>
+</blockquote>
+<blockquote>
+<p>如何调用：程序调用方法名全部一致，但会根据参数列表的情况自动调用。</p>
+</blockquote>
+<p>注重点：参数列表不相同。</p>
+<p>重载的分类：<br>          a）实例方法的重载<br>          b）静态方法的重载<br>          c）构造方法的重载</p>
+<p>重载的优点：<br>          a）可以有效的提高应用程序的效率。<br>          b）可以避免命名的冲突，提高代码书写的正确率。<br>          c）方法的参数可以有N个，如果超过5个参数，可以把类型作为参数。<br>  重载的作用范围：<br>          重载的所有方法必须在同一个类中</p>
+<h4 id="2）运行时的多态：动态的多态。"><a href="#2）运行时的多态：动态的多态。" class="headerlink" title="2）运行时的多态：动态的多态。"></a>2）运行时的多态：动态的多态。</h4><blockquote>
+<p>概念：程序在编译之后，甚至程序已经运行起来了，都不能决定产生那个类的对象，更不要谈调用那个方法了。（潜台词：可以根据用户的不同需求来产生不同类的对象）</p>
+<p>如何实现：靠重写虚类方法来实现。（Override）</p>
+</blockquote>
+<blockquote>
+<p>实现方式：是override关键字 + 三个必须<br>          方法名必须相同<br>          参数列表必须相同<br>          返回值类型必须相同</p>
+</blockquote>
+<p>写作步骤：父类写虚类方法，子类去重写父类的虚方法。</p>
 
-    2、在使用过程中，软件需要变化。
-
-    3、软件本身代码有问题，需要变化。
-
-    4、由于新功能的开展，需要软件变化。</code></pre>
     </div>
 
     
@@ -322,8 +339,8 @@
           <div class="post-nav">
             <div class="post-nav-next post-nav-item">
               
-                <a href="/2019/10/22/ck2ufiywm0006m0vecmyyb8gr/" rel="next" title="Hello World">
-                  <i class="fa fa-chevron-left"></i> Hello World
+                <a href="/2019/11/07/ck2vt803w000bd8ve3ka8fzly/" rel="next" title="C#之继承">
+                  <i class="fa fa-chevron-left"></i> C#之继承
                 </a>
               
             </div>
@@ -332,8 +349,8 @@
 
             <div class="post-nav-prev post-nav-item">
               
-                <a href="/2019/10/25/ck2ufiywz000qm0ve9pscbctc/" rel="prev" title="第一个程序">
-                  第一个程序 <i class="fa fa-chevron-right"></i>
+                <a href="/2019/11/11/ck2vt803x000ed8vefiancb6f/" rel="prev" title="C#之委托 Delegate">
+                  C#之委托 Delegate <i class="fa fa-chevron-right"></i>
                 </a>
               
             </div>
@@ -380,6 +397,8 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#什么是多态："><span class="nav-number">1.</span> <span class="nav-text">什么是多态：</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#【多态】"><span class="nav-number">1.1.</span> <span class="nav-text">【多态】</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#如果向实现多态有2中方法实现"><span class="nav-number">1.1.1.</span> <span class="nav-text">如果向实现多态有2中方法实现</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1）编译时的多态：静态的多态。"><span class="nav-number">1.1.1.1.</span> <span class="nav-text">1）编译时的多态：静态的多态。</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2）运行时的多态：动态的多态。"><span class="nav-number">1.1.1.2.</span> <span class="nav-text">2）运行时的多态：动态的多态。</span></a></li></ol></li></ol></li></ol></li></ol></div>
+        
       </div>
       <!--/noindex-->
 
@@ -397,7 +416,7 @@
         
           <a href="/archives/">
         
-          <span class="site-state-item-count">15</span>
+          <span class="site-state-item-count">16</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>

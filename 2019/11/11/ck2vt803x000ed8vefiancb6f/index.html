@@ -55,17 +55,17 @@
   };
 </script>
 
-  <meta name="description" content="2019年11月07日 12时20分49秒什么是继承：继承概念：在软件系统中，也存在着像人类血缘关系一样的爷爷&#x2F;父亲&#x2F;我&#x2F;儿子&#x2F;孙子..... 子类将继承父类所有的属性和方法。 子类还可以有自己独有的属性和方法。继承原理：子类的对象中包括了一个父类的DNA； 子类的对象中包括了一个父类的对象。继承作用：">
+  <meta name="description" content="2019年11月11日 20时45分02秒什么是委托:【委托：Delegate】 官方定义：委托声明和引用了一种引用类型。此引用类型用特定的签名去封装方法，此方法可以是静态的方法或是实例方法。委托比较像C++中的函数指针，但此种指针类型是类型安全的。 注意点： 1、当不确定使用什么方法的时候使用委托。2、引用类型：new出一个委托的对象。3、委托里面放方法的。（静态方法&#x2F;实例方法）4、特定签名：是">
 <meta name="keywords" content="C#">
 <meta property="og:type" content="article">
-<meta property="og:title" content="C#之继承">
-<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;11&#x2F;07&#x2F;ck2ufiywk0005m0ve9hlyhawy&#x2F;index.html">
+<meta property="og:title" content="C#之委托 Delegate">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;11&#x2F;11&#x2F;ck2vt803x000ed8vefiancb6f&#x2F;index.html">
 <meta property="og:site_name" content="Keith的博客">
-<meta property="og:description" content="2019年11月07日 12时20分49秒什么是继承：继承概念：在软件系统中，也存在着像人类血缘关系一样的爷爷&#x2F;父亲&#x2F;我&#x2F;儿子&#x2F;孙子..... 子类将继承父类所有的属性和方法。 子类还可以有自己独有的属性和方法。继承原理：子类的对象中包括了一个父类的DNA； 子类的对象中包括了一个父类的对象。继承作用：">
+<meta property="og:description" content="2019年11月11日 20时45分02秒什么是委托:【委托：Delegate】 官方定义：委托声明和引用了一种引用类型。此引用类型用特定的签名去封装方法，此方法可以是静态的方法或是实例方法。委托比较像C++中的函数指针，但此种指针类型是类型安全的。 注意点： 1、当不确定使用什么方法的时候使用委托。2、引用类型：new出一个委托的对象。3、委托里面放方法的。（静态方法&#x2F;实例方法）4、特定签名：是">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-11-07T04:31:47.695Z">
+<meta property="og:updated_time" content="2019-11-11T12:52:29.895Z">
 <meta name="twitter:card" content="summary">
-  <link rel="canonical" href="http://yoursite.com/2019/11/07/ck2ufiywk0005m0ve9hlyhawy/">
+  <link rel="canonical" href="http://yoursite.com/2019/11/11/ck2vt803x000ed8vefiancb6f/">
 
 
 <script id="page-configurations">
@@ -79,7 +79,7 @@
   };
 </script>
 
-  <title>C#之继承 | Keith的博客</title>
+  <title>C#之委托 Delegate | Keith的博客</title>
   
 
 
@@ -236,7 +236,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/11/07/ck2ufiywk0005m0ve9hlyhawy/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/11/11/ck2vt803x000ed8vefiancb6f/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="KEith">
@@ -250,7 +250,7 @@
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
           
-            C#之继承
+            C#之委托 Delegate
             
 
           
@@ -267,7 +267,7 @@
                 
               
 
-              <time title="创建时间：2019-11-07 12:31:40 / 修改时间：12:31:47" itemprop="dateCreated datePublished" datetime="2019-11-07T12:31:40+08:00">2019-11-07</time>
+              <time title="创建时间：2019-11-11 20:52:28 / 修改时间：20:52:29" itemprop="dateCreated datePublished" datetime="2019-11-11T20:52:28+08:00">2019-11-11</time>
             </span>
           
             
@@ -286,48 +286,19 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>2019年11月07日 12时20分49秒</p><hr><h3 id="什么是继承："><a href="#什么是继承：" class="headerlink" title="什么是继承："></a>什么是继承：</h3><h6 id="继承概念："><a href="#继承概念：" class="headerlink" title="继承概念："></a>继承概念：</h6><pre><code>在软件系统中，也存在着像人类血缘关系一样的爷爷/父亲/我/儿子/孙子.....
-子类将继承父类所有的属性和方法。
-子类还可以有自己独有的属性和方法。</code></pre><hr><h6 id="继承原理："><a href="#继承原理：" class="headerlink" title="继承原理："></a>继承原理：</h6><pre><code>子类的对象中包括了一个父类的DNA；
-子类的对象中包括了一个父类的对象。</code></pre><hr><h6 id="继承作用："><a href="#继承作用：" class="headerlink" title="继承作用："></a>继承作用：</h6><a id="more"></a>
+        <p>2019年11月11日 20时45分02秒</p><h3 id="什么是委托"><a href="#什么是委托" class="headerlink" title="什么是委托:"></a><strong>什么是委托:</strong></h3><h4 id="【委托：Delegate】"><a href="#【委托：Delegate】" class="headerlink" title="【委托：Delegate】"></a>【委托：Delegate】</h4><blockquote>
+<p>官方定义：委托声明和引用了一种引用类型。此引用类型用特定的签名<br>去封装方法，此方法可以是静态的方法或是实例方法。委托<br>比较像C++中的函数指针，但此种指针类型是类型安全的。</p>
+</blockquote><h4 id="注意点："><a href="#注意点：" class="headerlink" title="注意点："></a>注意点：</h4><blockquote>
+<p>1、当不确定使用什么方法的时候使用委托。<br>2、引用类型：new出一个委托的对象。<br>3、委托里面放方法的。（静态方法/实例方法）<br>4、特定签名：是指任何一个方法的参数列表和返回值类型。 通常在定义委托的时候定义特定的签名。<br> 5、类型安全：因为在.net中，.net<br><strong>Framework会自动管理委托类型。</strong></p>
+</blockquote><a id="more"></a>
 
 
-
-<pre><code>写过一边的代码不要再写第二遍了。偷懒。</code></pre><hr>
-<h6 id="继承特点："><a href="#继承特点：" class="headerlink" title="继承特点："></a>继承特点：</h6><pre><code>1）单根性：写的每一个类既可以做父亲，也可当儿子，也可以当孙子.....
-      但每一个类可以有多个子类，每一个类只能有一个父类。    
-2）Object类型是所有类型的父类（祖宗），所有的类及继承了Object类型。
-      如果你写一个类，没有继承任何类型，将自动继承Object类型。
-       Object类型有四个主要的方法：
-       Equals()、 GetHashCode()、 GetType() 、ToString()     
-3）只要你写一个类，就是子类。           
-4）传递性：爷爷把属性和方法传给父亲，父亲又把属性和方法传给儿子。
-   代代相传。     
-5）唯一无法继承的东西：构造方法</code></pre><hr>
-<h6 id="继承语法：该怎么写类就这么写子类，只不过在后面加入一个：父类"><a href="#继承语法：该怎么写类就这么写子类，只不过在后面加入一个：父类" class="headerlink" title="继承语法：该怎么写类就这么写子类，只不过在后面加入一个：父类"></a>继承语法：该怎么写类就这么写子类，只不过在后面加入一个：父类</h6><figure class="highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> 子类 : <span class="type">父类</span></span></span><br><span class="line">               &#123;</span><br><span class="line">   </span><br><span class="line">               &#125;</span><br></pre></td></tr></table></figure>
-
-
-<hr>
-<h3 id="引用-amp-对象：-【父类的引用可以指向子类的对象是面向对象的最核心思想】"><a href="#引用-amp-对象：-【父类的引用可以指向子类的对象是面向对象的最核心思想】" class="headerlink" title="引用&amp;对象：  【父类的引用可以指向子类的对象是面向对象的最核心思想】"></a>引用&amp;对象：  【父类的引用可以指向子类的对象是面向对象的最核心思想】</h3><pre><code>Person p = new Person(); p叫对象的引用   new Person() 对象</code></pre><figure class="highlight haxe"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">子类的引用 指向 子类的对象 -----&gt;  可以</span><br><span class="line">    Animal an = <span class="keyword">new</span> <span class="type">Animal</span>();</span><br><span class="line">    Dog dog = <span class="keyword">new</span> <span class="type">Dog</span>();</span><br><span class="line">    Cat cat = <span class="keyword">new</span> <span class="type">Cat</span>();</span><br></pre></td></tr></table></figure>
-
-
-
-<figure class="highlight haxe"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">父类的引用 指向 子类的对象 -----&gt;  可以</span><br><span class="line">    Animal ani = <span class="keyword">new</span> <span class="type">Dog</span>();</span><br><span class="line">    Animal ani2 = <span class="keyword">new</span> <span class="type">Cat</span>();</span><br></pre></td></tr></table></figure>
-
-
-
-<figure class="highlight ada"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">子类的引用 指向 父类的对象 <span class="comment">-----&gt;  基本上没这样使用</span></span><br><span class="line">    Dog d = <span class="keyword">new</span> Animal();</span><br></pre></td></tr></table></figure>
-
-
-<hr>
-<h3 id="三个重要的关键字："><a href="#三个重要的关键字：" class="headerlink" title="三个重要的关键字："></a>三个重要的关键字：</h3><pre><code>this：指的是当前类
-  （可以使用this关键字来调用当前类的属性和方法
-    包括父类继承下来的所有属性和方法）</code></pre><p>   sealed：密闭的（禁止继承：太监类，使用这个关键字修饰类型，那么这个类不能再有子类）</p>
-<figure class="highlight cs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">sealed</span> <span class="keyword">class</span> <span class="title">Animal</span></span><br><span class="line"> &#123;</span><br><span class="line"> 		<span class="comment">//这个类就不能再有子类了</span></span><br><span class="line"> &#125;</span><br></pre></td></tr></table></figure>
-
-<p>   base. :指的是父类，可以使用base.的方式调用父类的所有属性和方法</p>
-<p>   base():使用base()的方式可以调用父类的构造函数</p>
-<p>   【面向对象的核心思想：父类的引用可以指向子类的对象】<br>     Animal a = new Dog();</p>
+<h4 id="分类："><a href="#分类：" class="headerlink" title="分类："></a>分类：</h4><blockquote>
+<p>1、普通委托<br>2、多播委托（多路广播）：在一个委托中放入多个方法，让方法依次去运行。<br>                   多播委托等同于事件<br>                   += ：往委托中再加入一个方法<br>                   -= ：在委托中减去一个方法<br>                   多播委托一般是没有返回值的；<br>                   3、泛型委托<br>                   4、以Lambda表达式表达的委托<br>                   5、万能委托（盒子无限大：程序员的编程思路）</p>
+</blockquote>
+<h4 id="代码过程："><a href="#代码过程：" class="headerlink" title="代码过程："></a>代码过程：</h4><blockquote>
+<p>1、声明委托：目的：是声明一个特定的签名。<br>              声明委托要声明在类外的名称空间之内。<br>              怎么写方法就怎么写委托，只不过加入一个关键字：delegate<br>              声明一个委托就是声明一个类。编译之后委托就是一个类型。<br>2、实例化委托：目的：实例委托就是将委托中放入一个方法<br>              通过new关键字来产生一个委托的对象，并放入方法。<br>              注意方法应该是符合特定签名的方法。<br>              注意放入的方法是一个方法名。<br>3、判断委托：目的：看看委托中有没有放入方法<br>              如果有至少一个方法，就可以执行了，<br>              如果没有方法，没有必要执行了<br>4、使用委托：目的：使用委托中的方法<br>              怎么调用方法就怎么调用委托</p>
+</blockquote>
 
     </div>
 
@@ -353,8 +324,8 @@
           <div class="post-nav">
             <div class="post-nav-next post-nav-item">
               
-                <a href="/2019/11/05/ck2ufiywp0009m0vehqt31rvg/" rel="next" title="C#之封装">
-                  <i class="fa fa-chevron-left"></i> C#之封装
+                <a href="/2019/11/08/ck2vt803k0000d8ve97166y3w/" rel="next" title="C#之多态">
+                  <i class="fa fa-chevron-left"></i> C#之多态
                 </a>
               
             </div>
@@ -363,8 +334,8 @@
 
             <div class="post-nav-prev post-nav-item">
               
-                <a href="/2019/11/08/ck2ufiywi0004m0vecf3992fw/" rel="prev" title="C#之多态">
-                  C#之多态 <i class="fa fa-chevron-right"></i>
+                <a href="/2019/11/12/ck2vt803p0002d8ve5kjnc5uy/" rel="prev" title="C#之委托 Delegate练习题（数据回传）">
+                  C#之委托 Delegate练习题（数据回传） <i class="fa fa-chevron-right"></i>
                 </a>
               
             </div>
@@ -411,7 +382,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#什么是继承："><span class="nav-number">1.</span> <span class="nav-text">什么是继承：</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#继承概念："><span class="nav-number">1.0.0.1.</span> <span class="nav-text">继承概念：</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#继承原理："><span class="nav-number">1.0.0.2.</span> <span class="nav-text">继承原理：</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#继承作用："><span class="nav-number">1.0.0.3.</span> <span class="nav-text">继承作用：</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#继承特点："><span class="nav-number">1.0.0.4.</span> <span class="nav-text">继承特点：</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#继承语法：该怎么写类就这么写子类，只不过在后面加入一个：父类"><span class="nav-number">1.0.0.5.</span> <span class="nav-text">继承语法：该怎么写类就这么写子类，只不过在后面加入一个：父类</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#引用-amp-对象：-【父类的引用可以指向子类的对象是面向对象的最核心思想】"><span class="nav-number">2.</span> <span class="nav-text">引用&amp;对象：  【父类的引用可以指向子类的对象是面向对象的最核心思想】</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#三个重要的关键字："><span class="nav-number">3.</span> <span class="nav-text">三个重要的关键字：</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#什么是委托"><span class="nav-number">1.</span> <span class="nav-text">什么是委托:</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#【委托：Delegate】"><span class="nav-number">1.1.</span> <span class="nav-text">【委托：Delegate】</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#注意点："><span class="nav-number">1.2.</span> <span class="nav-text">注意点：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#分类："><span class="nav-number">1.3.</span> <span class="nav-text">分类：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#代码过程："><span class="nav-number">1.4.</span> <span class="nav-text">代码过程：</span></a></li></ol></li></ol></div>
         
       </div>
       <!--/noindex-->
@@ -430,7 +401,7 @@
         
           <a href="/archives/">
         
-          <span class="site-state-item-count">15</span>
+          <span class="site-state-item-count">16</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
