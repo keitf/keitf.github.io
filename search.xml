@@ -1,8 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>12种编程语言输出"Hello World !"</title>
+    <url>/2019/11/24/ck3cg2zjq00006ovee10be6fk/</url>
+    <content><![CDATA[<p>2019年11月24日 11时06分28秒</p><h1 id="Hello-World"><a href="#Hello-World" class="headerlink" title="Hello World !"></a>Hello World !</h1><h2 id="1-Java"><a href="#1-Java" class="headerlink" title="1.Java"></a>1.Java</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">HelloWorld</span></span></span><br><span class="line"><span class="class"></span>&#123;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span> <span class="params">(string[ ] args)</span></span></span><br><span class="line"><span class="function">	</span>&#123;</span><br><span class="line">		System.out.println(<span class="string">"Hello World !"</span>);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><a id="more"></a>
+
+<h2 id="2-C"><a href="#2-C" class="headerlink" title="2.C"></a>2.C</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span> <span class="params">(<span class="keyword">void</span>)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"Hello World !"</span>);</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="3-Python"><a href="#3-Python" class="headerlink" title="3.Python"></a>3.Python</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">print(<span class="string">'Hello World !'</span>)</span><br></pre></td></tr></table></figure>
+<h2 id="4-C"><a href="#4-C" class="headerlink" title="4.C++"></a>4.C++</h2><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;instream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span> <span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; <span class="string">"\nHello World"</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="5-C"><a href="#5-C" class="headerlink" title="5.C#"></a>5.C#</h2><figure class="highlight csharp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">using</span> System;</span><br><span class="line"><span class="keyword">namespace</span> <span class="title">HelloWorld</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="keyword">class</span> <span class="title">HelloWorld</span></span><br><span class="line">	&#123;</span><br><span class="line">		<span class="function"><span class="keyword">static</span> <span class="keyword">void</span> <span class="title">Main</span>(<span class="params"><span class="keyword">string</span>[ ] args</span>)</span></span><br><span class="line"><span class="function"></span>		&#123;</span><br><span class="line">			Console.WriteLine(<span class="string">"Hello World !"</span>);</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="6-Visual-Basic-NET"><a href="#6-Visual-Basic-NET" class="headerlink" title="6.Visual Basic .NET"></a>6.Visual Basic .NET</h2><figure class="highlight"><table><tr><td class="code"><pre><span class="line">Module HelloWorld</span><br><span class="line">	Sub Main()</span><br><span class="line">		System.Console.WriteLine("Hello World !")</span><br><span class="line">	End Sub</span><br><span class="line">End Module</span><br></pre></td></tr></table></figure>
+<h2 id="7-JavaScript"><a href="#7-JavaScript" class="headerlink" title="7.JavaScript"></a>7.JavaScript</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="built_in">console</span>.log(<span class="string">"Hello World !"</span>);</span><br></pre></td></tr></table></figure>
+<h2 id="8-PHP"><a href="#8-PHP" class="headerlink" title="8.PHP"></a>8.PHP</h2><figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span> </span><br><span class="line">	<span class="keyword">echo</span> <span class="string">"Hello World !"</span>;</span><br><span class="line"> <span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure>
+<h2 id="9-Objective-C"><a href="#9-Objective-C" class="headerlink" title="9.Objective-C"></a>9.Objective-C</h2><figure class="highlight objectivec"><table><tr><td class="code"><pre><span class="line"><span class="meta">#import <span class="meta-string">&lt;Foundation/Founddation.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">int</span> main(<span class="keyword">int</span> argc, <span class="keyword">const</span> <span class="keyword">char</span> * argv[])&#123;</span><br><span class="line">		@autoreleascepool&#123;</span><br><span class="line">			<span class="built_in">NSLog</span>(<span class="string">@"Hello World !"</span>);</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="10-SQL"><a href="#10-SQL" class="headerlink" title="10.SQL"></a>10.SQL</h2><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> <span class="string">'Hello World !'</span>;</span><br><span class="line">PRINT 'Hello World !';</span><br></pre></td></tr></table></figure>
+<h2 id="11-Ruby"><a href="#11-Ruby" class="headerlink" title="11.Ruby"></a>11.Ruby</h2><figure class="highlight ruby"><table><tr><td class="code"><pre><span class="line">puts <span class="string">'Hello World !'</span>;</span><br></pre></td></tr></table></figure>
+<h2 id="12-MATLAB"><a href="#12-MATLAB" class="headerlink" title="12.MATLAB"></a>12.MATLAB</h2><figure class="highlight matlab"><table><tr><td class="code"><pre><span class="line">fprint(<span class="number">1</span>,<span class="string">'Hello World !'</span>)；</span><br><span class="line">quit</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <tags>
+        <tag>编程</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>C#之委托 Delegate练习题（数据回传）</title>
-    <url>/2019/11/12/ck2vt803p0002d8ve5kjnc5uy/</url>
+    <url>/2019/11/12/ck3cg2zjz00056ovegw9l6p2s/</url>
     <content><![CDATA[<p>2019年11月12日 19时46分53秒</p><p><strong>我太难了，直到我写下这篇博客上我还是不能完全理解委托的意思<br>只知道委托中需要一个==方法==</strong></p><h3 id="图片解释："><a href="#图片解释：" class="headerlink" title="图片解释："></a>图片解释：</h3><p><img src="https://s2.ax1x.com/2019/11/12/M3bAtH.png" alt="M3bAtH.png"></p><hr><p><img src="https://s2.ax1x.com/2019/11/12/M3bkAe.png" alt="M3bkAe.png"></p><hr><p><img src="https://s2.ax1x.com/2019/11/12/M3bEhd.png" alt="M3bEhd.png"></p><h3 id="窗体1代码："><a href="#窗体1代码：" class="headerlink" title="窗体1代码："></a>窗体1代码：</h3><figure class="highlight plain"><figcaption><span>System;</span></figcaption><table><tr><td class="code"><pre><span class="line">using System.Collections.Generic;</span><br><span class="line">using System.ComponentModel;</span><br><span class="line">using System.Data;</span><br><span class="line">using System.Drawing;</span><br><span class="line">using System.Linq;</span><br><span class="line">using System.Text;</span><br><span class="line">using System.Threading.Tasks;</span><br><span class="line">using System.Windows.Forms;</span><br><span class="line"></span><br><span class="line">namespace Delegate</span><br><span class="line">&#123;</span><br><span class="line">    public partial class Form1 : Form</span><br><span class="line">    &#123;</span><br><span class="line">        public Form1()</span><br><span class="line">        &#123;</span><br><span class="line">            InitializeComponent();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        private void Form1_Load(object sender, EventArgs e)</span><br><span class="line">        &#123;</span><br><span class="line"></span><br><span class="line">        &#125;</span><br><span class="line">        private void button1_Click(object sender, EventArgs e)</span><br><span class="line">        &#123;</span><br><span class="line">            //实例化委托</span><br><span class="line">            Getstudent getstudent = new Getstudent(Get);</span><br><span class="line">            //将实例化的委托传至form2</span><br><span class="line">            Form2 f = new Form2(getstudent);</span><br><span class="line">            //打开form2窗口</span><br><span class="line">            f.ShowDialog();</span><br><span class="line">        &#125;</span><br><span class="line">        //将form2传值回来的数据赋值到form1的textbox上</span><br><span class="line">        private void Get(Student s)</span><br><span class="line">        &#123;</span><br><span class="line">            this.tb1.Text = s.Name;</span><br><span class="line">            this.tb2.Text = s.Gender.ToString();</span><br><span class="line">            this.tb3.Text = s.Age.ToString();</span><br><span class="line">            this.tb4.Text = s.Phone;</span><br><span class="line">            this.tb5.Text = s.Address;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><a id="more"></a>
 
 
@@ -27,7 +49,7 @@
   </entry>
   <entry>
     <title>C#之委托 Delegate</title>
-    <url>/2019/11/11/ck2vt803x000ed8vefiancb6f/</url>
+    <url>/2019/11/11/ck3cg2zk1000a6oveehpj6215/</url>
     <content><![CDATA[<p>2019年11月11日 20时45分02秒</p><h3 id="什么是委托"><a href="#什么是委托" class="headerlink" title="什么是委托:"></a><strong>什么是委托:</strong></h3><h4 id="【委托：Delegate】"><a href="#【委托：Delegate】" class="headerlink" title="【委托：Delegate】"></a>【委托：Delegate】</h4><blockquote>
 <p>官方定义：委托声明和引用了一种引用类型。此引用类型用特定的签名<br>去封装方法，此方法可以是静态的方法或是实例方法。委托<br>比较像C++中的函数指针，但此种指针类型是类型安全的。</p>
 </blockquote><h4 id="注意点："><a href="#注意点：" class="headerlink" title="注意点："></a>注意点：</h4><blockquote>
@@ -48,7 +70,7 @@
   </entry>
   <entry>
     <title>C#之多态</title>
-    <url>/2019/11/08/ck2vt803k0000d8ve97166y3w/</url>
+    <url>/2019/11/08/ck3cg2zjy00046oveejwvcad2/</url>
     <content><![CDATA[<p>2019年11月08日 23时07分13秒</p><h1 id="什么是多态："><a href="#什么是多态：" class="headerlink" title="什么是多态："></a>什么是多态：</h1><h2 id="【多态】"><a href="#【多态】" class="headerlink" title="【多态】"></a>【多态】</h2><blockquote>
 <p>生物学：同种族的生物会有不同类型的变异。       软件学：同名的方法会有不同的业务逻辑（{}中的代码叫做业务逻辑）<br>        1）多态是多态的方法。<br>        2）多态是多态的两个或两个以上的方法。<br>        3）多态的方法名称必须一致。</p>
 </blockquote><a id="more"></a>
@@ -84,7 +106,7 @@
   </entry>
   <entry>
     <title>C#之继承</title>
-    <url>/2019/11/07/ck2vt803w000bd8ve3ka8fzly/</url>
+    <url>/2019/11/07/ck3cg2zjz00066ove7fzpaalm/</url>
     <content><![CDATA[<p>2019年11月07日 12时20分49秒</p><hr><h3 id="什么是继承："><a href="#什么是继承：" class="headerlink" title="什么是继承："></a>什么是继承：</h3><h6 id="继承概念："><a href="#继承概念：" class="headerlink" title="继承概念："></a>继承概念：</h6><pre><code>在软件系统中，也存在着像人类血缘关系一样的爷爷/父亲/我/儿子/孙子.....
 子类将继承父类所有的属性和方法。
 子类还可以有自己独有的属性和方法。</code></pre><hr><h6 id="继承原理："><a href="#继承原理：" class="headerlink" title="继承原理："></a>继承原理：</h6><pre><code>子类的对象中包括了一个父类的DNA；
@@ -134,7 +156,7 @@
   </entry>
   <entry>
     <title>C#之封装</title>
-    <url>/2019/11/05/ck2vt803s0005d8vefi951kxw/</url>
+    <url>/2019/11/05/ck3cg2zk3000c6ove9nbc6q8x/</url>
     <content><![CDATA[<p>2019年11月05日 22时15分52秒</p><p><strong>封装</strong></p><p>   是将类和类中的属性/方法隐藏起来，不让外界轻易的看到或调用到。<br>   如果想在C#实现封装，有三种途径。</p><p> <strong><em>【访问修饰符】</em></strong><br>   概念：访问修饰符是解决类/方法/变量是否可以被看到的问题<br> （解决看到或看不到的问题）</p><hr><p>   在C#中，访问修饰符5个：</p><blockquote>
 <p> public：公共的，公开的：在任何地方都可以访问，无限制的。   （图标：蓝色的小方块）  protected<br>internal:internal的访问权限 + Protected的访问权限  internal:项目的：只有在当前项目中可以访问<br>（图标：蓝色的小方块 + 黑色的心）  protected:受保护的：在具有继承关系的父类和子类中可以访问。（图标：蓝色的小方块 +<br>黑色的五角星）  private:私有的：只能在当前类中可以访问。<br>（图标：蓝色的小方块 + 黑色的小锁）           </p>
 </blockquote><a id="more"></a>
@@ -190,7 +212,7 @@
   </entry>
   <entry>
     <title>方法</title>
-    <url>/2019/11/04/ck2vt8044000ld8ve4jxba5l6/</url>
+    <url>/2019/11/04/ck3cg2zkc000o6ove26e709r3/</url>
     <content><![CDATA[<p>2019年11月04日 18时43分40秒</p><p>【方法】<br>   作用：可以模块化的设计我们的代码。<br>         老于：方法是程序员偷懒的最佳工具。<br>   分类：<br>       1、没有参数没有返回值的方法<br>          注意：按照语法书写就好<br>                如果没有返回值的就写一个站位单词Void<br>                如果没有参数方法后面也要有一对括号，但括号中什么都不写。<br>       2、有参数的方法<br>          注意：方法的参数N个，每一个参数后面都有一个逗号分开，最后一个没有逗号。<br>                方法的参数类似于变量，什么数据类型都可以（类也可以）<br>       3、有返回值的方法<br>          注意：如果有返回值，将返回值的数据类型写上<br>                返回值可以是任何的数据类型<br>                如果有返回值就一定要出现return，注意if语句所有的代码段都要有返回。<br>   语法：</p><a id="more"></a>
 
 <figure class="highlight lsl"><table><tr><td class="code"><pre><span class="line">[访问修饰符] 返回值类型 自定义方法名([参数<span class="number">1</span>,参数<span class="number">2</span>,.....参数n])</span><br><span class="line">  &#123;</span><br><span class="line">     方法内容;</span><br><span class="line">     return ;</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
@@ -203,7 +225,7 @@
   </entry>
   <entry>
     <title>吃啥补啥！哈哈哈！</title>
-    <url>/2019/11/03/ck2vt8040000jd8ve2vts6kw7/</url>
+    <url>/2019/11/03/ck3cg2zkd000r6ove8mj778f1/</url>
     <content><![CDATA[<p>2019年11月03日 20时43分18秒</p>
 <hr>
 <p><img src="https://s2.ax1x.com/2019/11/03/KjuYl9.jpg" alt="青椒炒肉"></p>
@@ -230,7 +252,7 @@
   </entry>
   <entry>
     <title>静态变量</title>
-    <url>/2019/10/31/ck2vt8047000xd8veh9ecgd76/</url>
+    <url>/2019/10/31/ck3cg2zkf000y6ovea3sd1jov/</url>
     <content><![CDATA[<p>2019年10月31日 11时05分24秒</p>
 <hr>
 <p><strong>【静态变量】</strong></p>
@@ -244,7 +266,7 @@
   </entry>
   <entry>
     <title>纪昀</title>
-    <url>/2019/10/30/ck2vt8045000od8veh6uvhfaq/</url>
+    <url>/2019/10/30/ck3cg2zkc000m6ovebrpp35cw/</url>
     <content><![CDATA[<p>2019年10月30日 23时43分36秒</p>
 <hr>
 <p>“余尝谓古人为诗似难尚易，今之人为诗似易实难。余自早岁受书，即学歌咏，中间奋其意气，与天下胜流相倡和，颇不欲后人；今年将八十，转瑟缩不敢著一语，平生吟稿亦不敢自存，盖阅历渐深，检点得意之作，大抵古人所已道；其驰骋自喜，又往往皆古人所㧑呵，撚须拥被，徒自苦耳。”</p>
@@ -255,7 +277,7 @@
   </entry>
   <entry>
     <title>C#练习题</title>
-    <url>/2019/10/28/ck2vt803y000gd8veegfl6i35/</url>
+    <url>/2019/10/28/ck3cg2zk7000e6ove010igffq/</url>
     <content><![CDATA[<p>2019年10月28日 19时22分56秒</p><p>C#基础<br>【输入、输出、变量】</p><pre><code>1、接受界面输入10个数字，并计算他们的相加、相乘的结果。
 2、请接收界面上的输入的长度和宽度，计算长方形的面积
 3、请接收界面上输入的底和高，计算三角形的面积。
@@ -316,7 +338,7 @@
   </entry>
   <entry>
     <title>变量和常量</title>
-    <url>/2019/10/27/ck2vt803v0009d8ve19vp1qum/</url>
+    <url>/2019/10/27/ck3cg2zka000j6ovefp63bvv7/</url>
     <content><![CDATA[<p>2019年10月27日 12时32分35秒</p><p>堆和栈的特点：<br>    栈：用来存储值类型的数据<br>        1、是一个上不封顶的结构<br>        2、栈的数据交换方式是后进先出<br>        3、程序员不管怎么编程都无法回收数据（析构）        </p><p>   堆：用来存储引用类型的数据<br>        1、可以任意开辟空间的区域<br>        2、必须有程序员去管理的一块内存空间。<br>             .Net Framework —-托管</p><a id="more"></a>
 
 
@@ -331,7 +353,7 @@
   </entry>
   <entry>
     <title>C#中命名方法及应用分析</title>
-    <url>/2019/10/26/ck2vt803r0004d8ve953xhifu/</url>
+    <url>/2019/10/26/ck3cg2zjv00026ovebo4zg5js/</url>
     <content><![CDATA[<p>2019年10月24日 10时00分07秒</p><p><strong>设计上的权衡：根据项目的基本情况来决定使用那种语言。</strong></p><p><img src="https://s2.ax1x.com/2019/10/26/K0cBPf.png" alt="跨平台比较.png"></p><hr><p><strong>命名方法：</strong><br>    1、帕斯卡命名法：每个单词的首字母大写<br>                YuFeng、SchoolName、Hobby、<br>    2、驼峰命名法：第一个单词全部小写，从第二个单词开始每个单词首字母大写<br>                yuFeng、schoolName、hobby<br>    3、全部大写：通常用语缩写<br>                KFC、YF、SCIII</p><a id="more"></a>
 
 
@@ -346,7 +368,7 @@
   </entry>
   <entry>
     <title>C#数据类型</title>
-    <url>/2019/10/26/ck2vt8045000qd8vee6x3e7m2/</url>
+    <url>/2019/10/26/ck3cg2zk9000h6ove93176gle/</url>
     <content><![CDATA[<p>2019年10月26日 01时12分41秒</p>
 <p>数据类型：是你要存储的数据在内存中的空间的大小，数据样式。<br>                    在C#中包括14个值类型和2个引用类型<br>    <strong>值类型：</strong><br>        <em>【整型：整数 int】</em><br>            &emsp;&emsp;sbyte: -128<del>127<br>            &emsp;&emsp;short: -32768</del>32767<br>        &emsp;<strong>√</strong>    int：  -21亿~ +21亿<br>            &emsp;&emsp;long:  -2的63次方 ~ +2的63次方-1<br>        &emsp;√    byte :  0<del>255<br>            &emsp;&emsp;ushort:0</del>2的16次方<br>            &emsp;&emsp;uint:  0<del>2的32次方<br>            &emsp;&emsp;ulong: 0</del>264次方<br>        <em>【浮点数：小数 double】</em><br>            &emsp;&emsp;float: 单精度浮点数：较小的带小数点的数据<br>        &emsp;√    double: 双精度浮点数：较大的带小数点的数据<br>        <em>【布尔类型 bool】</em><br>        &emsp;√  bool：布尔数据类型<br>            &emsp;&emsp; 注意点：bool类型只有两个值：<br>             &emsp;&emsp;    true:真的<br>             &emsp;&emsp;    false：假的<br>            &emsp;&emsp;3&gt;2 : 对 ：true<br>            &emsp;&emsp;3&gt;4 ：错 ：false<br>            &emsp;&emsp;地球的体积 &lt; 篮球的体积 ：错 ：false<br>            &emsp;&emsp;于锋的年龄 &gt; 乌龟的年龄 ：错 ：false<br>        <em>【字符型 char】：</em><br>        &emsp;    √    char ：一个字符 ：例如：char c = ‘中’ ; char gender = ‘男’;<br>            &emsp;&emsp;  注意点：一个字符使用单引号来表示<br>        &emsp;&emsp;      单个的字符<br>        <em>【枚举类型：enum】</em><br>            &emsp;√ 概念：多选一，是用户自定义的一种数据类型<br>            &emsp;&emsp;    作用：1、偷懒  2、保证代码的正确性<br>            &emsp;&emsp;    语法：<br>            &emsp;&emsp;        public enum 自定义的名字<br>            &emsp;&emsp;        {<br>            &emsp;&emsp;            &emsp;&emsp;枚举值1,<br>            &emsp;&emsp;            &emsp;&emsp;枚举值2,<br>            &emsp;&emsp;            &emsp;&emsp;….<br>            &emsp;&emsp;            &emsp;&emsp;枚举值<br>            &emsp;&emsp;        }<br>                &emsp;&emsp;注意点：<br>                    &emsp;&emsp;0、枚举必须写在方法的外部。<br>                    &emsp;&emsp;1、枚举的命名必须是帕斯卡命名法。<br>                    &emsp;&emsp;2、枚举中的任何一个值都叫做枚举值，不是字符串，不能家引号。<br>                    &emsp;&emsp;3、每一个枚举值后面有一个逗号，最后一个枚举值没有逗号。<br>                    &emsp;&emsp;4、枚举的图标是两个黄色的小方块，<br>                        &emsp;&emsp;&emsp; 枚举中任何一个值的图标是两个蓝色的小方块。<br>                    &emsp;&emsp;5、默认情况下，枚举值的索引从0开始，到Length-1。<br>                    &emsp;&emsp;6、枚举可以修改他的下标值。<br>                    &emsp;&emsp;7、有一种枚举的值是这样设置的：1，2，4，8，16，32，64，128…..<br>                         &emsp;&emsp;提示：这种设置枚举的数列，任何两个相加的结果都不会在数列中。<br>            <em>【结构体：struct】</em><br>                &emsp;&emsp;概念：是一种自定义的数据类型，用于补充系统的数据类型。<br>                            &emsp;&emsp;是一种复杂的数据类型。<br>                            &emsp;&emsp;结构体好像一个盒子，其中可以包括任意多个任意类型的变量。<br>                &emsp;&emsp;语法：<br>                    &emsp;&emsp;&emsp;&emsp;&emsp;public struct 自定义的名字<br>                &emsp;&emsp;&emsp;&emsp;&emsp;{<br>                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;变量1；<br>                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;变量2；<br>                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;……<br>                &emsp;&emsp;&emsp;&emsp;&emsp;}<br>                &emsp;&emsp;注意点：<br>                    &emsp;&emsp;&emsp;&emsp;&emsp;1、结构体定义的代码要写在类外边<br>                    &emsp;&emsp;&emsp;&emsp;&emsp;2、结构体的名字必须帕斯卡命名法<br>        <strong>引用类型：</strong><br>            <em>【字符串 string】：</em><br>              &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;注意点：多个字符使用双引号来表示<br>                           &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 字符串是有索引的，索引从0开始，到Length-1。<br>                         &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;是多个字符的集合<br>            <em>【数组：Array】</em><br>                 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;概念：数组是固定数据类型，固定长度的一组数据。<br>                 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;注意点：<br>                     &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;1、数组是一种复杂的数据类型，可以是多个统一数据类型的数据。<br>                     &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;2、数组一定是固定长度的。<br>             &emsp;&emsp;&emsp;&emsp;&emsp;    &emsp;&emsp;语法：<br>         &emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;string[] n1 = new string[5];<br>          &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;string[] n2 = new string[] { “aaa”, “bbb”, “ccc”, “ddd”, “eee”, “fff” };<br>         &emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;string[] n3 = new string[6] { “aaa”, “bbb”, “ccc”, “ddd”, “eee”, “fff” };<br>         &emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;string[] n4 = { “aaa”, “bbb”, “ccc”, “ddd”, “eee”, “fff” };</p>
 ]]></content>
@@ -356,7 +378,7 @@
   </entry>
   <entry>
     <title>第一个程序</title>
-    <url>/2019/10/25/ck2vt8047000vd8veahco93rg/</url>
+    <url>/2019/10/25/ck3cg2zke000t6ove37cp5yah/</url>
     <content><![CDATA[<p>2019年10月25日 16时49分54秒</p><p>第一个应用程序：Hello World<br>&emsp; 1、只要有了Main方法，程序才能运行。<br>&emsp; 2、Main方法叫做应用程序的入口。<br>&emsp; 3、如果有了Main函数，程序编译、生成之后会产生一个<em>.exe<br>&emsp; 4、如果没有Main函数，程序编译、生成之后会产生一个</em>.dll（Assembly程序）<br>&emsp;&emsp;&emsp;向控制台输出（写）：<br>&emsp;&emsp;&emsp;Console.Write(“Hello World…”);<br>&emsp;&emsp;&emsp;Console.WriteLine(“Hello World…”);<br>&emsp;&emsp;&emsp;接受控制台的输入（读）<br>&emsp;&emsp;&emsp;Console.Read();<br>&emsp;&emsp;&emsp;Console.ReadLine();<br>&emsp;&emsp;static void Main(string[] args)<br>&emsp;&emsp;{<br>&emsp;&emsp;&emsp;&emsp;Console.WriteLine(“Hello World……”);// 向控制台输出一个HelloWorld<br>&emsp;&emsp;&emsp;&emsp;Console.ReadLine();//在控制台接受一个数据<br>&emsp;&emsp;}</p><a id="more"></a>
 
 <hr>
@@ -369,7 +391,7 @@
   </entry>
   <entry>
     <title>编程语言</title>
-    <url>/2019/10/23/ck2vt8046000sd8vecdx05fza/</url>
+    <url>/2019/10/23/ck3cg2zkf000w6ovea7wu7g9o/</url>
     <content><![CDATA[<p>2019年10月23日 13时15分07秒<br>编程语言：</p>
 <pre><code>面向过程的语言：C
 
@@ -392,7 +414,7 @@
   </entry>
   <entry>
     <title>Hello World</title>
-    <url>/2019/10/22/ck2vt803t0006d8veg2pwhstw/</url>
+    <url>/2019/10/22/ck3cg2zk100096ove6rr1d3kj/</url>
     <content><![CDATA[<p><strong>一首小诗：</strong><br>《诗经·周南·关雎》：“悠哉悠哉，辗转反侧。”</p>
 <p>历经很多很多分钟，终于诞生了这个blog。</p>
 ]]></content>
