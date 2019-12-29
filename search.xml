@@ -2,38 +2,64 @@
 <search>
   <entry>
     <title>C#修改命名空间及文件名字</title>
-    <url>/2019/12/12/ck427eyu100039sve59skdo48/</url>
-    <content><![CDATA[<p>2019年12月12日 11时21分18秒</p><h1 id="代码修改"><a href="#代码修改" class="headerlink" title="代码修改"></a>代码修改</h1><p>##修改解决方案和项目名<br><img src="https://s2.ax1x.com/2019/12/12/Qy69kF.png" alt="Qy69kF.png"></p><h2 id="修改主要代码的命名空间"><a href="#修改主要代码的命名空间" class="headerlink" title="修改主要代码的命名空间"></a>修改主要代码的命名空间</h2><p><img src="https://s2.ax1x.com/2019/12/12/Qyc7xs.png" alt="Qyc7xs.png"></p><h2 id="重新生成项目查看错误"><a href="#重新生成项目查看错误" class="headerlink" title="重新生成项目查看错误"></a>重新生成项目查看错误</h2><p><img src="https://s2.ax1x.com/2019/12/12/QygpRJ.png" alt="QygpRJ.png"></p><h2 id="修改其他代码的命名空间"><a href="#修改其他代码的命名空间" class="headerlink" title="修改其他代码的命名空间"></a>修改其他代码的命名空间</h2><p><img src="https://s2.ax1x.com/2019/12/12/QycvIU.png" alt="QycvIU.png"></p><h2 id="全部修改完成后-在重新生成项目"><a href="#全部修改完成后-在重新生成项目" class="headerlink" title="全部修改完成后 在重新生成项目"></a>全部修改完成后 在重新生成项目</h2><p><img src="https://s2.ax1x.com/2019/12/12/Qy2FpQ.png" alt="Qy2FpQ.png"></p><h1 id="文件夹名字修改"><a href="#文件夹名字修改" class="headerlink" title="文件夹名字修改"></a>文件夹名字修改</h1><h2 id="修改-与-sln文件在同一目录下的文件夹名"><a href="#修改-与-sln文件在同一目录下的文件夹名" class="headerlink" title="修改 与.sln文件在同一目录下的文件夹名"></a>修改 与.sln文件在同一目录下的文件夹名</h2><p><img src="https://s2.ax1x.com/2019/12/12/QyRUrn.png" alt="QyRUrn.png"></p><h2 id="用记事本打开-sln文件修改配置"><a href="#用记事本打开-sln文件修改配置" class="headerlink" title="用记事本打开 .sln文件修改配置"></a>用记事本打开 .sln文件修改配置</h2><p><img src="https://s2.ax1x.com/2019/12/12/QyRy24.png" alt="QyRy24.png"></p><h2 id="最后打开项目后重新生成就完成了"><a href="#最后打开项目后重新生成就完成了" class="headerlink" title="最后打开项目后重新生成就完成了"></a><strong>最后打开项目后重新生成就完成了</strong></h2>]]></content>
+    <url>/2019/12/12/ck4qzza11000cdoved9xg73u4/</url>
+    <content><![CDATA[<p>2019年12月12日 11时21分18秒</p>
+<h1 id="代码修改"><a href="#代码修改" class="headerlink" title="代码修改"></a>代码修改</h1><p>##修改解决方案和项目名<br><img src="https://s2.ax1x.com/2019/12/12/Qy69kF.png" alt="Qy69kF.png"></p>
+<h2 id="修改主要代码的命名空间"><a href="#修改主要代码的命名空间" class="headerlink" title="修改主要代码的命名空间"></a>修改主要代码的命名空间</h2><p><img src="https://s2.ax1x.com/2019/12/12/Qyc7xs.png" alt="Qyc7xs.png"></p>
+<h2 id="重新生成项目查看错误"><a href="#重新生成项目查看错误" class="headerlink" title="重新生成项目查看错误"></a>重新生成项目查看错误</h2><p><img src="https://s2.ax1x.com/2019/12/12/QygpRJ.png" alt="QygpRJ.png"></p>
+<h2 id="修改其他代码的命名空间"><a href="#修改其他代码的命名空间" class="headerlink" title="修改其他代码的命名空间"></a>修改其他代码的命名空间</h2><p><img src="https://s2.ax1x.com/2019/12/12/QycvIU.png" alt="QycvIU.png"></p>
+<h2 id="全部修改完成后-在重新生成项目"><a href="#全部修改完成后-在重新生成项目" class="headerlink" title="全部修改完成后 在重新生成项目"></a>全部修改完成后 在重新生成项目</h2><p><img src="https://s2.ax1x.com/2019/12/12/Qy2FpQ.png" alt="Qy2FpQ.png"></p>
+<h1 id="文件夹名字修改"><a href="#文件夹名字修改" class="headerlink" title="文件夹名字修改"></a>文件夹名字修改</h1><h2 id="修改-与-sln文件在同一目录下的文件夹名"><a href="#修改-与-sln文件在同一目录下的文件夹名" class="headerlink" title="修改 与.sln文件在同一目录下的文件夹名"></a>修改 与.sln文件在同一目录下的文件夹名</h2><p><img src="https://s2.ax1x.com/2019/12/12/QyRUrn.png" alt="QyRUrn.png"></p>
+<h2 id="用记事本打开-sln文件修改配置"><a href="#用记事本打开-sln文件修改配置" class="headerlink" title="用记事本打开 .sln文件修改配置"></a>用记事本打开 .sln文件修改配置</h2><p><img src="https://s2.ax1x.com/2019/12/12/QyRy24.png" alt="QyRy24.png"></p>
+<h2 id="最后打开项目后重新生成就完成了"><a href="#最后打开项目后重新生成就完成了" class="headerlink" title="最后打开项目后重新生成就完成了"></a><strong>最后打开项目后重新生成就完成了</strong></h2>]]></content>
       <tags>
         <tag>C#</tag>
       </tags>
   </entry>
   <entry>
     <title>简单三级联动</title>
-    <url>/2019/12/02/ck427eyur00159sve3v6hg5w5/</url>
-    <content><![CDATA[<p>2019年12月02日 19时37分26秒</p><p><strong>图片解释</strong><br><img src="https://s2.ax1x.com/2019/12/02/Qu0BVK.png" alt="Qu0BVK.png"></p><figure class="highlight csharp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">using</span> System;</span><br><span class="line"><span class="keyword">using</span> System.Collections.Generic;</span><br><span class="line"><span class="keyword">using</span> System.ComponentModel;</span><br><span class="line"><span class="keyword">using</span> System.Data;</span><br><span class="line"><span class="keyword">using</span> System.Drawing;</span><br><span class="line"><span class="keyword">using</span> System.Linq;</span><br><span class="line"><span class="keyword">using</span> System.Text;</span><br><span class="line"><span class="keyword">using</span> System.Threading.Tasks;</span><br><span class="line"><span class="keyword">using</span> System.Windows.Forms;</span><br><span class="line"></span><br><span class="line"><span class="keyword">namespace</span> <span class="title">sanjiliandong</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">partial</span> <span class="keyword">class</span> <span class="title">Form1</span> : <span class="title">Form</span></span><br><span class="line">    &#123;</span><br><span class="line">        <span class="function"><span class="keyword">public</span> <span class="title">Form1</span>(<span class="params"></span>)</span></span><br><span class="line"><span class="function"></span>        &#123;</span><br><span class="line">            InitializeComponent();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="comment">//预加载省份</span></span><br><span class="line">        <span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">Form1_Load</span>(<span class="params"><span class="keyword">object</span> sender, EventArgs e</span>)</span></span><br><span class="line"><span class="function"></span>        &#123;</span><br><span class="line">            lbsheng.Items.Add(<span class="string">"山东省"</span>);</span><br><span class="line">            lbsheng.Items.Add(<span class="string">"河北省"</span>);</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="comment">//为总和地址赋值</span></span><br><span class="line">        <span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">btnAdd_Click</span>(<span class="params"><span class="keyword">object</span> sender, EventArgs e</span>)</span></span><br><span class="line"><span class="function"></span>        &#123;</span><br><span class="line">            <span class="keyword">string</span> address = <span class="string">""</span>;</span><br><span class="line">            address += lbsheng.Text+<span class="string">" "</span>;</span><br><span class="line">            address += lbshi.Text + <span class="string">" "</span>;</span><br><span class="line">            address += lbxian.Text + <span class="string">" "</span>;</span><br><span class="line">            txtb.Text = address;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">        <span class="comment">//当单个省份被选中时 清除市&amp;县的文本框 并添加市</span></span><br><span class="line">        <span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">lbsheng_SelectedIndexChanged</span>(<span class="params"><span class="keyword">object</span> sender, EventArgs e</span>)</span></span><br><span class="line"><span class="function"></span>        &#123;</span><br><span class="line">            <span class="keyword">if</span> (lbsheng.Text == <span class="string">"山东省"</span>)</span><br><span class="line">            &#123;</span><br><span class="line">                lbshi.Items.Clear();</span><br><span class="line">                lbxian.Items.Clear();</span><br><span class="line">                lbshi.Items.Add(<span class="string">"济南市"</span>);</span><br><span class="line">                lbshi.Items.Add(<span class="string">"青岛市"</span>);</span><br><span class="line">                lbshi.Items.Add(<span class="string">"烟台市"</span>);</span><br><span class="line">                </span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span> <span class="keyword">if</span> (lbsheng.Text ==<span class="string">"河北省"</span>)</span><br><span class="line">            &#123;</span><br><span class="line">                lbshi.Items.Clear();</span><br><span class="line">                lbxian.Items.Clear();</span><br><span class="line">                lbshi.Items.Add(<span class="string">"石家庄"</span>);</span><br><span class="line">                lbshi.Items.Add(<span class="string">"唐山市"</span>);</span><br><span class="line">                lbshi.Items.Add(<span class="string">"廊坊市"</span>);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="comment">//当单个市被选中时 清除县的文本框 并添加市</span></span><br><span class="line">        <span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">lbshi_SelectedIndexChanged</span>(<span class="params"><span class="keyword">object</span> sender, EventArgs e</span>)</span></span><br><span class="line"><span class="function"></span>        &#123;</span><br><span class="line">             <span class="keyword">if</span> (lbshi.Text == <span class="string">"济南市"</span>)</span><br><span class="line">             &#123;</span><br><span class="line">                 lbxian.Items.Clear();</span><br><span class="line">                 lbxian.Items.Add(<span class="string">"长清区"</span>);</span><br><span class="line">                 lbxian.Items.Add(<span class="string">"历下区"</span>);</span><br><span class="line">                 lbxian.Items.Add(<span class="string">"市中区"</span>);</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span> <span class="keyword">if</span> (lbshi.Text == <span class="string">"青岛市"</span>)</span><br><span class="line">            &#123;</span><br><span class="line">                lbxian.Items.Clear();</span><br><span class="line">                lbxian.Items.Add(<span class="string">"市南区"</span>);</span><br><span class="line">                lbxian.Items.Add(<span class="string">"市北区"</span>);</span><br><span class="line">                lbxian.Items.Add(<span class="string">"黄岛区"</span>);</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span> <span class="keyword">if</span> (lbshi.Text == <span class="string">"烟台市"</span>)</span><br><span class="line">            &#123;</span><br><span class="line">                lbxian.Items.Clear();</span><br><span class="line">                lbxian.Items.Add(<span class="string">"烟台市"</span>);</span><br><span class="line">                lbxian.Items.Add(<span class="string">"烟台高新技术产业开发区"</span>);</span><br><span class="line">                lbxian.Items.Add(<span class="string">"烟台经济技术开发区"</span>);</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">if</span> (lbshi.Text == <span class="string">"石家庄"</span>)</span><br><span class="line">            &#123;</span><br><span class="line">                lbxian.Items.Clear();</span><br><span class="line">                lbxian.Items.Add(<span class="string">"长安区"</span>);</span><br><span class="line">                lbxian.Items.Add(<span class="string">"桥西区"</span>);</span><br><span class="line">                lbxian.Items.Add(<span class="string">"新华区"</span>);</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span> <span class="keyword">if</span> (lbshi.Text == <span class="string">"唐山市"</span>)</span><br><span class="line">            &#123;</span><br><span class="line">                lbxian.Items.Clear();</span><br><span class="line">                lbxian.Items.Add(<span class="string">"路南区"</span>);</span><br><span class="line">                lbxian.Items.Add(<span class="string">"路北区"</span>);</span><br><span class="line">                lbxian.Items.Add(<span class="string">"古冶区"</span>);</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span> <span class="keyword">if</span> (lbshi.Text == <span class="string">"廊坊市"</span>)</span><br><span class="line">            &#123;</span><br><span class="line">                lbxian.Items.Clear();</span><br><span class="line">                lbxian.Items.Add(<span class="string">"广阳区"</span>);</span><br><span class="line">                lbxian.Items.Add(<span class="string">"安次区"</span>);</span><br><span class="line">                lbxian.Items.Add(<span class="string">"霸州市"</span>);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    <url>/2019/12/02/ck4qzza1q001edovehoy7el4f/</url>
+    <content><![CDATA[<p>2019年12月02日 19时37分26秒</p>
+<p><strong>图片解释</strong><br><img src="https://s2.ax1x.com/2019/12/02/Qu0BVK.png" alt="Qu0BVK.png"></p>
+<figure class="highlight csharp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">using</span> System;</span><br><span class="line"><span class="keyword">using</span> System.Collections.Generic;</span><br><span class="line"><span class="keyword">using</span> System.ComponentModel;</span><br><span class="line"><span class="keyword">using</span> System.Data;</span><br><span class="line"><span class="keyword">using</span> System.Drawing;</span><br><span class="line"><span class="keyword">using</span> System.Linq;</span><br><span class="line"><span class="keyword">using</span> System.Text;</span><br><span class="line"><span class="keyword">using</span> System.Threading.Tasks;</span><br><span class="line"><span class="keyword">using</span> System.Windows.Forms;</span><br><span class="line"></span><br><span class="line"><span class="keyword">namespace</span> <span class="title">sanjiliandong</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">partial</span> <span class="keyword">class</span> <span class="title">Form1</span> : <span class="title">Form</span></span><br><span class="line">    &#123;</span><br><span class="line">        <span class="function"><span class="keyword">public</span> <span class="title">Form1</span>(<span class="params"></span>)</span></span><br><span class="line"><span class="function"></span>        &#123;</span><br><span class="line">            InitializeComponent();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="comment">//预加载省份</span></span><br><span class="line">        <span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">Form1_Load</span>(<span class="params"><span class="keyword">object</span> sender, EventArgs e</span>)</span></span><br><span class="line"><span class="function"></span>        &#123;</span><br><span class="line">            lbsheng.Items.Add(<span class="string">"山东省"</span>);</span><br><span class="line">            lbsheng.Items.Add(<span class="string">"河北省"</span>);</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="comment">//为总和地址赋值</span></span><br><span class="line">        <span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">btnAdd_Click</span>(<span class="params"><span class="keyword">object</span> sender, EventArgs e</span>)</span></span><br><span class="line"><span class="function"></span>        &#123;</span><br><span class="line">            <span class="keyword">string</span> address = <span class="string">""</span>;</span><br><span class="line">            address += lbsheng.Text+<span class="string">" "</span>;</span><br><span class="line">            address += lbshi.Text + <span class="string">" "</span>;</span><br><span class="line">            address += lbxian.Text + <span class="string">" "</span>;</span><br><span class="line">            txtb.Text = address;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">        <span class="comment">//当单个省份被选中时 清除市&amp;县的文本框 并添加市</span></span><br><span class="line">        <span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">lbsheng_SelectedIndexChanged</span>(<span class="params"><span class="keyword">object</span> sender, EventArgs e</span>)</span></span><br><span class="line"><span class="function"></span>        &#123;</span><br><span class="line">            <span class="keyword">if</span> (lbsheng.Text == <span class="string">"山东省"</span>)</span><br><span class="line">            &#123;</span><br><span class="line">                lbshi.Items.Clear();</span><br><span class="line">                lbxian.Items.Clear();</span><br><span class="line">                lbshi.Items.Add(<span class="string">"济南市"</span>);</span><br><span class="line">                lbshi.Items.Add(<span class="string">"青岛市"</span>);</span><br><span class="line">                lbshi.Items.Add(<span class="string">"烟台市"</span>);</span><br><span class="line">                </span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span> <span class="keyword">if</span> (lbsheng.Text ==<span class="string">"河北省"</span>)</span><br><span class="line">            &#123;</span><br><span class="line">                lbshi.Items.Clear();</span><br><span class="line">                lbxian.Items.Clear();</span><br><span class="line">                lbshi.Items.Add(<span class="string">"石家庄"</span>);</span><br><span class="line">                lbshi.Items.Add(<span class="string">"唐山市"</span>);</span><br><span class="line">                lbshi.Items.Add(<span class="string">"廊坊市"</span>);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="comment">//当单个市被选中时 清除县的文本框 并添加市</span></span><br><span class="line">        <span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">lbshi_SelectedIndexChanged</span>(<span class="params"><span class="keyword">object</span> sender, EventArgs e</span>)</span></span><br><span class="line"><span class="function"></span>        &#123;</span><br><span class="line">             <span class="keyword">if</span> (lbshi.Text == <span class="string">"济南市"</span>)</span><br><span class="line">             &#123;</span><br><span class="line">                 lbxian.Items.Clear();</span><br><span class="line">                 lbxian.Items.Add(<span class="string">"长清区"</span>);</span><br><span class="line">                 lbxian.Items.Add(<span class="string">"历下区"</span>);</span><br><span class="line">                 lbxian.Items.Add(<span class="string">"市中区"</span>);</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span> <span class="keyword">if</span> (lbshi.Text == <span class="string">"青岛市"</span>)</span><br><span class="line">            &#123;</span><br><span class="line">                lbxian.Items.Clear();</span><br><span class="line">                lbxian.Items.Add(<span class="string">"市南区"</span>);</span><br><span class="line">                lbxian.Items.Add(<span class="string">"市北区"</span>);</span><br><span class="line">                lbxian.Items.Add(<span class="string">"黄岛区"</span>);</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span> <span class="keyword">if</span> (lbshi.Text == <span class="string">"烟台市"</span>)</span><br><span class="line">            &#123;</span><br><span class="line">                lbxian.Items.Clear();</span><br><span class="line">                lbxian.Items.Add(<span class="string">"烟台市"</span>);</span><br><span class="line">                lbxian.Items.Add(<span class="string">"烟台高新技术产业开发区"</span>);</span><br><span class="line">                lbxian.Items.Add(<span class="string">"烟台经济技术开发区"</span>);</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">if</span> (lbshi.Text == <span class="string">"石家庄"</span>)</span><br><span class="line">            &#123;</span><br><span class="line">                lbxian.Items.Clear();</span><br><span class="line">                lbxian.Items.Add(<span class="string">"长安区"</span>);</span><br><span class="line">                lbxian.Items.Add(<span class="string">"桥西区"</span>);</span><br><span class="line">                lbxian.Items.Add(<span class="string">"新华区"</span>);</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span> <span class="keyword">if</span> (lbshi.Text == <span class="string">"唐山市"</span>)</span><br><span class="line">            &#123;</span><br><span class="line">                lbxian.Items.Clear();</span><br><span class="line">                lbxian.Items.Add(<span class="string">"路南区"</span>);</span><br><span class="line">                lbxian.Items.Add(<span class="string">"路北区"</span>);</span><br><span class="line">                lbxian.Items.Add(<span class="string">"古冶区"</span>);</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span> <span class="keyword">if</span> (lbshi.Text == <span class="string">"廊坊市"</span>)</span><br><span class="line">            &#123;</span><br><span class="line">                lbxian.Items.Clear();</span><br><span class="line">                lbxian.Items.Add(<span class="string">"广阳区"</span>);</span><br><span class="line">                lbxian.Items.Add(<span class="string">"安次区"</span>);</span><br><span class="line">                lbxian.Items.Add(<span class="string">"霸州市"</span>);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
       <tags>
         <tag>C#</tag>
       </tags>
   </entry>
   <entry>
     <title>小妹的素描</title>
-    <url>/2019/11/24/ck427eyul000q9sveap9x24n2/</url>
-    <content><![CDATA[<p>2019年11月24日 23时49分33秒</p><p><img src="https://s2.ax1x.com/2019/11/24/MXtv6J.jpg" alt="MXtv6J.jpg"></p><hr><p><img src="https://s2.ax1x.com/2019/11/24/MXtjl4.jpg" alt="MXtjl4.jpg"></p><hr><p><img src="https://s2.ax1x.com/2019/11/24/MXtXpF.jpg" alt="MXtXpF.jpg"></p><hr><p><img src="https://s2.ax1x.com/2019/11/24/MXtqYT.jpg" alt="MXtqYT.jpg"></p><hr><p><img src="https://s2.ax1x.com/2019/11/24/MXtbkV.jpg" alt="MXtbkV.jpg"></p><hr><p><img src="https://s2.ax1x.com/2019/11/24/MXt7T0.jpg" alt="MXt7T0.jpg"></p><hr><p><img src="https://s2.ax1x.com/2019/11/24/MXtTwq.jpg" alt="MXtTwq.jpg"></p><hr><p><img src="https://s2.ax1x.com/2019/11/24/MXtomn.jpg" alt="MXtomn.jpg"></p>]]></content>
+    <url>/2019/11/24/ck4qzza1b000vdove5nvigp5w/</url>
+    <content><![CDATA[<p>2019年11月24日 23时49分33秒</p>
+<p><img src="https://s2.ax1x.com/2019/11/24/MXtv6J.jpg" alt="MXtv6J.jpg"></p>
+<hr>
+<p><img src="https://s2.ax1x.com/2019/11/24/MXtjl4.jpg" alt="MXtjl4.jpg"></p>
+<hr>
+<p><img src="https://s2.ax1x.com/2019/11/24/MXtXpF.jpg" alt="MXtXpF.jpg"></p>
+<hr>
+<p><img src="https://s2.ax1x.com/2019/11/24/MXtqYT.jpg" alt="MXtqYT.jpg"></p>
+<hr>
+<p><img src="https://s2.ax1x.com/2019/11/24/MXtbkV.jpg" alt="MXtbkV.jpg"></p>
+<hr>
+<p><img src="https://s2.ax1x.com/2019/11/24/MXt7T0.jpg" alt="MXt7T0.jpg"></p>
+<hr>
+<p><img src="https://s2.ax1x.com/2019/11/24/MXtTwq.jpg" alt="MXtTwq.jpg"></p>
+<hr>
+<p><img src="https://s2.ax1x.com/2019/11/24/MXtomn.jpg" alt="MXtomn.jpg"></p>
+]]></content>
       <tags>
         <tag>生活</tag>
       </tags>
   </entry>
   <entry>
     <title>.Net 框架（.Net Framework）</title>
-    <url>/2019/11/24/ck427eyuh000g9svegcd212w4/</url>
-    <content><![CDATA[<p>2019年11月24日 13时59分21秒</p><h1 id="Net-框架（-Net-Framework）"><a href="#Net-框架（-Net-Framework）" class="headerlink" title=".Net 框架（.Net Framework）"></a>.Net 框架（.Net Framework）</h1><h2 id="Net-框架是一个创新的平台，能帮您编写出下面类型的应用程序："><a href="#Net-框架是一个创新的平台，能帮您编写出下面类型的应用程序：" class="headerlink" title=".Net 框架是一个创新的平台，能帮您编写出下面类型的应用程序："></a>.Net 框架是一个创新的平台，能帮您编写出下面类型的应用程序：</h2><ul>
+    <url>/2019/11/24/ck4qzza17000mdove18mpf9lj/</url>
+    <content><![CDATA[<p>2019年11月24日 13时59分21秒</p>
+<h1 id="Net-框架（-Net-Framework）"><a href="#Net-框架（-Net-Framework）" class="headerlink" title=".Net 框架（.Net Framework）"></a>.Net 框架（.Net Framework）</h1><h2 id="Net-框架是一个创新的平台，能帮您编写出下面类型的应用程序："><a href="#Net-框架是一个创新的平台，能帮您编写出下面类型的应用程序：" class="headerlink" title=".Net 框架是一个创新的平台，能帮您编写出下面类型的应用程序："></a>.Net 框架是一个创新的平台，能帮您编写出下面类型的应用程序：</h2><ul>
 <li>Windows 应用程序</li>
 <li>Web 应用程序</li>
 <li>Web 服务</li>
-</ul><h2 id="Net-框架应用程序是多平台的应用程序。框架的设计方式使它适用于下列各种语言：C-、C-、Visual-Basic、Jscript、COBOL-等等。所有这些语言可以访问框架，彼此之间也可以互相交互。"><a href="#Net-框架应用程序是多平台的应用程序。框架的设计方式使它适用于下列各种语言：C-、C-、Visual-Basic、Jscript、COBOL-等等。所有这些语言可以访问框架，彼此之间也可以互相交互。" class="headerlink" title=".Net 框架应用程序是多平台的应用程序。框架的设计方式使它适用于下列各种语言：C#、C++、Visual Basic、Jscript、COBOL 等等。所有这些语言可以访问框架，彼此之间也可以互相交互。"></a>.Net 框架应用程序是多平台的应用程序。框架的设计方式使它适用于下列各种语言：C#、C++、Visual Basic、Jscript、COBOL 等等。所有这些语言可以访问框架，彼此之间也可以互相交互。</h2><a id="more"></a>
-
-<h2 id="Net-框架由一个巨大的代码库组成，用于-C-等客户端语言。下面列出一些-Net-框架的组件："><a href="#Net-框架由一个巨大的代码库组成，用于-C-等客户端语言。下面列出一些-Net-框架的组件：" class="headerlink" title=".Net 框架由一个巨大的代码库组成，用于 C# 等客户端语言。下面列出一些 .Net 框架的组件："></a>.Net 框架由一个巨大的代码库组成，用于 C# 等客户端语言。下面列出一些 .Net 框架的组件：</h2><ul>
+</ul>
+<h2 id="Net-框架应用程序是多平台的应用程序。框架的设计方式使它适用于下列各种语言：C-、C-、Visual-Basic、Jscript、COBOL-等等。所有这些语言可以访问框架，彼此之间也可以互相交互。"><a href="#Net-框架应用程序是多平台的应用程序。框架的设计方式使它适用于下列各种语言：C-、C-、Visual-Basic、Jscript、COBOL-等等。所有这些语言可以访问框架，彼此之间也可以互相交互。" class="headerlink" title=".Net 框架应用程序是多平台的应用程序。框架的设计方式使它适用于下列各种语言：C#、C++、Visual Basic、Jscript、COBOL 等等。所有这些语言可以访问框架，彼此之间也可以互相交互。"></a>.Net 框架应用程序是多平台的应用程序。框架的设计方式使它适用于下列各种语言：C#、C++、Visual Basic、Jscript、COBOL 等等。所有这些语言可以访问框架，彼此之间也可以互相交互。</h2><h2 id="Net-框架由一个巨大的代码库组成，用于-C-等客户端语言。下面列出一些-Net-框架的组件："><a href="#Net-框架由一个巨大的代码库组成，用于-C-等客户端语言。下面列出一些-Net-框架的组件：" class="headerlink" title=".Net 框架由一个巨大的代码库组成，用于 C# 等客户端语言。下面列出一些 .Net 框架的组件："></a>.Net 框架由一个巨大的代码库组成，用于 C# 等客户端语言。下面列出一些 .Net 框架的组件：</h2><ul>
 <li>公共语言运行库（Common Language Runtime - CLR）</li>
 <li>.Net 框架类库（.Net Framework Class Library）</li>
 <li>公共语言规范（Common Language Specification）</li>
@@ -54,9 +80,9 @@
   </entry>
   <entry>
     <title>12种编程语言输出"Hello World !"</title>
-    <url>/2019/11/24/ck427eytx00019sve1gzsgvix/</url>
-    <content><![CDATA[<p>2019年11月24日 11时06分28秒</p><h1 id="Hello-World"><a href="#Hello-World" class="headerlink" title="Hello World !"></a>Hello World !</h1><h2 id="1-Java"><a href="#1-Java" class="headerlink" title="1.Java"></a>1.Java</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">HelloWorld</span></span></span><br><span class="line"><span class="class"></span>&#123;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span> <span class="params">(string[ ] args)</span></span></span><br><span class="line"><span class="function">	</span>&#123;</span><br><span class="line">		System.out.println(<span class="string">"Hello World !"</span>);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><a id="more"></a>
-
+    <url>/2019/11/24/ck4qzza0v0003doveg5b56yyd/</url>
+    <content><![CDATA[<p>2019年11月24日 11时06分28秒</p>
+<h1 id="Hello-World"><a href="#Hello-World" class="headerlink" title="Hello World !"></a>Hello World !</h1><h2 id="1-Java"><a href="#1-Java" class="headerlink" title="1.Java"></a>1.Java</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">HelloWorld</span></span></span><br><span class="line"><span class="class"></span>&#123;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span> <span class="params">(string[ ] args)</span></span></span><br><span class="line"><span class="function">	</span>&#123;</span><br><span class="line">		System.out.println(<span class="string">"Hello World !"</span>);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <h2 id="2-C"><a href="#2-C" class="headerlink" title="2.C"></a>2.C</h2><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span> <span class="params">(<span class="keyword">void</span>)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"Hello World !"</span>);</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <h2 id="3-Python"><a href="#3-Python" class="headerlink" title="3.Python"></a>3.Python</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">print(<span class="string">'Hello World !'</span>)</span><br></pre></td></tr></table></figure>
 <h2 id="4-C"><a href="#4-C" class="headerlink" title="4.C++"></a>4.C++</h2><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;instream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span> <span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; <span class="string">"\nHello World"</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
@@ -76,15 +102,15 @@
   </entry>
   <entry>
     <title>C#之委托 Delegate练习题（数据回传）</title>
-    <url>/2019/11/12/ck427eyub00079sve1e3h4gmy/</url>
-    <content><![CDATA[<p>2019年11月12日 19时46分53秒</p><p><strong>我太难了，直到我写下这篇博客上我还是不能完全理解委托的意思<br>只知道委托中需要一个==方法==</strong></p><h3 id="图片解释："><a href="#图片解释：" class="headerlink" title="图片解释："></a>图片解释：</h3><p><img src="https://s2.ax1x.com/2019/11/12/M3bAtH.png" alt="M3bAtH.png"></p><hr><p><img src="https://s2.ax1x.com/2019/11/12/M3bkAe.png" alt="M3bkAe.png"></p><hr><p><img src="https://s2.ax1x.com/2019/11/12/M3bEhd.png" alt="M3bEhd.png"></p><h3 id="窗体1代码："><a href="#窗体1代码：" class="headerlink" title="窗体1代码："></a>窗体1代码：</h3><figure class="highlight plain"><figcaption><span>System;</span></figcaption><table><tr><td class="code"><pre><span class="line">using System.Collections.Generic;</span><br><span class="line">using System.ComponentModel;</span><br><span class="line">using System.Data;</span><br><span class="line">using System.Drawing;</span><br><span class="line">using System.Linq;</span><br><span class="line">using System.Text;</span><br><span class="line">using System.Threading.Tasks;</span><br><span class="line">using System.Windows.Forms;</span><br><span class="line"></span><br><span class="line">namespace Delegate</span><br><span class="line">&#123;</span><br><span class="line">    public partial class Form1 : Form</span><br><span class="line">    &#123;</span><br><span class="line">        public Form1()</span><br><span class="line">        &#123;</span><br><span class="line">            InitializeComponent();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        private void Form1_Load(object sender, EventArgs e)</span><br><span class="line">        &#123;</span><br><span class="line"></span><br><span class="line">        &#125;</span><br><span class="line">        private void button1_Click(object sender, EventArgs e)</span><br><span class="line">        &#123;</span><br><span class="line">            //实例化委托</span><br><span class="line">            Getstudent getstudent = new Getstudent(Get);</span><br><span class="line">            //将实例化的委托传至form2</span><br><span class="line">            Form2 f = new Form2(getstudent);</span><br><span class="line">            //打开form2窗口</span><br><span class="line">            f.ShowDialog();</span><br><span class="line">        &#125;</span><br><span class="line">        //将form2传值回来的数据赋值到form1的textbox上</span><br><span class="line">        private void Get(Student s)</span><br><span class="line">        &#123;</span><br><span class="line">            this.tb1.Text = s.Name;</span><br><span class="line">            this.tb2.Text = s.Gender.ToString();</span><br><span class="line">            this.tb3.Text = s.Age.ToString();</span><br><span class="line">            this.tb4.Text = s.Phone;</span><br><span class="line">            this.tb5.Text = s.Address;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><a id="more"></a>
-
-
-
-
-
-
-
+    <url>/2019/11/12/ck4qzza0z0007dove3wtd02dr/</url>
+    <content><![CDATA[<p>2019年11月12日 19时46分53秒</p>
+<p><strong>我太难了，直到我写下这篇博客上我还是不能完全理解委托的意思<br>只知道委托中需要一个==方法==</strong></p>
+<h3 id="图片解释："><a href="#图片解释：" class="headerlink" title="图片解释："></a>图片解释：</h3><p><img src="https://s2.ax1x.com/2019/11/12/M3bAtH.png" alt="M3bAtH.png"></p>
+<hr>
+<p><img src="https://s2.ax1x.com/2019/11/12/M3bkAe.png" alt="M3bkAe.png"></p>
+<hr>
+<p><img src="https://s2.ax1x.com/2019/11/12/M3bEhd.png" alt="M3bEhd.png"></p>
+<h3 id="窗体1代码："><a href="#窗体1代码：" class="headerlink" title="窗体1代码："></a>窗体1代码：</h3><figure class="highlight plain"><figcaption><span>System;</span></figcaption><table><tr><td class="code"><pre><span class="line">using System.Collections.Generic;</span><br><span class="line">using System.ComponentModel;</span><br><span class="line">using System.Data;</span><br><span class="line">using System.Drawing;</span><br><span class="line">using System.Linq;</span><br><span class="line">using System.Text;</span><br><span class="line">using System.Threading.Tasks;</span><br><span class="line">using System.Windows.Forms;</span><br><span class="line"></span><br><span class="line">namespace Delegate</span><br><span class="line">&#123;</span><br><span class="line">    public partial class Form1 : Form</span><br><span class="line">    &#123;</span><br><span class="line">        public Form1()</span><br><span class="line">        &#123;</span><br><span class="line">            InitializeComponent();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        private void Form1_Load(object sender, EventArgs e)</span><br><span class="line">        &#123;</span><br><span class="line"></span><br><span class="line">        &#125;</span><br><span class="line">        private void button1_Click(object sender, EventArgs e)</span><br><span class="line">        &#123;</span><br><span class="line">            //实例化委托</span><br><span class="line">            Getstudent getstudent = new Getstudent(Get);</span><br><span class="line">            //将实例化的委托传至form2</span><br><span class="line">            Form2 f = new Form2(getstudent);</span><br><span class="line">            //打开form2窗口</span><br><span class="line">            f.ShowDialog();</span><br><span class="line">        &#125;</span><br><span class="line">        //将form2传值回来的数据赋值到form1的textbox上</span><br><span class="line">        private void Get(Student s)</span><br><span class="line">        &#123;</span><br><span class="line">            this.tb1.Text = s.Name;</span><br><span class="line">            this.tb2.Text = s.Gender.ToString();</span><br><span class="line">            this.tb3.Text = s.Age.ToString();</span><br><span class="line">            this.tb4.Text = s.Phone;</span><br><span class="line">            this.tb5.Text = s.Address;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <p><img src="https://s2.ax1x.com/2019/11/12/M3Hcm8.png" alt="M3Hcm8.png"></p>
 <hr>
@@ -101,14 +127,14 @@
   </entry>
   <entry>
     <title>C#之委托 Delegate</title>
-    <url>/2019/11/11/ck427eyud000b9sve37e84531/</url>
-    <content><![CDATA[<p>2019年11月11日 20时45分02秒</p><h3 id="什么是委托"><a href="#什么是委托" class="headerlink" title="什么是委托:"></a><strong>什么是委托:</strong></h3><h4 id="【委托：Delegate】"><a href="#【委托：Delegate】" class="headerlink" title="【委托：Delegate】"></a>【委托：Delegate】</h4><blockquote>
+    <url>/2019/11/11/ck4qzza0y0006dove5mcl2fhs/</url>
+    <content><![CDATA[<p>2019年11月11日 20时45分02秒</p>
+<h3 id="什么是委托"><a href="#什么是委托" class="headerlink" title="什么是委托:"></a><strong>什么是委托:</strong></h3><h4 id="【委托：Delegate】"><a href="#【委托：Delegate】" class="headerlink" title="【委托：Delegate】"></a>【委托：Delegate】</h4><blockquote>
 <p>官方定义：委托声明和引用了一种引用类型。此引用类型用特定的签名<br>去封装方法，此方法可以是静态的方法或是实例方法。委托<br>比较像C++中的函数指针，但此种指针类型是类型安全的。</p>
-</blockquote><h4 id="注意点："><a href="#注意点：" class="headerlink" title="注意点："></a>注意点：</h4><blockquote>
+</blockquote>
+<h4 id="注意点："><a href="#注意点：" class="headerlink" title="注意点："></a>注意点：</h4><blockquote>
 <p>1、当不确定使用什么方法的时候使用委托。<br>2、引用类型：new出一个委托的对象。<br>3、委托里面放方法的。（静态方法/实例方法）<br>4、特定签名：是指任何一个方法的参数列表和返回值类型。 通常在定义委托的时候定义特定的签名。<br> 5、类型安全：因为在.net中，.net<br><strong>Framework会自动管理委托类型。</strong></p>
-</blockquote><a id="more"></a>
-
-
+</blockquote>
 <h4 id="分类："><a href="#分类：" class="headerlink" title="分类："></a>分类：</h4><blockquote>
 <p>1、普通委托<br>2、多播委托（多路广播）：在一个委托中放入多个方法，让方法依次去运行。<br>                   多播委托等同于事件<br>                   += ：往委托中再加入一个方法<br>                   -= ：在委托中减去一个方法<br>                   多播委托一般是没有返回值的；<br>                   3、泛型委托<br>                   4、以Lambda表达式表达的委托<br>                   5、万能委托（盒子无限大：程序员的编程思路）</p>
 </blockquote>
@@ -122,11 +148,11 @@
   </entry>
   <entry>
     <title>C#之多态</title>
-    <url>/2019/11/08/ck427eyu500059svefyv7eb67/</url>
-    <content><![CDATA[<p>2019年11月08日 23时07分13秒</p><h1 id="什么是多态："><a href="#什么是多态：" class="headerlink" title="什么是多态："></a>什么是多态：</h1><h2 id="【多态】"><a href="#【多态】" class="headerlink" title="【多态】"></a>【多态】</h2><blockquote>
+    <url>/2019/11/08/ck4qzza0x0005dove4y3jb1q2/</url>
+    <content><![CDATA[<p>2019年11月08日 23时07分13秒</p>
+<h1 id="什么是多态："><a href="#什么是多态：" class="headerlink" title="什么是多态："></a>什么是多态：</h1><h2 id="【多态】"><a href="#【多态】" class="headerlink" title="【多态】"></a>【多态】</h2><blockquote>
 <p>生物学：同种族的生物会有不同类型的变异。       软件学：同名的方法会有不同的业务逻辑（{}中的代码叫做业务逻辑）<br>        1）多态是多态的方法。<br>        2）多态是多态的两个或两个以上的方法。<br>        3）多态的方法名称必须一致。</p>
-</blockquote><a id="more"></a>
-
+</blockquote>
 <h3 id="如果向实现多态有2中方法实现"><a href="#如果向实现多态有2中方法实现" class="headerlink" title="如果向实现多态有2中方法实现"></a>如果向实现多态有2中方法实现</h3><h4 id="1）编译时的多态：静态的多态。"><a href="#1）编译时的多态：静态的多态。" class="headerlink" title="1）编译时的多态：静态的多态。"></a>1）编译时的多态：静态的多态。</h4><blockquote>
 <p>概念：程序不需要运行，在编译之后已经能够确定产生那个类的对象，<br>             也可以确定调用什么方法了。</p>
 </blockquote>
@@ -158,15 +184,15 @@
   </entry>
   <entry>
     <title>C#之继承</title>
-    <url>/2019/11/07/ck427eyui000j9sveculeejgd/</url>
-    <content><![CDATA[<p>2019年11月07日 12时20分49秒</p><hr><h3 id="什么是继承："><a href="#什么是继承：" class="headerlink" title="什么是继承："></a>什么是继承：</h3><h6 id="继承概念："><a href="#继承概念：" class="headerlink" title="继承概念："></a>继承概念：</h6><pre><code>在软件系统中，也存在着像人类血缘关系一样的爷爷/父亲/我/儿子/孙子.....
+    <url>/2019/11/07/ck4qzza10000adove9ckadvt3/</url>
+    <content><![CDATA[<p>2019年11月07日 12时20分49秒</p>
+<hr>
+<h3 id="什么是继承："><a href="#什么是继承：" class="headerlink" title="什么是继承："></a>什么是继承：</h3><h6 id="继承概念："><a href="#继承概念：" class="headerlink" title="继承概念："></a>继承概念：</h6><pre><code>在软件系统中，也存在着像人类血缘关系一样的爷爷/父亲/我/儿子/孙子.....
 子类将继承父类所有的属性和方法。
-子类还可以有自己独有的属性和方法。</code></pre><hr><h6 id="继承原理："><a href="#继承原理：" class="headerlink" title="继承原理："></a>继承原理：</h6><pre><code>子类的对象中包括了一个父类的DNA；
-子类的对象中包括了一个父类的对象。</code></pre><hr><h6 id="继承作用："><a href="#继承作用：" class="headerlink" title="继承作用："></a>继承作用：</h6><a id="more"></a>
-
-
-
-<pre><code>写过一边的代码不要再写第二遍了。偷懒。</code></pre><hr>
+子类还可以有自己独有的属性和方法。</code></pre><hr>
+<h6 id="继承原理："><a href="#继承原理：" class="headerlink" title="继承原理："></a>继承原理：</h6><pre><code>子类的对象中包括了一个父类的DNA；
+子类的对象中包括了一个父类的对象。</code></pre><hr>
+<h6 id="继承作用："><a href="#继承作用：" class="headerlink" title="继承作用："></a>继承作用：</h6><pre><code>写过一边的代码不要再写第二遍了。偷懒。</code></pre><hr>
 <h6 id="继承特点："><a href="#继承特点：" class="headerlink" title="继承特点："></a>继承特点：</h6><pre><code>1）单根性：写的每一个类既可以做父亲，也可当儿子，也可以当孙子.....
       但每一个类可以有多个子类，每一个类只能有一个父类。    
 2）Object类型是所有类型的父类（祖宗），所有的类及继承了Object类型。
@@ -208,16 +234,16 @@
   </entry>
   <entry>
     <title>C#之封装</title>
-    <url>/2019/11/05/ck427eyuc000a9svegso2fxhm/</url>
-    <content><![CDATA[<p>2019年11月05日 22时15分52秒</p><p><strong>封装</strong></p><p>   是将类和类中的属性/方法隐藏起来，不让外界轻易的看到或调用到。<br>   如果想在C#实现封装，有三种途径。</p><p> <strong><em>【访问修饰符】</em></strong><br>   概念：访问修饰符是解决类/方法/变量是否可以被看到的问题<br> （解决看到或看不到的问题）</p><hr><p>   在C#中，访问修饰符5个：</p><blockquote>
+    <url>/2019/11/05/ck4qzza13000fdove5cx18w0n/</url>
+    <content><![CDATA[<p>2019年11月05日 22时15分52秒</p>
+<p><strong>封装</strong></p>
+<p>   是将类和类中的属性/方法隐藏起来，不让外界轻易的看到或调用到。<br>   如果想在C#实现封装，有三种途径。</p>
+<p> <strong><em>【访问修饰符】</em></strong><br>   概念：访问修饰符是解决类/方法/变量是否可以被看到的问题<br> （解决看到或看不到的问题）</p>
+<hr>
+<p>   在C#中，访问修饰符5个：</p>
+<blockquote>
 <p> public：公共的，公开的：在任何地方都可以访问，无限制的。   （图标：蓝色的小方块）  protected<br>internal:internal的访问权限 + Protected的访问权限  internal:项目的：只有在当前项目中可以访问<br>（图标：蓝色的小方块 + 黑色的心）  protected:受保护的：在具有继承关系的父类和子类中可以访问。（图标：蓝色的小方块 +<br>黑色的五角星）  private:私有的：只能在当前类中可以访问。<br>（图标：蓝色的小方块 + 黑色的小锁）           </p>
-</blockquote><a id="more"></a>
-
-
-
-
-
-
+</blockquote>
 <blockquote>
 <p>   类：2个：public / internal<br>   方法：5个：public/internal/protcted<br>internal/protected/private<br>变量：5个：public/internal/protcted<br>internal/protected/private<br>默认的：如果不写访问修饰符，默认选择最小的访问级别    类：internal<br>方法：private<br>变量：private</p>
 </blockquote>
@@ -264,9 +290,9 @@
   </entry>
   <entry>
     <title>方法</title>
-    <url>/2019/11/04/ck427eyun000y9sve78g63ia8/</url>
-    <content><![CDATA[<p>2019年11月04日 18时43分40秒</p><p>【方法】<br>   作用：可以模块化的设计我们的代码。<br>         老于：方法是程序员偷懒的最佳工具。<br>   分类：<br>       1、没有参数没有返回值的方法<br>          注意：按照语法书写就好<br>                如果没有返回值的就写一个站位单词Void<br>                如果没有参数方法后面也要有一对括号，但括号中什么都不写。<br>       2、有参数的方法<br>          注意：方法的参数N个，每一个参数后面都有一个逗号分开，最后一个没有逗号。<br>                方法的参数类似于变量，什么数据类型都可以（类也可以）<br>       3、有返回值的方法<br>          注意：如果有返回值，将返回值的数据类型写上<br>                返回值可以是任何的数据类型<br>                如果有返回值就一定要出现return，注意if语句所有的代码段都要有返回。<br>   语法：</p><a id="more"></a>
-
+    <url>/2019/11/04/ck4qzza1c000ydovehxl11z58/</url>
+    <content><![CDATA[<p>2019年11月04日 18时43分40秒</p>
+<p>【方法】<br>   作用：可以模块化的设计我们的代码。<br>         老于：方法是程序员偷懒的最佳工具。<br>   分类：<br>       1、没有参数没有返回值的方法<br>          注意：按照语法书写就好<br>                如果没有返回值的就写一个站位单词Void<br>                如果没有参数方法后面也要有一对括号，但括号中什么都不写。<br>       2、有参数的方法<br>          注意：方法的参数N个，每一个参数后面都有一个逗号分开，最后一个没有逗号。<br>                方法的参数类似于变量，什么数据类型都可以（类也可以）<br>       3、有返回值的方法<br>          注意：如果有返回值，将返回值的数据类型写上<br>                返回值可以是任何的数据类型<br>                如果有返回值就一定要出现return，注意if语句所有的代码段都要有返回。<br>   语法：</p>
 <figure class="highlight lsl"><table><tr><td class="code"><pre><span class="line">[访问修饰符] 返回值类型 自定义方法名([参数<span class="number">1</span>,参数<span class="number">2</span>,.....参数n])</span><br><span class="line">  &#123;</span><br><span class="line">     方法内容;</span><br><span class="line">     return ;</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
 
 <p>   注意点：<br>     1、访问修饰保护的/私有的<br>     2、如果不写访问修饰符默认符：五选一<br>       public/internal/protected internal/protected/private<br>       公共的/程序集的/继承的程序集/受最小的：private</p>
@@ -277,43 +303,69 @@
   </entry>
   <entry>
     <title>吃啥补啥！哈哈哈！</title>
-    <url>/2019/11/03/ck427eyun000v9svegp7q7ibp/</url>
-    <content><![CDATA[<p>2019年11月03日 20时43分18秒</p><hr><p><img src="https://s2.ax1x.com/2019/11/03/KjuYl9.jpg" alt="青椒炒肉"></p><hr><p><img src="https://s2.ax1x.com/2019/11/03/Kju3YF.jpg" alt="炸鸡+大蒜"></p><hr><p><img src="https://s2.ax1x.com/2019/11/03/KjuKe0.jpg" alt="红烧肉"></p><hr><p><img src="https://s2.ax1x.com/2019/11/03/KjueQs.jpg" alt="炖白菜"></p><hr><p><img src="https://s2.ax1x.com/2019/11/03/KjunLq.jpg" alt="蛋花汤+灌汤包"></p><hr><p><img src="https://s2.ax1x.com/2019/11/03/KjuMwV.jpg" alt="面团"></p><hr><p><img src="https://s2.ax1x.com/2019/11/03/Kju8W4.jpg" alt="原料馅"></p><hr><p><img src="https://s2.ax1x.com/2019/11/03/KjutyR.jpg" alt="鸡腿"></p><hr><p><img src="https://s2.ax1x.com/2019/11/03/KjuJSJ.jpg" alt="炸鸡"></p>]]></content>
+    <url>/2019/11/03/ck4qzza1a000tdove68e73f4t/</url>
+    <content><![CDATA[<p>2019年11月03日 20时43分18秒</p>
+<hr>
+<p><img src="https://s2.ax1x.com/2019/11/03/KjuYl9.jpg" alt="青椒炒肉"></p>
+<hr>
+<p><img src="https://s2.ax1x.com/2019/11/03/Kju3YF.jpg" alt="炸鸡+大蒜"></p>
+<hr>
+<p><img src="https://s2.ax1x.com/2019/11/03/KjuKe0.jpg" alt="红烧肉"></p>
+<hr>
+<p><img src="https://s2.ax1x.com/2019/11/03/KjueQs.jpg" alt="炖白菜"></p>
+<hr>
+<p><img src="https://s2.ax1x.com/2019/11/03/KjunLq.jpg" alt="蛋花汤+灌汤包"></p>
+<hr>
+<p><img src="https://s2.ax1x.com/2019/11/03/KjuMwV.jpg" alt="面团"></p>
+<hr>
+<p><img src="https://s2.ax1x.com/2019/11/03/Kju8W4.jpg" alt="原料馅"></p>
+<hr>
+<p><img src="https://s2.ax1x.com/2019/11/03/KjutyR.jpg" alt="鸡腿"></p>
+<hr>
+<p><img src="https://s2.ax1x.com/2019/11/03/KjuJSJ.jpg" alt="炸鸡"></p>
+]]></content>
       <tags>
         <tag>好吃</tag>
       </tags>
   </entry>
   <entry>
     <title>静态变量</title>
-    <url>/2019/10/31/ck427eyus00179sveahqdaorg/</url>
-    <content><![CDATA[<p>2019年10月31日 11时05分24秒</p><hr><p><strong>【静态变量】</strong></p><blockquote>
+    <url>/2019/10/31/ck4qzza1e0012dovecain82rh/</url>
+    <content><![CDATA[<p>2019年10月31日 11时05分24秒</p>
+<hr>
+<p><strong>【静态变量】</strong></p>
+<blockquote>
 <p>概       念：如果变量使用static关键字修饰，就叫做静态变量<br>调用方法：和方法完全一致。<br>注       意：静态变量必须写在类和方法之间；（潜台词，不能写在方法内部）</p>
-</blockquote>]]></content>
+</blockquote>
+]]></content>
       <tags>
         <tag>C#</tag>
       </tags>
   </entry>
   <entry>
     <title>纪昀</title>
-    <url>/2019/10/30/ck427eyup00109sve4cwm6f5z/</url>
-    <content><![CDATA[<p>2019年10月30日 23时43分36秒</p><hr><p>“余尝谓古人为诗似难尚易，今之人为诗似易实难。余自早岁受书，即学歌咏，中间奋其意气，与天下胜流相倡和，颇不欲后人；今年将八十，转瑟缩不敢著一语，平生吟稿亦不敢自存，盖阅历渐深，检点得意之作，大抵古人所已道；其驰骋自喜，又往往皆古人所㧑呵，撚须拥被，徒自苦耳。”</p>]]></content>
+    <url>/2019/10/30/ck4qzza1d0010dovec8i5hhor/</url>
+    <content><![CDATA[<p>2019年10月30日 23时43分36秒</p>
+<hr>
+<p>“余尝谓古人为诗似难尚易，今之人为诗似易实难。余自早岁受书，即学歌咏，中间奋其意气，与天下胜流相倡和，颇不欲后人；今年将八十，转瑟缩不敢著一语，平生吟稿亦不敢自存，盖阅历渐深，检点得意之作，大抵古人所已道；其驰骋自喜，又往往皆古人所㧑呵，撚须拥被，徒自苦耳。”</p>
+]]></content>
       <tags>
         <tag>语录</tag>
       </tags>
   </entry>
   <entry>
     <title>C#练习题</title>
-    <url>/2019/10/28/ck427eyuk000o9sve2v170vkl/</url>
-    <content><![CDATA[<p>2019年10月28日 19时22分56秒</p><p>C#基础<br>【输入、输出、变量】</p><pre><code>1、接受界面输入10个数字，并计算他们的相加、相乘的结果。
+    <url>/2019/10/28/ck4qzza18000odovea65h9na2/</url>
+    <content><![CDATA[<p>2019年10月28日 19时22分56秒</p>
+<p>C#基础<br>【输入、输出、变量】</p>
+<pre><code>1、接受界面输入10个数字，并计算他们的相加、相乘的结果。
 2、请接收界面上的输入的长度和宽度，计算长方形的面积
 3、请接收界面上输入的底和高，计算三角形的面积。
 4、实现圆的周长和面积计算。
 5、模仿银行开户信息输入，并打印输入的信息。
       姓名、性别、用户密码、民族、身份证号、初始存款金额、
 6、输入你可以想到的所有学员信息并打印。
-      学号、姓名、性别、年龄、班级、身份证号、考试成绩....</code></pre><a id="more"></a>
-
-<p>【逻辑语句】</p>
+      学号、姓名、性别、年龄、班级、身份证号、考试成绩....</code></pre><p>【逻辑语句】</p>
 <pre><code>1、学生考试成绩输出：90分以上优秀、80以上良好、70分以上一般、60分以上及格、60分以下不及格
 2、计算飞机票的价格
 原价：4000   5到10月是旺季  其他的是淡季
@@ -364,10 +416,10 @@
   </entry>
   <entry>
     <title>变量和常量</title>
-    <url>/2019/10/27/ck427eyum000t9svehfsacq3i/</url>
-    <content><![CDATA[<p>2019年10月27日 12时32分35秒</p><p>堆和栈的特点：<br>    栈：用来存储值类型的数据<br>        1、是一个上不封顶的结构<br>        2、栈的数据交换方式是后进先出<br>        3、程序员不管怎么编程都无法回收数据（析构）        </p><p>   堆：用来存储引用类型的数据<br>        1、可以任意开辟空间的区域<br>        2、必须有程序员去管理的一块内存空间。<br>             .Net Framework —-托管</p><a id="more"></a>
-
-
+    <url>/2019/10/27/ck4qzza19000qdovedk3z4zy2/</url>
+    <content><![CDATA[<p>2019年10月27日 12时32分35秒</p>
+<p>堆和栈的特点：<br>    栈：用来存储值类型的数据<br>        1、是一个上不封顶的结构<br>        2、栈的数据交换方式是后进先出<br>        3、程序员不管怎么编程都无法回收数据（析构）        </p>
+<p>   堆：用来存储引用类型的数据<br>        1、可以任意开辟空间的区域<br>        2、必须有程序员去管理的一块内存空间。<br>             .Net Framework —-托管</p>
 <hr>
 <p>变量：<br>    概念：变量是程序员可以根据自己的需求任意改变值的一块内存空间<br>    语法：<br>        1、先声明，在赋值。先声明，在赋值。<br>            数据类型 变量名 = 值<br>        2、先声明，在赋值。<br>             变量名;<br>            变量名 = 值;<br>    变量名：<br>        1、首字母必须是_或者是大小写字母。<br>        2、其余字母是：_、大小写字母、数字。<br>        3、不能和关键字冲突<br>        4、变量名必须有意义<br>             name/age/person/fatherName/motherName/height/….<br>             xingMing/renMing/baBaMing/<br>        5、一般采用驼峰命名法。</p>
 <hr>
@@ -379,12 +431,12 @@
   </entry>
   <entry>
     <title>C#中命名方法及应用分析</title>
-    <url>/2019/10/26/ck427eyua00069sve63e8e25v/</url>
-    <content><![CDATA[<p>2019年10月24日 10时00分07秒</p><p><strong>设计上的权衡：根据项目的基本情况来决定使用那种语言。</strong></p><p><img src="https://s2.ax1x.com/2019/10/26/K0cBPf.png" alt="跨平台比较.png"></p><hr><p><strong>命名方法：</strong><br>    1、帕斯卡命名法：每个单词的首字母大写<br>                YuFeng、SchoolName、Hobby、<br>    2、驼峰命名法：第一个单词全部小写，从第二个单词开始每个单词首字母大写<br>                yuFeng、schoolName、hobby<br>    3、全部大写：通常用语缩写<br>                KFC、YF、SCIII</p><a id="more"></a>
-
-
-
-
+    <url>/2019/10/26/ck4qzza0r0001dove6s847awi/</url>
+    <content><![CDATA[<p>2019年10月24日 10时00分07秒</p>
+<p><strong>设计上的权衡：根据项目的基本情况来决定使用那种语言。</strong></p>
+<p><img src="https://s2.ax1x.com/2019/10/26/K0cBPf.png" alt="跨平台比较.png"></p>
+<hr>
+<p><strong>命名方法：</strong><br>    1、帕斯卡命名法：每个单词的首字母大写<br>                YuFeng、SchoolName、Hobby、<br>    2、驼峰命名法：第一个单词全部小写，从第二个单词开始每个单词首字母大写<br>                yuFeng、schoolName、hobby<br>    3、全部大写：通常用语缩写<br>                KFC、YF、SCIII</p>
 <hr>
 <p><strong>应用程序分类：</strong><br>    1、Windows应用程序：<strong><em>需要安装</em></strong>、需要配置在你的操作系统上。<br>    2、Web网络应用程序：<strong><em>不需要安装</em></strong>，只要有一个浏览器就可以使用。<br>         例: <a href="http://www.taobao.com" target="_blank" rel="noopener">www.taobao.com</a>  <a href="http://www.163.com" target="_blank" rel="noopener">www.163.com</a>  news.sina.com<br>    3、控制台应用程序：就是一个类似于Dos界面的应用程序<br>            一般写服务器的跟踪会写到,理解上来说比较容易，对于学习一个语言来说比较好。<br>    4、类库程序（Library）<br>            一个应用程序有且只有一个程序的入口(Main函数)，没有Main函数的程序叫做类库程序</p>
 ]]></content>
@@ -394,17 +446,19 @@
   </entry>
   <entry>
     <title>C#数据类型</title>
-    <url>/2019/10/26/ck427eyuf000e9sve3s4ab3aw/</url>
-    <content><![CDATA[<p>2019年10月26日 01时12分41秒</p><p>数据类型：是你要存储的数据在内存中的空间的大小，数据样式。<br>                    在C#中包括14个值类型和2个引用类型<br>    <strong>值类型：</strong><br>        <em>【整型：整数 int】</em><br>            &emsp;&emsp;sbyte: -128<del>127<br>            &emsp;&emsp;short: -32768</del>32767<br>        &emsp;<strong>√</strong>    int：  -21亿~ +21亿<br>            &emsp;&emsp;long:  -2的63次方 ~ +2的63次方-1<br>        &emsp;√    byte :  0<del>255<br>            &emsp;&emsp;ushort:0</del>2的16次方<br>            &emsp;&emsp;uint:  0<del>2的32次方<br>            &emsp;&emsp;ulong: 0</del>264次方<br>        <em>【浮点数：小数 double】</em><br>            &emsp;&emsp;float: 单精度浮点数：较小的带小数点的数据<br>        &emsp;√    double: 双精度浮点数：较大的带小数点的数据<br>        <em>【布尔类型 bool】</em><br>        &emsp;√  bool：布尔数据类型<br>            &emsp;&emsp; 注意点：bool类型只有两个值：<br>             &emsp;&emsp;    true:真的<br>             &emsp;&emsp;    false：假的<br>            &emsp;&emsp;3&gt;2 : 对 ：true<br>            &emsp;&emsp;3&gt;4 ：错 ：false<br>            &emsp;&emsp;地球的体积 &lt; 篮球的体积 ：错 ：false<br>            &emsp;&emsp;于锋的年龄 &gt; 乌龟的年龄 ：错 ：false<br>        <em>【字符型 char】：</em><br>        &emsp;    √    char ：一个字符 ：例如：char c = ‘中’ ; char gender = ‘男’;<br>            &emsp;&emsp;  注意点：一个字符使用单引号来表示<br>        &emsp;&emsp;      单个的字符<br>        <em>【枚举类型：enum】</em><br>            &emsp;√ 概念：多选一，是用户自定义的一种数据类型<br>            &emsp;&emsp;    作用：1、偷懒  2、保证代码的正确性<br>            &emsp;&emsp;    语法：<br>            &emsp;&emsp;        public enum 自定义的名字<br>            &emsp;&emsp;        {<br>            &emsp;&emsp;            &emsp;&emsp;枚举值1,<br>            &emsp;&emsp;            &emsp;&emsp;枚举值2,<br>            &emsp;&emsp;            &emsp;&emsp;….<br>            &emsp;&emsp;            &emsp;&emsp;枚举值<br>            &emsp;&emsp;        }<br>                &emsp;&emsp;注意点：<br>                    &emsp;&emsp;0、枚举必须写在方法的外部。<br>                    &emsp;&emsp;1、枚举的命名必须是帕斯卡命名法。<br>                    &emsp;&emsp;2、枚举中的任何一个值都叫做枚举值，不是字符串，不能家引号。<br>                    &emsp;&emsp;3、每一个枚举值后面有一个逗号，最后一个枚举值没有逗号。<br>                    &emsp;&emsp;4、枚举的图标是两个黄色的小方块，<br>                        &emsp;&emsp;&emsp; 枚举中任何一个值的图标是两个蓝色的小方块。<br>                    &emsp;&emsp;5、默认情况下，枚举值的索引从0开始，到Length-1。<br>                    &emsp;&emsp;6、枚举可以修改他的下标值。<br>                    &emsp;&emsp;7、有一种枚举的值是这样设置的：1，2，4，8，16，32，64，128…..<br>                         &emsp;&emsp;提示：这种设置枚举的数列，任何两个相加的结果都不会在数列中。<br>            <em>【结构体：struct】</em><br>                &emsp;&emsp;概念：是一种自定义的数据类型，用于补充系统的数据类型。<br>                            &emsp;&emsp;是一种复杂的数据类型。<br>                            &emsp;&emsp;结构体好像一个盒子，其中可以包括任意多个任意类型的变量。<br>                &emsp;&emsp;语法：<br>                    &emsp;&emsp;&emsp;&emsp;&emsp;public struct 自定义的名字<br>                &emsp;&emsp;&emsp;&emsp;&emsp;{<br>                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;变量1；<br>                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;变量2；<br>                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;……<br>                &emsp;&emsp;&emsp;&emsp;&emsp;}<br>                &emsp;&emsp;注意点：<br>                    &emsp;&emsp;&emsp;&emsp;&emsp;1、结构体定义的代码要写在类外边<br>                    &emsp;&emsp;&emsp;&emsp;&emsp;2、结构体的名字必须帕斯卡命名法<br>        <strong>引用类型：</strong><br>            <em>【字符串 string】：</em><br>              &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;注意点：多个字符使用双引号来表示<br>                           &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 字符串是有索引的，索引从0开始，到Length-1。<br>                         &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;是多个字符的集合<br>            <em>【数组：Array】</em><br>                 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;概念：数组是固定数据类型，固定长度的一组数据。<br>                 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;注意点：<br>                     &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;1、数组是一种复杂的数据类型，可以是多个统一数据类型的数据。<br>                     &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;2、数组一定是固定长度的。<br>             &emsp;&emsp;&emsp;&emsp;&emsp;    &emsp;&emsp;语法：<br>         &emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;string[] n1 = new string[5];<br>          &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;string[] n2 = new string[] { “aaa”, “bbb”, “ccc”, “ddd”, “eee”, “fff” };<br>         &emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;string[] n3 = new string[6] { “aaa”, “bbb”, “ccc”, “ddd”, “eee”, “fff” };<br>         &emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;string[] n4 = { “aaa”, “bbb”, “ccc”, “ddd”, “eee”, “fff” };</p>]]></content>
+    <url>/2019/10/26/ck4qzza16000jdovehdxfgtbe/</url>
+    <content><![CDATA[<p>2019年10月26日 01时12分41秒</p>
+<p>数据类型：是你要存储的数据在内存中的空间的大小，数据样式。<br>                    在C#中包括14个值类型和2个引用类型<br>    <strong>值类型：</strong><br>        <em>【整型：整数 int】</em><br>            &emsp;&emsp;sbyte: -128<del>127<br>            &emsp;&emsp;short: -32768</del>32767<br>        &emsp;<strong>√</strong>    int：  -21亿~ +21亿<br>            &emsp;&emsp;long:  -2的63次方 ~ +2的63次方-1<br>        &emsp;√    byte :  0<del>255<br>            &emsp;&emsp;ushort:0</del>2的16次方<br>            &emsp;&emsp;uint:  0<del>2的32次方<br>            &emsp;&emsp;ulong: 0</del>264次方<br>        <em>【浮点数：小数 double】</em><br>            &emsp;&emsp;float: 单精度浮点数：较小的带小数点的数据<br>        &emsp;√    double: 双精度浮点数：较大的带小数点的数据<br>        <em>【布尔类型 bool】</em><br>        &emsp;√  bool：布尔数据类型<br>            &emsp;&emsp; 注意点：bool类型只有两个值：<br>             &emsp;&emsp;    true:真的<br>             &emsp;&emsp;    false：假的<br>            &emsp;&emsp;3&gt;2 : 对 ：true<br>            &emsp;&emsp;3&gt;4 ：错 ：false<br>            &emsp;&emsp;地球的体积 &lt; 篮球的体积 ：错 ：false<br>            &emsp;&emsp;于锋的年龄 &gt; 乌龟的年龄 ：错 ：false<br>        <em>【字符型 char】：</em><br>        &emsp;    √    char ：一个字符 ：例如：char c = ‘中’ ; char gender = ‘男’;<br>            &emsp;&emsp;  注意点：一个字符使用单引号来表示<br>        &emsp;&emsp;      单个的字符<br>        <em>【枚举类型：enum】</em><br>            &emsp;√ 概念：多选一，是用户自定义的一种数据类型<br>            &emsp;&emsp;    作用：1、偷懒  2、保证代码的正确性<br>            &emsp;&emsp;    语法：<br>            &emsp;&emsp;        public enum 自定义的名字<br>            &emsp;&emsp;        {<br>            &emsp;&emsp;            &emsp;&emsp;枚举值1,<br>            &emsp;&emsp;            &emsp;&emsp;枚举值2,<br>            &emsp;&emsp;            &emsp;&emsp;….<br>            &emsp;&emsp;            &emsp;&emsp;枚举值<br>            &emsp;&emsp;        }<br>                &emsp;&emsp;注意点：<br>                    &emsp;&emsp;0、枚举必须写在方法的外部。<br>                    &emsp;&emsp;1、枚举的命名必须是帕斯卡命名法。<br>                    &emsp;&emsp;2、枚举中的任何一个值都叫做枚举值，不是字符串，不能家引号。<br>                    &emsp;&emsp;3、每一个枚举值后面有一个逗号，最后一个枚举值没有逗号。<br>                    &emsp;&emsp;4、枚举的图标是两个黄色的小方块，<br>                        &emsp;&emsp;&emsp; 枚举中任何一个值的图标是两个蓝色的小方块。<br>                    &emsp;&emsp;5、默认情况下，枚举值的索引从0开始，到Length-1。<br>                    &emsp;&emsp;6、枚举可以修改他的下标值。<br>                    &emsp;&emsp;7、有一种枚举的值是这样设置的：1，2，4，8，16，32，64，128…..<br>                         &emsp;&emsp;提示：这种设置枚举的数列，任何两个相加的结果都不会在数列中。<br>            <em>【结构体：struct】</em><br>                &emsp;&emsp;概念：是一种自定义的数据类型，用于补充系统的数据类型。<br>                            &emsp;&emsp;是一种复杂的数据类型。<br>                            &emsp;&emsp;结构体好像一个盒子，其中可以包括任意多个任意类型的变量。<br>                &emsp;&emsp;语法：<br>                    &emsp;&emsp;&emsp;&emsp;&emsp;public struct 自定义的名字<br>                &emsp;&emsp;&emsp;&emsp;&emsp;{<br>                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;变量1；<br>                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;变量2；<br>                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;……<br>                &emsp;&emsp;&emsp;&emsp;&emsp;}<br>                &emsp;&emsp;注意点：<br>                    &emsp;&emsp;&emsp;&emsp;&emsp;1、结构体定义的代码要写在类外边<br>                    &emsp;&emsp;&emsp;&emsp;&emsp;2、结构体的名字必须帕斯卡命名法<br>        <strong>引用类型：</strong><br>            <em>【字符串 string】：</em><br>              &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;注意点：多个字符使用双引号来表示<br>                           &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 字符串是有索引的，索引从0开始，到Length-1。<br>                         &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;是多个字符的集合<br>            <em>【数组：Array】</em><br>                 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;概念：数组是固定数据类型，固定长度的一组数据。<br>                 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;注意点：<br>                     &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;1、数组是一种复杂的数据类型，可以是多个统一数据类型的数据。<br>                     &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;2、数组一定是固定长度的。<br>             &emsp;&emsp;&emsp;&emsp;&emsp;    &emsp;&emsp;语法：<br>         &emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;string[] n1 = new string[5];<br>          &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;string[] n2 = new string[] { “aaa”, “bbb”, “ccc”, “ddd”, “eee”, “fff” };<br>         &emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;string[] n3 = new string[6] { “aaa”, “bbb”, “ccc”, “ddd”, “eee”, “fff” };<br>         &emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;string[] n4 = { “aaa”, “bbb”, “ccc”, “ddd”, “eee”, “fff” };</p>
+]]></content>
       <tags>
         <tag>C#</tag>
       </tags>
   </entry>
   <entry>
     <title>第一个程序</title>
-    <url>/2019/10/25/ck427eyuq00139sve9dy37eg7/</url>
-    <content><![CDATA[<p>2019年10月25日 16时49分54秒</p><p>第一个应用程序：Hello World<br>&emsp; 1、只要有了Main方法，程序才能运行。<br>&emsp; 2、Main方法叫做应用程序的入口。<br>&emsp; 3、如果有了Main函数，程序编译、生成之后会产生一个<em>.exe<br>&emsp; 4、如果没有Main函数，程序编译、生成之后会产生一个</em>.dll（Assembly程序）<br>&emsp;&emsp;&emsp;向控制台输出（写）：<br>&emsp;&emsp;&emsp;Console.Write(“Hello World…”);<br>&emsp;&emsp;&emsp;Console.WriteLine(“Hello World…”);<br>&emsp;&emsp;&emsp;接受控制台的输入（读）<br>&emsp;&emsp;&emsp;Console.Read();<br>&emsp;&emsp;&emsp;Console.ReadLine();<br>&emsp;&emsp;static void Main(string[] args)<br>&emsp;&emsp;{<br>&emsp;&emsp;&emsp;&emsp;Console.WriteLine(“Hello World……”);// 向控制台输出一个HelloWorld<br>&emsp;&emsp;&emsp;&emsp;Console.ReadLine();//在控制台接受一个数据<br>&emsp;&emsp;}</p><a id="more"></a>
-
+    <url>/2019/10/25/ck4qzza1f0015dovecgeoa4h2/</url>
+    <content><![CDATA[<p>2019年10月25日 16时49分54秒</p>
+<p>第一个应用程序：Hello World<br>&emsp; 1、只要有了Main方法，程序才能运行。<br>&emsp; 2、Main方法叫做应用程序的入口。<br>&emsp; 3、如果有了Main函数，程序编译、生成之后会产生一个<em>.exe<br>&emsp; 4、如果没有Main函数，程序编译、生成之后会产生一个</em>.dll（Assembly程序）<br>&emsp;&emsp;&emsp;向控制台输出（写）：<br>&emsp;&emsp;&emsp;Console.Write(“Hello World…”);<br>&emsp;&emsp;&emsp;Console.WriteLine(“Hello World…”);<br>&emsp;&emsp;&emsp;接受控制台的输入（读）<br>&emsp;&emsp;&emsp;Console.Read();<br>&emsp;&emsp;&emsp;Console.ReadLine();<br>&emsp;&emsp;static void Main(string[] args)<br>&emsp;&emsp;{<br>&emsp;&emsp;&emsp;&emsp;Console.WriteLine(“Hello World……”);// 向控制台输出一个HelloWorld<br>&emsp;&emsp;&emsp;&emsp;Console.ReadLine();//在控制台接受一个数据<br>&emsp;&emsp;}</p>
 <hr>
 <p>程序：<br>&emsp;&emsp;程序一词来源于生活的，通常指完成某些事情的一种既定的方式和过程。<br>&emsp;&emsp;可以看成一系列指令的描述。多个指令就形成了一个程序。</p>
 <hr>
@@ -415,8 +469,9 @@
   </entry>
   <entry>
     <title>编程语言</title>
-    <url>/2019/10/23/ck427eyut001a9sve5vfu6sai/</url>
-    <content><![CDATA[<p>2019年10月23日 13时15分07秒<br>编程语言：</p><pre><code>面向过程的语言：C
+    <url>/2019/10/23/ck4qzza1g0017dove1gzjcqwh/</url>
+    <content><![CDATA[<p>2019年10月23日 13时15分07秒<br>编程语言：</p>
+<pre><code>面向过程的语言：C
 
 面向对象的语言：Java、C#、C++、Python、VB、F#.....
 
@@ -437,8 +492,10 @@
   </entry>
   <entry>
     <title>Hello World</title>
-    <url>/2019/10/22/ck427eyuj000l9sve8g24cf54/</url>
-    <content><![CDATA[<p><strong>一首小诗：</strong><br>《诗经·周南·关雎》：“悠哉悠哉，辗转反侧。”</p><p>历经很多很多分钟，终于诞生了这个blog。</p>]]></content>
+    <url>/2019/10/22/ck4qzza15000hdoveh1835yh4/</url>
+    <content><![CDATA[<p><strong>一首小诗：</strong><br>《诗经·周南·关雎》：“悠哉悠哉，辗转反侧。”</p>
+<p>历经很多很多分钟，终于诞生了这个blog。</p>
+]]></content>
       <tags>
         <tag>新的</tag>
       </tags>

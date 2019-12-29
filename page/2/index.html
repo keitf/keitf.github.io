@@ -9,7 +9,6 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
   <link rel="mask-icon" href="/images/logo.svg" color="#222">
-  <link rel="alternate" href="/atom.xml" title="Keith的博客" type="application/atom+xml">
 
 <link rel="stylesheet" href="/css/main.css">
 
@@ -23,7 +22,7 @@
     hostname: new URL('http://yoursite.com').hostname,
     root: '/',
     scheme: 'Gemini',
-    version: '7.5.0',
+    version: '7.6.0',
     exturl: false,
     sidebar: {"position":"left","display":"post","offset":12,"onmobile":false},
     copycode: {"enable":false,"show_result":false,"style":null},
@@ -33,6 +32,7 @@
     mediumzoom: false,
     lazyload: false,
     pangu: false,
+    comments: {"style":"tabs","active":null,"storage":true,"nav":null},
     algolia: {
       appID: '',
       apiKey: '',
@@ -42,8 +42,7 @@
     },
     localsearch: {"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},
     path: 'search.xml',
-    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
-    sidebarPadding: 40
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}
   };
 </script>
 
@@ -62,9 +61,7 @@
   CONFIG.page = {
     sidebar: "",
     isHome: true,
-    isPost: false,
-    isPage: false,
-    isArchive: false
+    isPost: false
   };
 </script>
 
@@ -177,7 +174,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/11/04/ck427eyun000y9sve78g63ia8/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/11/04/ck4qzza1c000ydovehxl11z58/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -191,7 +188,7 @@
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
           
-            <a href="/2019/11/04/ck427eyun000y9sve78g63ia8/" class="post-title-link" itemprop="url">方法</a>
+            <a href="/2019/11/04/ck4qzza1c000ydovehxl11z58/" class="post-title-link" itemprop="url">方法</a>
         </h1>
 
         <div class="post-meta">
@@ -230,15 +227,12 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>2019年11月04日 18时43分40秒</p><p>【方法】<br>   作用：可以模块化的设计我们的代码。<br>         老于：方法是程序员偷懒的最佳工具。<br>   分类：<br>       1、没有参数没有返回值的方法<br>          注意：按照语法书写就好<br>                如果没有返回值的就写一个站位单词Void<br>                如果没有参数方法后面也要有一对括号，但括号中什么都不写。<br>       2、有参数的方法<br>          注意：方法的参数N个，每一个参数后面都有一个逗号分开，最后一个没有逗号。<br>                方法的参数类似于变量，什么数据类型都可以（类也可以）<br>       3、有返回值的方法<br>          注意：如果有返回值，将返回值的数据类型写上<br>                返回值可以是任何的数据类型<br>                如果有返回值就一定要出现return，注意if语句所有的代码段都要有返回。<br>   语法：</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2019/11/04/ck427eyun000y9sve78g63ia8/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
+          <p>2019年11月04日 18时43分40秒</p>
+<p>【方法】<br>   作用：可以模块化的设计我们的代码。<br>         老于：方法是程序员偷懒的最佳工具。<br>   分类：<br>       1、没有参数没有返回值的方法<br>          注意：按照语法书写就好<br>                如果没有返回值的就写一个站位单词Void<br>                如果没有参数方法后面也要有一对括号，但括号中什么都不写。<br>       2、有参数的方法<br>          注意：方法的参数N个，每一个参数后面都有一个逗号分开，最后一个没有逗号。<br>                方法的参数类似于变量，什么数据类型都可以（类也可以）<br>       3、有返回值的方法<br>          注意：如果有返回值，将返回值的数据类型写上<br>                返回值可以是任何的数据类型<br>                如果有返回值就一定要出现return，注意if语句所有的代码段都要有返回。<br>   语法：</p>
+<figure class="highlight lsl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">[访问修饰符] 返回值类型 自定义方法名([参数<span class="number">1</span>,参数<span class="number">2</span>,.....参数n])</span><br><span class="line">  &#123;</span><br><span class="line">     方法内容;</span><br><span class="line">     return ;</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
+
+<p>   注意点：<br>     1、访问修饰保护的/私有的<br>     2、如果不写访问修饰符默认符：五选一<br>       public/internal/protected internal/protected/private<br>       公共的/程序集的/继承的程序集/受最小的：private</p>
+
       
     </div>
 
@@ -257,7 +251,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/11/03/ck427eyun000v9svegp7q7ibp/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/11/03/ck4qzza1a000tdove68e73f4t/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -271,7 +265,7 @@
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
           
-            <a href="/2019/11/03/ck427eyun000v9svegp7q7ibp/" class="post-title-link" itemprop="url">吃啥补啥！哈哈哈！</a>
+            <a href="/2019/11/03/ck4qzza1a000tdove68e73f4t/" class="post-title-link" itemprop="url">吃啥补啥！哈哈哈！</a>
         </h1>
 
         <div class="post-meta">
@@ -310,7 +304,26 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>2019年11月03日 20时43分18秒</p><hr><p><img src="https://s2.ax1x.com/2019/11/03/KjuYl9.jpg" alt="青椒炒肉"></p><hr><p><img src="https://s2.ax1x.com/2019/11/03/Kju3YF.jpg" alt="炸鸡+大蒜"></p><hr><p><img src="https://s2.ax1x.com/2019/11/03/KjuKe0.jpg" alt="红烧肉"></p><hr><p><img src="https://s2.ax1x.com/2019/11/03/KjueQs.jpg" alt="炖白菜"></p><hr><p><img src="https://s2.ax1x.com/2019/11/03/KjunLq.jpg" alt="蛋花汤+灌汤包"></p><hr><p><img src="https://s2.ax1x.com/2019/11/03/KjuMwV.jpg" alt="面团"></p><hr><p><img src="https://s2.ax1x.com/2019/11/03/Kju8W4.jpg" alt="原料馅"></p><hr><p><img src="https://s2.ax1x.com/2019/11/03/KjutyR.jpg" alt="鸡腿"></p><hr><p><img src="https://s2.ax1x.com/2019/11/03/KjuJSJ.jpg" alt="炸鸡"></p>
+          <p>2019年11月03日 20时43分18秒</p>
+<hr>
+<p><img src="https://s2.ax1x.com/2019/11/03/KjuYl9.jpg" alt="青椒炒肉"></p>
+<hr>
+<p><img src="https://s2.ax1x.com/2019/11/03/Kju3YF.jpg" alt="炸鸡+大蒜"></p>
+<hr>
+<p><img src="https://s2.ax1x.com/2019/11/03/KjuKe0.jpg" alt="红烧肉"></p>
+<hr>
+<p><img src="https://s2.ax1x.com/2019/11/03/KjueQs.jpg" alt="炖白菜"></p>
+<hr>
+<p><img src="https://s2.ax1x.com/2019/11/03/KjunLq.jpg" alt="蛋花汤+灌汤包"></p>
+<hr>
+<p><img src="https://s2.ax1x.com/2019/11/03/KjuMwV.jpg" alt="面团"></p>
+<hr>
+<p><img src="https://s2.ax1x.com/2019/11/03/Kju8W4.jpg" alt="原料馅"></p>
+<hr>
+<p><img src="https://s2.ax1x.com/2019/11/03/KjutyR.jpg" alt="鸡腿"></p>
+<hr>
+<p><img src="https://s2.ax1x.com/2019/11/03/KjuJSJ.jpg" alt="炸鸡"></p>
+
       
     </div>
 
@@ -329,7 +342,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/31/ck427eyus00179sveahqdaorg/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/31/ck4qzza1e0012dovecain82rh/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -343,7 +356,7 @@
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
           
-            <a href="/2019/10/31/ck427eyus00179sveahqdaorg/" class="post-title-link" itemprop="url">静态变量</a>
+            <a href="/2019/10/31/ck4qzza1e0012dovecain82rh/" class="post-title-link" itemprop="url">静态变量</a>
         </h1>
 
         <div class="post-meta">
@@ -382,9 +395,13 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>2019年10月31日 11时05分24秒</p><hr><p><strong>【静态变量】</strong></p><blockquote>
+          <p>2019年10月31日 11时05分24秒</p>
+<hr>
+<p><strong>【静态变量】</strong></p>
+<blockquote>
 <p>概       念：如果变量使用static关键字修饰，就叫做静态变量<br>调用方法：和方法完全一致。<br>注       意：静态变量必须写在类和方法之间；（潜台词，不能写在方法内部）</p>
 </blockquote>
+
       
     </div>
 
@@ -403,7 +420,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/30/ck427eyup00109sve4cwm6f5z/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/30/ck4qzza1d0010dovec8i5hhor/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -417,7 +434,7 @@
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
           
-            <a href="/2019/10/30/ck427eyup00109sve4cwm6f5z/" class="post-title-link" itemprop="url">纪昀</a>
+            <a href="/2019/10/30/ck4qzza1d0010dovec8i5hhor/" class="post-title-link" itemprop="url">纪昀</a>
         </h1>
 
         <div class="post-meta">
@@ -456,7 +473,10 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>2019年10月30日 23时43分36秒</p><hr><p>“余尝谓古人为诗似难尚易，今之人为诗似易实难。余自早岁受书，即学歌咏，中间奋其意气，与天下胜流相倡和，颇不欲后人；今年将八十，转瑟缩不敢著一语，平生吟稿亦不敢自存，盖阅历渐深，检点得意之作，大抵古人所已道；其驰骋自喜，又往往皆古人所㧑呵，撚须拥被，徒自苦耳。”</p>
+          <p>2019年10月30日 23时43分36秒</p>
+<hr>
+<p>“余尝谓古人为诗似难尚易，今之人为诗似易实难。余自早岁受书，即学歌咏，中间奋其意气，与天下胜流相倡和，颇不欲后人；今年将八十，转瑟缩不敢著一语，平生吟稿亦不敢自存，盖阅历渐深，检点得意之作，大抵古人所已道；其驰骋自喜，又往往皆古人所㧑呵，撚须拥被，徒自苦耳。”</p>
+
       
     </div>
 
@@ -475,7 +495,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/28/ck427eyuk000o9sve2v170vkl/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/28/ck4qzza18000odovea65h9na2/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -489,7 +509,7 @@
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
           
-            <a href="/2019/10/28/ck427eyuk000o9sve2v170vkl/" class="post-title-link" itemprop="url">C#练习题</a>
+            <a href="/2019/10/28/ck4qzza18000odovea65h9na2/" class="post-title-link" itemprop="url">C#练习题</a>
         </h1>
 
         <div class="post-meta">
@@ -528,22 +548,60 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>2019年10月28日 19时22分56秒</p><p>C#基础<br>【输入、输出、变量】</p><pre><code>1、接受界面输入10个数字，并计算他们的相加、相乘的结果。
+          <p>2019年10月28日 19时22分56秒</p>
+<p>C#基础<br>【输入、输出、变量】</p>
+<pre><code>1、接受界面输入10个数字，并计算他们的相加、相乘的结果。
 2、请接收界面上的输入的长度和宽度，计算长方形的面积
 3、请接收界面上输入的底和高，计算三角形的面积。
 4、实现圆的周长和面积计算。
 5、模仿银行开户信息输入，并打印输入的信息。
       姓名、性别、用户密码、民族、身份证号、初始存款金额、
 6、输入你可以想到的所有学员信息并打印。
-      学号、姓名、性别、年龄、班级、身份证号、考试成绩....</code></pre>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2019/10/28/ck427eyuk000o9sve2v170vkl/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
+      学号、姓名、性别、年龄、班级、身份证号、考试成绩....</code></pre><p>【逻辑语句】</p>
+<pre><code>1、学生考试成绩输出：90分以上优秀、80以上良好、70分以上一般、60分以上及格、60分以下不及格
+2、计算飞机票的价格
+原价：4000   5到10月是旺季  其他的是淡季
+旺季： 网上预订：头等舱95折      经济舱：9折 
+           线下购买：不打折   
+淡季：网上预订：头等舱：8折     经济舱：6折
+          线下购买：9折
+
+3、周一到周五显示上班、周六周天显示休息
+       使用int类型做一遍
+使用string类型做一遍
+使用enum类型做一遍</code></pre><p>【循环语句】<br>    1、输入n个同学的考试成绩，计算平均分；<br>    2、计算1+2+3+4+……1000的累加和；<br>    3、求100之内偶数之和。使用continue来操作。（使用两种方法实现）<br>    4、计算1<em>2</em>3<em>4</em>……100阶乘；阶乘结果大于22222时，停止阶乘并打印阶乘的最后一个数。<br>    5、输入n个同学的考试成绩，打印考试成绩，并且统计及格的人数和优秀的人数，并算出及格率和优秀率。<br>       及格分数&gt;60分   优秀分数&gt;=90分<br>    6、循环输入10名顾客的年龄，并计算20岁以上，30岁以上，40岁以上，50岁以上占总人数的比率；<br>    7、输入n名同学的考试成绩，如果发现输入的分数为负数，则停止录入，<br>       并提示”分数录入错误，请重新录入”。break<br>    8、求100内可以被3整除的数字；<br>    9、求100内可以被3整除的数字之和；<br>    10、输入n个同学的成绩，先打印出输入的成绩，再计算总分、平均分、最高分、最低分。<br>    3、2016年本学校培养学生8万人，每年增长12.5%，请问按此增长速度，到那一年培训学生可以达到20万人。<br>    11、输出摄氏温度和华氏温度对照表，要求从摄氏温度0度到250度，<br>    12、输出摄氏温度和华氏温度对照表，要求从摄氏温度0度到250度，每隔20度显示一项<br>    注：第11、12两题转换关系：（华氏温度= 摄氏温度 * 9 / 5.0 + 32）<br>    13、请输入一个数字：6</p>
+<pre><code>根据这个值可以输出一下加法表
+0+6=6
+1+5=6
+2+4=6
+3+3=6
+4+2=6
+5+1=6
+6+0=6</code></pre><p>14、循环输出水仙花数：<br>       水仙花数：水仙花数是指一个 3 位数，它的每个位上的数字的 3次幂之和等于它本身<br>               （例如：1^3 + 5^3+ 3^3 = 153）。<br>    15、请输入本月的消费记录：</p>
+<pre><code> 请输入第1笔购物金额：199.9
+请输入第2笔购物金额：250.5
+请输入第3笔购物金额：300
+请输入第4笔购物金额：499
+请输入第5笔购物金额：100
+
+序号        金额（元）
+1           199.9
+    2           250.5
+    3           300.0
+    4           499.0
+    5           100.0
+   总金额       1349.4</code></pre><p>   16、打印九九乘法表<br>    1<em>1=1<br>    1</em>2=2 2<em>2=4<br>    1</em>3=3 2<em>3=6 3</em>3=9<br>     1<em>4=4 2</em>4=8 3<em>4=12 4</em>4=16<br>    ……<br>    17、有三个班级，每个班级5名同学，输入每个同学的成绩，<br>        计算每个班级的平均分、最高分、最低分和总分；<br>        计算整个学校的平均分、最高分、最低分和总分；<br>    (不要保存数据)</p>
+<p>   18、打印图形：<br>    *****</p>
+<p>   19、打印图形：<br>    *<br>    *<br>    *<br>    *</p>
+<p>  20、打印图形：<br>    <strong>****</strong><br>    <strong>****</strong><br>    <strong>****</strong><br>    <strong>****</strong><br>    <strong>****</strong><br>  21、打印图形：<br>    *<br>    **<br>    <strong>*<br>    **</strong><br>    *****</p>
+<p>   22、打印图形：<br>    <strong>***<br>    **</strong><br>    ***<br>    **<br>    *</p>
+<p>   23、打印图形：<br>        *<br>       **<br>       <strong>*<br>     **</strong><br>    *****</p>
+<p>   24、打印图形：<br>    <strong>***<br>     **</strong><br>      ***<br>       **<br>        *</p>
+<p>  25、打印图形：<br>    ###*<br>    ##<strong>*<br>    #***</strong><br>    <strong>***</strong></p>
+<p>   26、打印图形：<br>       *<br>      <strong>*<br>     ***</strong><br>    <strong>***</strong><br>     <strong>***<br>      *</strong><br>       *</p>
+<p>   1*、一个固定的数组位{“a”,”c”,”u”,”b”,”e”,”p”,”f”,”z”};<br>        升序后的排序：{“a”,”b”,”c”,”e”,”f”,”p”,”u”,”z”}<br>    降序后的排序：{“z”,”u”,”p”,”f”,”e”,”c”,”b”,”a”}</p>
+<p>   1*、向数组中插入字符：<br>        原数组：{“a”,”c”,”u”,”b”,”e”,”p”,”f”,”z”};<br>        插入一个新字符：m<br>        插入字符下标为：6<br>        插入后的字符数组为：{“a”,”c”,”u”,”b”,”e”,”p”,”m”,”f”,”z”};</p>
+
       
     </div>
 
@@ -562,7 +620,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/27/ck427eyum000t9svehfsacq3i/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/27/ck4qzza19000qdovedk3z4zy2/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -576,7 +634,7 @@
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
           
-            <a href="/2019/10/27/ck427eyum000t9svehfsacq3i/" class="post-title-link" itemprop="url">变量和常量</a>
+            <a href="/2019/10/27/ck4qzza19000qdovedk3z4zy2/" class="post-title-link" itemprop="url">变量和常量</a>
         </h1>
 
         <div class="post-meta">
@@ -621,15 +679,14 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>2019年10月27日 12时32分35秒</p><p>堆和栈的特点：<br>    栈：用来存储值类型的数据<br>        1、是一个上不封顶的结构<br>        2、栈的数据交换方式是后进先出<br>        3、程序员不管怎么编程都无法回收数据（析构）        </p><p>   堆：用来存储引用类型的数据<br>        1、可以任意开辟空间的区域<br>        2、必须有程序员去管理的一块内存空间。<br>             .Net Framework —-托管</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2019/10/27/ck427eyum000t9svehfsacq3i/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
+          <p>2019年10月27日 12时32分35秒</p>
+<p>堆和栈的特点：<br>    栈：用来存储值类型的数据<br>        1、是一个上不封顶的结构<br>        2、栈的数据交换方式是后进先出<br>        3、程序员不管怎么编程都无法回收数据（析构）        </p>
+<p>   堆：用来存储引用类型的数据<br>        1、可以任意开辟空间的区域<br>        2、必须有程序员去管理的一块内存空间。<br>             .Net Framework —-托管</p>
+<hr>
+<p>变量：<br>    概念：变量是程序员可以根据自己的需求任意改变值的一块内存空间<br>    语法：<br>        1、先声明，在赋值。先声明，在赋值。<br>            数据类型 变量名 = 值<br>        2、先声明，在赋值。<br>             变量名;<br>            变量名 = 值;<br>    变量名：<br>        1、首字母必须是_或者是大小写字母。<br>        2、其余字母是：_、大小写字母、数字。<br>        3、不能和关键字冲突<br>        4、变量名必须有意义<br>             name/age/person/fatherName/motherName/height/….<br>             xingMing/renMing/baBaMing/<br>        5、一般采用驼峰命名法。</p>
+<hr>
+<p>常量】<br>  概念：常量是程序员无论如何不能改变其值的一块内存空间<br>  语法：const<br>       const int x = 100；</p>
+
       
     </div>
 
@@ -648,7 +705,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/26/ck427eyua00069sve63e8e25v/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/26/ck4qzza0r0001dove6s847awi/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -662,7 +719,7 @@
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
           
-            <a href="/2019/10/26/ck427eyua00069sve63e8e25v/" class="post-title-link" itemprop="url">C#中命名方法及应用分析</a>
+            <a href="/2019/10/26/ck4qzza0r0001dove6s847awi/" class="post-title-link" itemprop="url">C#中命名方法及应用分析</a>
         </h1>
 
         <div class="post-meta">
@@ -701,15 +758,14 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>2019年10月24日 10时00分07秒</p><p><strong>设计上的权衡：根据项目的基本情况来决定使用那种语言。</strong></p><p><img src="https://s2.ax1x.com/2019/10/26/K0cBPf.png" alt="跨平台比较.png"></p><hr><p><strong>命名方法：</strong><br>    1、帕斯卡命名法：每个单词的首字母大写<br>                YuFeng、SchoolName、Hobby、<br>    2、驼峰命名法：第一个单词全部小写，从第二个单词开始每个单词首字母大写<br>                yuFeng、schoolName、hobby<br>    3、全部大写：通常用语缩写<br>                KFC、YF、SCIII</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2019/10/26/ck427eyua00069sve63e8e25v/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
+          <p>2019年10月24日 10时00分07秒</p>
+<p><strong>设计上的权衡：根据项目的基本情况来决定使用那种语言。</strong></p>
+<p><img src="https://s2.ax1x.com/2019/10/26/K0cBPf.png" alt="跨平台比较.png"></p>
+<hr>
+<p><strong>命名方法：</strong><br>    1、帕斯卡命名法：每个单词的首字母大写<br>                YuFeng、SchoolName、Hobby、<br>    2、驼峰命名法：第一个单词全部小写，从第二个单词开始每个单词首字母大写<br>                yuFeng、schoolName、hobby<br>    3、全部大写：通常用语缩写<br>                KFC、YF、SCIII</p>
+<hr>
+<p><strong>应用程序分类：</strong><br>    1、Windows应用程序：<strong><em>需要安装</em></strong>、需要配置在你的操作系统上。<br>    2、Web网络应用程序：<strong><em>不需要安装</em></strong>，只要有一个浏览器就可以使用。<br>         例: <a href="http://www.taobao.com" target="_blank" rel="noopener">www.taobao.com</a>  <a href="http://www.163.com" target="_blank" rel="noopener">www.163.com</a>  news.sina.com<br>    3、控制台应用程序：就是一个类似于Dos界面的应用程序<br>            一般写服务器的跟踪会写到,理解上来说比较容易，对于学习一个语言来说比较好。<br>    4、类库程序（Library）<br>            一个应用程序有且只有一个程序的入口(Main函数)，没有Main函数的程序叫做类库程序</p>
+
       
     </div>
 
@@ -728,7 +784,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/26/ck427eyuf000e9sve3s4ab3aw/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/26/ck4qzza16000jdovehdxfgtbe/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -742,7 +798,7 @@
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
           
-            <a href="/2019/10/26/ck427eyuf000e9sve3s4ab3aw/" class="post-title-link" itemprop="url">C#数据类型</a>
+            <a href="/2019/10/26/ck4qzza16000jdovehdxfgtbe/" class="post-title-link" itemprop="url">C#数据类型</a>
         </h1>
 
         <div class="post-meta">
@@ -781,7 +837,9 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>2019年10月26日 01时12分41秒</p><p>数据类型：是你要存储的数据在内存中的空间的大小，数据样式。<br>                    在C#中包括14个值类型和2个引用类型<br>    <strong>值类型：</strong><br>        <em>【整型：整数 int】</em><br>            &emsp;&emsp;sbyte: -128<del>127<br>            &emsp;&emsp;short: -32768</del>32767<br>        &emsp;<strong>√</strong>    int：  -21亿~ +21亿<br>            &emsp;&emsp;long:  -2的63次方 ~ +2的63次方-1<br>        &emsp;√    byte :  0<del>255<br>            &emsp;&emsp;ushort:0</del>2的16次方<br>            &emsp;&emsp;uint:  0<del>2的32次方<br>            &emsp;&emsp;ulong: 0</del>264次方<br>        <em>【浮点数：小数 double】</em><br>            &emsp;&emsp;float: 单精度浮点数：较小的带小数点的数据<br>        &emsp;√    double: 双精度浮点数：较大的带小数点的数据<br>        <em>【布尔类型 bool】</em><br>        &emsp;√  bool：布尔数据类型<br>            &emsp;&emsp; 注意点：bool类型只有两个值：<br>             &emsp;&emsp;    true:真的<br>             &emsp;&emsp;    false：假的<br>            &emsp;&emsp;3&gt;2 : 对 ：true<br>            &emsp;&emsp;3&gt;4 ：错 ：false<br>            &emsp;&emsp;地球的体积 &lt; 篮球的体积 ：错 ：false<br>            &emsp;&emsp;于锋的年龄 &gt; 乌龟的年龄 ：错 ：false<br>        <em>【字符型 char】：</em><br>        &emsp;    √    char ：一个字符 ：例如：char c = ‘中’ ; char gender = ‘男’;<br>            &emsp;&emsp;  注意点：一个字符使用单引号来表示<br>        &emsp;&emsp;      单个的字符<br>        <em>【枚举类型：enum】</em><br>            &emsp;√ 概念：多选一，是用户自定义的一种数据类型<br>            &emsp;&emsp;    作用：1、偷懒  2、保证代码的正确性<br>            &emsp;&emsp;    语法：<br>            &emsp;&emsp;        public enum 自定义的名字<br>            &emsp;&emsp;        {<br>            &emsp;&emsp;            &emsp;&emsp;枚举值1,<br>            &emsp;&emsp;            &emsp;&emsp;枚举值2,<br>            &emsp;&emsp;            &emsp;&emsp;….<br>            &emsp;&emsp;            &emsp;&emsp;枚举值<br>            &emsp;&emsp;        }<br>                &emsp;&emsp;注意点：<br>                    &emsp;&emsp;0、枚举必须写在方法的外部。<br>                    &emsp;&emsp;1、枚举的命名必须是帕斯卡命名法。<br>                    &emsp;&emsp;2、枚举中的任何一个值都叫做枚举值，不是字符串，不能家引号。<br>                    &emsp;&emsp;3、每一个枚举值后面有一个逗号，最后一个枚举值没有逗号。<br>                    &emsp;&emsp;4、枚举的图标是两个黄色的小方块，<br>                        &emsp;&emsp;&emsp; 枚举中任何一个值的图标是两个蓝色的小方块。<br>                    &emsp;&emsp;5、默认情况下，枚举值的索引从0开始，到Length-1。<br>                    &emsp;&emsp;6、枚举可以修改他的下标值。<br>                    &emsp;&emsp;7、有一种枚举的值是这样设置的：1，2，4，8，16，32，64，128…..<br>                         &emsp;&emsp;提示：这种设置枚举的数列，任何两个相加的结果都不会在数列中。<br>            <em>【结构体：struct】</em><br>                &emsp;&emsp;概念：是一种自定义的数据类型，用于补充系统的数据类型。<br>                            &emsp;&emsp;是一种复杂的数据类型。<br>                            &emsp;&emsp;结构体好像一个盒子，其中可以包括任意多个任意类型的变量。<br>                &emsp;&emsp;语法：<br>                    &emsp;&emsp;&emsp;&emsp;&emsp;public struct 自定义的名字<br>                &emsp;&emsp;&emsp;&emsp;&emsp;{<br>                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;变量1；<br>                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;变量2；<br>                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;……<br>                &emsp;&emsp;&emsp;&emsp;&emsp;}<br>                &emsp;&emsp;注意点：<br>                    &emsp;&emsp;&emsp;&emsp;&emsp;1、结构体定义的代码要写在类外边<br>                    &emsp;&emsp;&emsp;&emsp;&emsp;2、结构体的名字必须帕斯卡命名法<br>        <strong>引用类型：</strong><br>            <em>【字符串 string】：</em><br>              &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;注意点：多个字符使用双引号来表示<br>                           &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 字符串是有索引的，索引从0开始，到Length-1。<br>                         &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;是多个字符的集合<br>            <em>【数组：Array】</em><br>                 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;概念：数组是固定数据类型，固定长度的一组数据。<br>                 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;注意点：<br>                     &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;1、数组是一种复杂的数据类型，可以是多个统一数据类型的数据。<br>                     &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;2、数组一定是固定长度的。<br>             &emsp;&emsp;&emsp;&emsp;&emsp;    &emsp;&emsp;语法：<br>         &emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;string[] n1 = new string[5];<br>          &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;string[] n2 = new string[] { “aaa”, “bbb”, “ccc”, “ddd”, “eee”, “fff” };<br>         &emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;string[] n3 = new string[6] { “aaa”, “bbb”, “ccc”, “ddd”, “eee”, “fff” };<br>         &emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;string[] n4 = { “aaa”, “bbb”, “ccc”, “ddd”, “eee”, “fff” };</p>
+          <p>2019年10月26日 01时12分41秒</p>
+<p>数据类型：是你要存储的数据在内存中的空间的大小，数据样式。<br>                    在C#中包括14个值类型和2个引用类型<br>    <strong>值类型：</strong><br>        <em>【整型：整数 int】</em><br>            &emsp;&emsp;sbyte: -128<del>127<br>            &emsp;&emsp;short: -32768</del>32767<br>        &emsp;<strong>√</strong>    int：  -21亿~ +21亿<br>            &emsp;&emsp;long:  -2的63次方 ~ +2的63次方-1<br>        &emsp;√    byte :  0<del>255<br>            &emsp;&emsp;ushort:0</del>2的16次方<br>            &emsp;&emsp;uint:  0<del>2的32次方<br>            &emsp;&emsp;ulong: 0</del>264次方<br>        <em>【浮点数：小数 double】</em><br>            &emsp;&emsp;float: 单精度浮点数：较小的带小数点的数据<br>        &emsp;√    double: 双精度浮点数：较大的带小数点的数据<br>        <em>【布尔类型 bool】</em><br>        &emsp;√  bool：布尔数据类型<br>            &emsp;&emsp; 注意点：bool类型只有两个值：<br>             &emsp;&emsp;    true:真的<br>             &emsp;&emsp;    false：假的<br>            &emsp;&emsp;3&gt;2 : 对 ：true<br>            &emsp;&emsp;3&gt;4 ：错 ：false<br>            &emsp;&emsp;地球的体积 &lt; 篮球的体积 ：错 ：false<br>            &emsp;&emsp;于锋的年龄 &gt; 乌龟的年龄 ：错 ：false<br>        <em>【字符型 char】：</em><br>        &emsp;    √    char ：一个字符 ：例如：char c = ‘中’ ; char gender = ‘男’;<br>            &emsp;&emsp;  注意点：一个字符使用单引号来表示<br>        &emsp;&emsp;      单个的字符<br>        <em>【枚举类型：enum】</em><br>            &emsp;√ 概念：多选一，是用户自定义的一种数据类型<br>            &emsp;&emsp;    作用：1、偷懒  2、保证代码的正确性<br>            &emsp;&emsp;    语法：<br>            &emsp;&emsp;        public enum 自定义的名字<br>            &emsp;&emsp;        {<br>            &emsp;&emsp;            &emsp;&emsp;枚举值1,<br>            &emsp;&emsp;            &emsp;&emsp;枚举值2,<br>            &emsp;&emsp;            &emsp;&emsp;….<br>            &emsp;&emsp;            &emsp;&emsp;枚举值<br>            &emsp;&emsp;        }<br>                &emsp;&emsp;注意点：<br>                    &emsp;&emsp;0、枚举必须写在方法的外部。<br>                    &emsp;&emsp;1、枚举的命名必须是帕斯卡命名法。<br>                    &emsp;&emsp;2、枚举中的任何一个值都叫做枚举值，不是字符串，不能家引号。<br>                    &emsp;&emsp;3、每一个枚举值后面有一个逗号，最后一个枚举值没有逗号。<br>                    &emsp;&emsp;4、枚举的图标是两个黄色的小方块，<br>                        &emsp;&emsp;&emsp; 枚举中任何一个值的图标是两个蓝色的小方块。<br>                    &emsp;&emsp;5、默认情况下，枚举值的索引从0开始，到Length-1。<br>                    &emsp;&emsp;6、枚举可以修改他的下标值。<br>                    &emsp;&emsp;7、有一种枚举的值是这样设置的：1，2，4，8，16，32，64，128…..<br>                         &emsp;&emsp;提示：这种设置枚举的数列，任何两个相加的结果都不会在数列中。<br>            <em>【结构体：struct】</em><br>                &emsp;&emsp;概念：是一种自定义的数据类型，用于补充系统的数据类型。<br>                            &emsp;&emsp;是一种复杂的数据类型。<br>                            &emsp;&emsp;结构体好像一个盒子，其中可以包括任意多个任意类型的变量。<br>                &emsp;&emsp;语法：<br>                    &emsp;&emsp;&emsp;&emsp;&emsp;public struct 自定义的名字<br>                &emsp;&emsp;&emsp;&emsp;&emsp;{<br>                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;变量1；<br>                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;变量2；<br>                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;……<br>                &emsp;&emsp;&emsp;&emsp;&emsp;}<br>                &emsp;&emsp;注意点：<br>                    &emsp;&emsp;&emsp;&emsp;&emsp;1、结构体定义的代码要写在类外边<br>                    &emsp;&emsp;&emsp;&emsp;&emsp;2、结构体的名字必须帕斯卡命名法<br>        <strong>引用类型：</strong><br>            <em>【字符串 string】：</em><br>              &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;注意点：多个字符使用双引号来表示<br>                           &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 字符串是有索引的，索引从0开始，到Length-1。<br>                         &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;是多个字符的集合<br>            <em>【数组：Array】</em><br>                 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;概念：数组是固定数据类型，固定长度的一组数据。<br>                 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;注意点：<br>                     &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;1、数组是一种复杂的数据类型，可以是多个统一数据类型的数据。<br>                     &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;2、数组一定是固定长度的。<br>             &emsp;&emsp;&emsp;&emsp;&emsp;    &emsp;&emsp;语法：<br>         &emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;string[] n1 = new string[5];<br>          &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;string[] n2 = new string[] { “aaa”, “bbb”, “ccc”, “ddd”, “eee”, “fff” };<br>         &emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;string[] n3 = new string[6] { “aaa”, “bbb”, “ccc”, “ddd”, “eee”, “fff” };<br>         &emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;string[] n4 = { “aaa”, “bbb”, “ccc”, “ddd”, “eee”, “fff” };</p>
+
       
     </div>
 
@@ -800,7 +858,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/25/ck427eyuq00139sve9dy37eg7/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/25/ck4qzza1f0015dovecgeoa4h2/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -814,7 +872,7 @@
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
           
-            <a href="/2019/10/25/ck427eyuq00139sve9dy37eg7/" class="post-title-link" itemprop="url">第一个程序</a>
+            <a href="/2019/10/25/ck4qzza1f0015dovecgeoa4h2/" class="post-title-link" itemprop="url">第一个程序</a>
         </h1>
 
         <div class="post-meta">
@@ -853,15 +911,12 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>2019年10月25日 16时49分54秒</p><p>第一个应用程序：Hello World<br>&emsp; 1、只要有了Main方法，程序才能运行。<br>&emsp; 2、Main方法叫做应用程序的入口。<br>&emsp; 3、如果有了Main函数，程序编译、生成之后会产生一个<em>.exe<br>&emsp; 4、如果没有Main函数，程序编译、生成之后会产生一个</em>.dll（Assembly程序）<br>&emsp;&emsp;&emsp;向控制台输出（写）：<br>&emsp;&emsp;&emsp;Console.Write(“Hello World…”);<br>&emsp;&emsp;&emsp;Console.WriteLine(“Hello World…”);<br>&emsp;&emsp;&emsp;接受控制台的输入（读）<br>&emsp;&emsp;&emsp;Console.Read();<br>&emsp;&emsp;&emsp;Console.ReadLine();<br>&emsp;&emsp;static void Main(string[] args)<br>&emsp;&emsp;{<br>&emsp;&emsp;&emsp;&emsp;Console.WriteLine(“Hello World……”);// 向控制台输出一个HelloWorld<br>&emsp;&emsp;&emsp;&emsp;Console.ReadLine();//在控制台接受一个数据<br>&emsp;&emsp;}</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2019/10/25/ck427eyuq00139sve9dy37eg7/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
+          <p>2019年10月25日 16时49分54秒</p>
+<p>第一个应用程序：Hello World<br>&emsp; 1、只要有了Main方法，程序才能运行。<br>&emsp; 2、Main方法叫做应用程序的入口。<br>&emsp; 3、如果有了Main函数，程序编译、生成之后会产生一个<em>.exe<br>&emsp; 4、如果没有Main函数，程序编译、生成之后会产生一个</em>.dll（Assembly程序）<br>&emsp;&emsp;&emsp;向控制台输出（写）：<br>&emsp;&emsp;&emsp;Console.Write(“Hello World…”);<br>&emsp;&emsp;&emsp;Console.WriteLine(“Hello World…”);<br>&emsp;&emsp;&emsp;接受控制台的输入（读）<br>&emsp;&emsp;&emsp;Console.Read();<br>&emsp;&emsp;&emsp;Console.ReadLine();<br>&emsp;&emsp;static void Main(string[] args)<br>&emsp;&emsp;{<br>&emsp;&emsp;&emsp;&emsp;Console.WriteLine(“Hello World……”);// 向控制台输出一个HelloWorld<br>&emsp;&emsp;&emsp;&emsp;Console.ReadLine();//在控制台接受一个数据<br>&emsp;&emsp;}</p>
+<hr>
+<p>程序：<br>&emsp;&emsp;程序一词来源于生活的，通常指完成某些事情的一种既定的方式和过程。<br>&emsp;&emsp;可以看成一系列指令的描述。多个指令就形成了一个程序。</p>
+<hr>
+
       
     </div>
 
@@ -880,7 +935,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/23/ck427eyut001a9sve5vfu6sai/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/23/ck4qzza1g0017dove1gzjcqwh/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -894,7 +949,7 @@
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
           
-            <a href="/2019/10/23/ck427eyut001a9sve5vfu6sai/" class="post-title-link" itemprop="url">编程语言</a>
+            <a href="/2019/10/23/ck4qzza1g0017dove1gzjcqwh/" class="post-title-link" itemprop="url">编程语言</a>
         </h1>
 
         <div class="post-meta">
@@ -932,7 +987,8 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>2019年10月23日 13时15分07秒<br>编程语言：</p><pre><code>面向过程的语言：C
+          <p>2019年10月23日 13时15分07秒<br>编程语言：</p>
+<pre><code>面向过程的语言：C
 
 面向对象的语言：Java、C#、C++、Python、VB、F#.....
 
@@ -972,6 +1028,28 @@
 
           </div>
           
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let activeClass = CONFIG.comments.activeClass;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
 
         </div>
           
@@ -1019,11 +1097,6 @@
       </div>
   </nav>
 </div>
-  <div class="feed-link motion-element">
-    <a href="/atom.xml" rel="alternate">
-      <i class="fa fa-rss"></i>RSS
-    </a>
-  </div>
 
 
 
@@ -1063,7 +1136,7 @@
   <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v4.0.0
   </div>
   <span class="post-meta-divider">|</span>
-  <div class="theme-info">主题 – <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> v7.5.0
+  <div class="theme-info">主题 – <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> v7.6.0
   </div>
 
         
@@ -1075,7 +1148,6 @@
 
 
 
-        
       </div>
     </footer>
   </div>
@@ -1091,7 +1163,6 @@
 
 
   
-
 
 
 
