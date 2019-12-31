@@ -174,7 +174,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/11/04/ck4qzza1c000ydovehxl11z58/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/11/05/ck4u3wt8i000hq0vees9fhc9o/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -188,7 +188,127 @@
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
           
-            <a href="/2019/11/04/ck4qzza1c000ydovehxl11z58/" class="post-title-link" itemprop="url">方法</a>
+            <a href="/2019/11/05/ck4u3wt8i000hq0vees9fhc9o/" class="post-title-link" itemprop="url">C#之封装</a>
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2019-11-05 22:29:38 / 修改时间：22:29:45" itemprop="dateCreated datePublished" datetime="2019-11-05T22:29:38+08:00">2019-11-05</time>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-file-word-o"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>2.3k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-clock-o"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>2 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>2019年11月05日 22时15分52秒</p>
+<p><strong>封装</strong></p>
+<p>   是将类和类中的属性/方法隐藏起来，不让外界轻易的看到或调用到。<br>   如果想在C#实现封装，有三种途径。</p>
+<p> <strong><em>【访问修饰符】</em></strong><br>   概念：访问修饰符是解决类/方法/变量是否可以被看到的问题<br> （解决看到或看不到的问题）</p>
+<hr>
+<p>   在C#中，访问修饰符5个：</p>
+<blockquote>
+<p> public：公共的，公开的：在任何地方都可以访问，无限制的。   （图标：蓝色的小方块）  protected<br>internal:internal的访问权限 + Protected的访问权限  internal:项目的：只有在当前项目中可以访问<br>（图标：蓝色的小方块 + 黑色的心）  protected:受保护的：在具有继承关系的父类和子类中可以访问。（图标：蓝色的小方块 +<br>黑色的五角星）  private:私有的：只能在当前类中可以访问。<br>（图标：蓝色的小方块 + 黑色的小锁）           </p>
+</blockquote>
+<blockquote>
+<p>   类：2个：public / internal<br>   方法：5个：public/internal/protcted<br>internal/protected/private<br>变量：5个：public/internal/protcted<br>internal/protected/private<br>默认的：如果不写访问修饰符，默认选择最小的访问级别    类：internal<br>方法：private<br>变量：private</p>
+</blockquote>
+<p>   <strong><em>【属性/属性过程】</em></strong><br>        概念：属性过程（属性）是给类中的非公有的成员变量进行<br>        赋值（set)和取值(get)的工具。<br>        属性过程（属性）是解决变量是否可以赋值或取值的问题。</p>
+<p>  古老解决办法：<br>        书写一个Get方法和一个Set方法来解决变量是否可以赋值或取值的问题。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">private</span> <span class="built_in">string</span> name;</span><br><span class="line">        <span class="comment">//get</span></span><br><span class="line">        <span class="function"><span class="keyword">public</span> <span class="built_in">string</span> <span class="title">GetName</span><span class="params">()</span></span></span><br><span class="line"><span class="function">  </span>&#123;</span><br><span class="line">          <span class="keyword">return</span> <span class="keyword">this</span>.name;</span><br><span class="line">   &#125;</span><br><span class="line">   <span class="comment">//set</span></span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">SetName</span><span class="params">(<span class="built_in">string</span> name)</span></span></span><br><span class="line"><span class="function">  </span>&#123;</span><br><span class="line">          <span class="keyword">this</span>.name = name;</span><br><span class="line">   &#125;</span><br></pre></td></tr></table></figure>
+<p>  语法：</p>
+<figure class="highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">访问修饰符 数据类型 属性名字</span><br><span class="line">       &#123;</span><br><span class="line">           <span class="keyword">get</span>&#123; <span class="keyword">return</span> <span class="keyword">this</span>.变量名; &#125;</span><br><span class="line">           <span class="keyword">set</span>&#123; <span class="keyword">this</span>.变量名 = value; &#125;</span><br><span class="line">       &#125;</span><br></pre></td></tr></table></figure>
+
+<p>   <strong>调用属性过程</strong></p>
+<blockquote>
+<p>如果属性过程在 = 的左边 ——&gt; 给私有变量赋值<br>           如果属性过程在 = 的右边 ——&gt; 得到私有变量的值<br>           如果属性过程没有 =      ——&gt; 得到私有变量的值</p>
+</blockquote>
+<p>   <strong>注意点</strong>：</p>
+<blockquote>
+<p>1）属性过程的访问修饰符一般是public的，通常是非private的。<br>           2）属性过程的名字一般是帕斯卡命名法。<br>           3）属性过程不是方法，调用的时候不需要加入括号。<br>           4）属性过程中可以包括一个get和一个set<br>              使用get得到私有变量的值<br>              使用set给私有变量赋值<br>           5）所有的参数都叫做Value<br>           6）快速书写的方式：选中—&gt;Ctrl+.<br>           7）属性过程最终实现的原理是方法，就是方法。</p>
+</blockquote>
+<p>   <strong>分类：</strong></p>
+<blockquote>
+<p>实例的属性过程（先生成对象，在对象调用）<br>                 只读的属性过程：只包含get<br>                 只写的属性过程：只包含set<br>                读写的属性过程：既有get也有set<br>             静态的属性过程：（类名调用的属性过程）<br>               给类中的私有的静态的变量赋值和取值<br>              （静态只读，静态只写，静态读写）</p>
+</blockquote>
+<pre><code>**【自动赋值的属性过程：】**
+   语法：prop + tab + tab (所有书写都用tab来跳)
+   注意：
+       1）写不写私有变量：不写
+       2）有没有私有变量：有，自动书写。（BackField）
+       3）自动赋值的属性过程是读写的属性过程。
+          （必须包括get和set）</code></pre><p>   <strong><em>【索引器】</em></strong><br>        概念：索引器是给类内的、私有的、成员数组的某一个元素赋值和取值的工具。<br>        古老的解决方法：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//私有的数组</span></span><br><span class="line">     <span class="keyword">private</span> <span class="built_in">string</span>[] names = <span class="keyword">new</span> <span class="built_in">string</span>[<span class="number">5</span>];</span><br><span class="line">     <span class="comment">//取值</span></span><br><span class="line">     <span class="function"><span class="keyword">public</span> <span class="built_in">string</span> <span class="title">GetName</span><span class="params">(<span class="keyword">int</span> index)</span></span></span><br><span class="line"><span class="function">     </span>&#123;</span><br><span class="line">         <span class="keyword">return</span> names[index];</span><br><span class="line">     &#125;</span><br><span class="line">     <span class="comment">//赋值</span></span><br><span class="line">     <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">SetName</span><span class="params">(<span class="keyword">int</span> index,<span class="built_in">string</span> name)</span></span></span><br><span class="line"><span class="function">     </span>&#123;</span><br><span class="line">         <span class="keyword">this</span>.names[index] = name;</span><br><span class="line">     &#125;</span><br></pre></td></tr></table></figure>
+
+<p>索引器的解决方法：</p>
+<figure class="highlight cs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">类名：Classes</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">string</span>[] names = <span class="keyword">new</span> <span class="keyword">string</span>[<span class="number">10</span>];</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">string</span> <span class="keyword">this</span>[<span class="keyword">int</span> index]</span><br><span class="line">    &#123;</span><br><span class="line">       <span class="keyword">get</span>&#123; <span class="keyword">return</span> nadmes[index] ; &#125;</span><br><span class="line">       <span class="keyword">set</span>&#123; names[index] = <span class="keyword">value</span>; &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    调用：</span><br><span class="line">    Classes cl = <span class="keyword">new</span> Classes();</span><br><span class="line">    cl[<span class="number">0</span>] = <span class="string">"yufeng"</span>;</span><br><span class="line">    cl[<span class="number">1</span>] = <span class="string">"ljc"</span>;</span><br></pre></td></tr></table></figure>
+
+
+
+<p><strong>注意点：</strong></p>
+<blockquote>
+<p>a)索引器的访问修饰符一般那是public的（是非private的）<br>              b)返回值类型不是数组，是数组的某一个元素的数据类型。<br>              c)索引器都有一个共同的名字，叫做this<br>              d)索引器不是方法，所以没有小括号，参数使用数组的中括号[]<br>                参数一定是一个int类型的变量，用于描述数组的下标<br>              e)索引器是一种特殊的属性过程，所以也有get和set。<br>              f)一个类只能有一个索引器，也就是说一个类写索引器只能给一个数组服务。<br>                 解决方案：<br>                    把使用频繁的数组去写索引器<br>                    1）第二个数组使用方法的方式处理<br>                    2）再写一个类型，将第二个私有数组放到类中，又可以写索引器了。<br>              g)一旦碰到数组，就要考虑数组越界的问题<br>                    IndexOutOfRangeException<br>              h)类中的成员数组一般不会初始化长度，一般写一个构造函数给数组赋数组长度。<br>       重要：属性过程和索引器中都是有get或set，get/set中什么代码都可以写。</p>
+</blockquote>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/11/04/ck4u3wt8o000xq0ve14d5610p/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Keith">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Keith的博客">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/2019/11/04/ck4u3wt8o000xq0ve14d5610p/" class="post-title-link" itemprop="url">方法</a>
         </h1>
 
         <div class="post-meta">
@@ -251,7 +371,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/11/03/ck4qzza1a000tdove68e73f4t/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/11/03/ck4u3wt8m000sq0veh0tw7cnv/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -265,7 +385,7 @@
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
           
-            <a href="/2019/11/03/ck4qzza1a000tdove68e73f4t/" class="post-title-link" itemprop="url">吃啥补啥！哈哈哈！</a>
+            <a href="/2019/11/03/ck4u3wt8m000sq0veh0tw7cnv/" class="post-title-link" itemprop="url">吃啥补啥！哈哈哈！</a>
         </h1>
 
         <div class="post-meta">
@@ -342,7 +462,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/31/ck4qzza1e0012dovecain82rh/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/31/ck4u3wt8r0014q0vef1ks6x88/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -356,7 +476,7 @@
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
           
-            <a href="/2019/10/31/ck4qzza1e0012dovecain82rh/" class="post-title-link" itemprop="url">静态变量</a>
+            <a href="/2019/10/31/ck4u3wt8r0014q0vef1ks6x88/" class="post-title-link" itemprop="url">静态变量</a>
         </h1>
 
         <div class="post-meta">
@@ -420,7 +540,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/30/ck4qzza1d0010dovec8i5hhor/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/30/ck4u3wt8r0016q0veho0z67zg/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -434,7 +554,7 @@
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
           
-            <a href="/2019/10/30/ck4qzza1d0010dovec8i5hhor/" class="post-title-link" itemprop="url">纪昀</a>
+            <a href="/2019/10/30/ck4u3wt8r0016q0veho0z67zg/" class="post-title-link" itemprop="url">纪昀</a>
         </h1>
 
         <div class="post-meta">
@@ -495,7 +615,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/28/ck4qzza18000odovea65h9na2/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/28/ck4u3wt8k000lq0ve718g5wky/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -509,7 +629,7 @@
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
           
-            <a href="/2019/10/28/ck4qzza18000odovea65h9na2/" class="post-title-link" itemprop="url">C#练习题</a>
+            <a href="/2019/10/28/ck4u3wt8k000lq0ve718g5wky/" class="post-title-link" itemprop="url">C#练习题</a>
         </h1>
 
         <div class="post-meta">
@@ -620,7 +740,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/27/ck4qzza19000qdovedk3z4zy2/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/27/ck4u3wt8o000vq0ve3khh4jsx/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -634,7 +754,7 @@
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
           
-            <a href="/2019/10/27/ck4qzza19000qdovedk3z4zy2/" class="post-title-link" itemprop="url">变量和常量</a>
+            <a href="/2019/10/27/ck4u3wt8o000vq0ve3khh4jsx/" class="post-title-link" itemprop="url">变量和常量</a>
         </h1>
 
         <div class="post-meta">
@@ -705,7 +825,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/26/ck4qzza0r0001dove6s847awi/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/26/ck4u3wt8d0006q0vef9ev33s5/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -719,7 +839,7 @@
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
           
-            <a href="/2019/10/26/ck4qzza0r0001dove6s847awi/" class="post-title-link" itemprop="url">C#中命名方法及应用分析</a>
+            <a href="/2019/10/26/ck4u3wt8d0006q0vef9ev33s5/" class="post-title-link" itemprop="url">C#中命名方法及应用分析</a>
         </h1>
 
         <div class="post-meta">
@@ -784,7 +904,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/26/ck4qzza16000jdovehdxfgtbe/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/26/ck4u3wt8l000oq0ve5jar2cj9/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -798,7 +918,7 @@
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
           
-            <a href="/2019/10/26/ck4qzza16000jdovehdxfgtbe/" class="post-title-link" itemprop="url">C#数据类型</a>
+            <a href="/2019/10/26/ck4u3wt8l000oq0ve5jar2cj9/" class="post-title-link" itemprop="url">C#数据类型</a>
         </h1>
 
         <div class="post-meta">
@@ -858,7 +978,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/25/ck4qzza1f0015dovecgeoa4h2/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/25/ck4u3wt8s0018q0ve7horg39a/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -872,7 +992,7 @@
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
           
-            <a href="/2019/10/25/ck4qzza1f0015dovecgeoa4h2/" class="post-title-link" itemprop="url">第一个程序</a>
+            <a href="/2019/10/25/ck4u3wt8s0018q0ve7horg39a/" class="post-title-link" itemprop="url">第一个程序</a>
         </h1>
 
         <div class="post-meta">
@@ -917,92 +1037,6 @@
 <p>程序：<br>&emsp;&emsp;程序一词来源于生活的，通常指完成某些事情的一种既定的方式和过程。<br>&emsp;&emsp;可以看成一系列指令的描述。多个指令就形成了一个程序。</p>
 <hr>
 
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-        
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/23/ck4qzza1g0017dove1gzjcqwh/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Keith">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Keith的博客">
-    </span>
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-          
-            <a href="/2019/10/23/ck4qzza1g0017dove1gzjcqwh/" class="post-title-link" itemprop="url">编程语言</a>
-        </h1>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2019-10-23 18:10:01" itemprop="dateCreated datePublished" datetime="2019-10-23T18:10:01+08:00">2019-10-23</time>
-            </span>
-
-          <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-file-word-o"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>179</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-clock-o"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>1 分钟</span>
-            </span>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>2019年10月23日 13时15分07秒<br>编程语言：</p>
-<pre><code>面向过程的语言：C
-
-面向对象的语言：Java、C#、C++、Python、VB、F#.....
-
-面向对象的语言，能够更好的应对软件需求的变化。
-
-软件变化：
-
-    1、软件的频繁变化，在软件设计之前，就意识到软件会有变化。
-
-    2、在使用过程中，软件需要变化。
-
-    3、软件本身代码有问题，需要变化。
-
-    4、由于新功能的开展，需要软件变化。</code></pre>
       
     </div>
 
@@ -1087,7 +1121,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">21</span>
+          <span class="site-state-item-count">22</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -1117,7 +1151,7 @@
 <div class="copyright">
   
   &copy; 
-  <span itemprop="copyrightYear">2019</span>
+  <span itemprop="copyrightYear">2020</span>
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
